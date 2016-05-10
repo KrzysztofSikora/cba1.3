@@ -279,14 +279,9 @@ ENT_DISALLOWED;
                     src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
                     class="img-responsive center-block"/></a><br>
 
-            <h3> ' . $result['description'] . '</h3>
-            <p>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>' . $result['userID'] . ' Dodał
-                </button>
+            <h2> ' . $result['description'] . '</h2>
+            <p>Polubienia:  ' . $result['likes'] . '
+                Dodał: ' . $adder . ' Dodał
                
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
@@ -315,18 +310,10 @@ ENT_DISALLOWED;
                     src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
                     class="img-responsive center-block"/></a><br>
 
-            <h3> ' . $result['description'] . '</h3>
-            <p>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
-                </button>
-  
-  
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . ' Dodał
-                </button>
-                
-
+            <h2> ' . $result['description'] . '</h2>
+            <p> Polubienia:  ' . $result['likes'] . '
+                Dodał: ' . $adder . ' Dodał
+              
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
 
@@ -356,16 +343,9 @@ ENT_DISALLOWED;
                     src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
                     class="img-responsive center-block"/></a><br>
 
-            <h3> ' . $result['description'] . '</h3>
-            <p>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
-                </button>
-                
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . '
-                </button>
-                <p>search</p>
+            <h2> ' . $result['description'] . '</h2>
+            <p> Polubienia:  ' . $result['likes'] . '
+                Dodał: ' . $adder . ' Dodał
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
@@ -409,16 +389,10 @@ ENT_DISALLOWED;
                     src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
                     class="img-responsive center-block"/></a><br>
 
-            <h3> ' . $result['description'] . '</h3>
+            <h2> ' . $result['description'] . '</h2>
             <p>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
-                </button>
-                
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . ' 
-                </button>
-                <p>wszystko dodał<p>
+                Polubienia:  ' . $result['likes'] . '
+                Dodał: ' . $adder . ' Dodał
                 
                 
                 
@@ -522,15 +496,10 @@ ENT_DISALLOWED;
                     src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
                     class="img-responsive center-block"/></a><br>
 
-            <h3> ' . $result['description'] . '</h3>
+            <h2> ' . $result['description'] . '</h2>
             <p>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
-                </button>
-                
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . ' Dodał
-                </button>
+                Polubienia:  ' . $result['likes'] . '
+                Dodał: ' . $adder . ' Dodał
                 
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
