@@ -253,18 +253,13 @@ ENT_DISALLOWED;
 
         foreach ($this->db->query("SELECT * FROM `pictures` WHERE imageID = '$imageID'") as $result) {
 
-            echo  '<div class="row jumbotron">
+            echo '<div class="row jumbotron">
 
             <img
                     src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
                     class="img-responsive center-block"/></a><br>';
 
         }
-
-
-
-
-
 
 
     }
@@ -288,20 +283,9 @@ ENT_DISALLOWED;
                     <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
                 </button>
                 <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
                     <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>' . $result['userID'] . ' Dodał
                 </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
+               
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
@@ -317,6 +301,10 @@ ENT_DISALLOWED;
     {
 
         foreach ($this->db->query("SELECT * FROM `pictures` WHERE category LIKE '$category' LIMIT $min, $max") as $result) {
+            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
+                $adder = $query['login'];
+//                echo $adder;
+            };
 
             echo '<div class="row jumbotron">
 
@@ -330,21 +318,12 @@ ENT_DISALLOWED;
                 <button type="button" class="btn btn-default btn-xs">
                     <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
                 </button>
+  
+  
                 <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . ' Dodał
                 </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>' . $result['userID'] . ' Dodał
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
+                
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
@@ -362,7 +341,12 @@ ENT_DISALLOWED;
 
 
         foreach ($this->db->query("SELECT * FROM `pictures` WHERE description LIKE '%$description%' LIMIT $min, $max") as $result) {
+            $userIDD = $result['userID'];
 
+            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
+                $adder = $query['login'];
+//                echo $adder;
+            };
             echo '<div class="row jumbotron">
 
         <div class="thumbnail" style="text-align: center">
@@ -375,21 +359,11 @@ ENT_DISALLOWED;
                 <button type="button" class="btn btn-default btn-xs">
                     <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
                 </button>
+                
                 <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . '
                 </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>' . $result['userID'] . ' Dodał
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
+                <p>search</p>
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
@@ -412,7 +386,19 @@ ENT_DISALLOWED;
         // pokazuje od elementu do ile elementów
 
         foreach ($this->db->query("SELECT * FROM `pictures` ORDER BY dataAdd DESC LIMIT $min, $max") as $result) {
+            //
+            $userIDD = $result['userID'];
 
+            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
+                $adder = $query['login'];
+//                echo $adder;
+            };
+
+
+
+
+
+            //
 
             echo '<div class="row jumbotron">
 
@@ -426,19 +412,15 @@ ENT_DISALLOWED;
                 <button type="button" class="btn btn-default btn-xs">
                     <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
                 </button>
+                
                 <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . ' 
                 </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>' . $result['userID'] . ' Dodał
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-
+                <p>wszystko dodał<p>
+                
+                
+                
+                
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
 
@@ -527,6 +509,10 @@ ENT_DISALLOWED;
 
         foreach ($this->db->query("SELECT * FROM `pictures` ORDER BY likes DESC LIMIT $min, $max") as $result) {
 
+            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
+                $adder = $query['login'];
+//                echo $adder;
+            };
             echo '<div class="row jumbotron">
 
         <div class="thumbnail" style="text-align: center">
@@ -539,21 +525,11 @@ ENT_DISALLOWED;
                 <button type="button" class="btn btn-default btn-xs">
                     <span class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>' . $result['likes'] . ' Like
                 </button>
+                
                 <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Dodał: ' . $adder . ' Dodał
                 </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>' . $result['userID'] . ' Dodał
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
-                <button type="button" class="btn btn-default btn-xs">
-                    <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>ilosc
-                </button>
+                
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
