@@ -49,6 +49,7 @@ class Users
     {
         /// dodać action form gdzie wyświetlany jest formularz
         echo <<< ENT_DISALLOWED
+        <div class="row jumbotron">
             Zaloguj się.
 <form action="index_unknow.php" method="post">
     <input type="text" name="login" placeholder="Login" /><br><br>
@@ -66,6 +67,7 @@ Jeśli nie masz konta. Zarejestruj się.
     <input type="password" name="password2" placeholder="Powtórz hasło" required/><br><br>
     <input type="submit" name="reg" value="Rejestruj"/>
 </form>
+</div>
 ENT_DISALLOWED;
 
 

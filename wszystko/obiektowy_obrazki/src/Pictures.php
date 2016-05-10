@@ -33,6 +33,7 @@ class Pictures
     {
 //        <input type="text" name="category" placeholder="Kategoria"/><br><br>
         echo <<< ENT_DISALLOWED
+<div class="row jumbotron">
 <form action="index_unknow.php" enctype="multipart/form-data" method="post">
 
 
@@ -50,6 +51,7 @@ class Pictures
     <input type="file" size="32" name="file_upload" value=""><br><br>
     <input type="submit" name="insertPicture" value="Dodaj obrazek"/>
 </form>
+</div>
 ENT_DISALLOWED;
 
 
