@@ -138,7 +138,7 @@
 
 
             <li role="presentation"><a href="?category=all">Wszystko</a></li>
-            <li role="presentation"><a href="?category=top">Top</a></li>
+            <li role="presentation"><a href="?category=top">News</a></li>
             <li role="presentation"><a href="?category=technowinki">Technowinki</a></li>
             <li role="presentation"><a href="?category=natura">Natura</a></li>
             <li role="presentation"><a href="?category=nieporawni">Nieporawni</a></li>
