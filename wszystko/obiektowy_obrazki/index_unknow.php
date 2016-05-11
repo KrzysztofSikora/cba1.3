@@ -135,7 +135,6 @@
                 echo '<li role="presentation"><a href="?page=add">Dodaj zdjęcie</a></li>';
             }
             ?>
-<!--ddfd-->
 
             <li role="presentation"><a href="?category=all">Wszystko</a></li>
             <li role="presentation"><a href="?category=top">News</a></li>
