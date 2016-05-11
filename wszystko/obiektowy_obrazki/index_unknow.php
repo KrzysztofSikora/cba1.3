@@ -22,7 +22,51 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
         <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
 
+        /* Sticky footer styles
+        -------------------------------------------------- */
+
+        html,
+        body {
+            height: 100%;
+            /* The html and body elements cannot have any padding or margin. */
+        }
+
+        /* Wrapper for page content to push down footer */
+        #wrap {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            /* Negative indent footer by it's height */
+            margin: 0 auto -60px;
+        }
+
+        /* Set the fixed height of the footer here */
+        #push,
+        #footer {
+            height: 60px;
+        }
+        #footer {
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+
+        /* Lastly, apply responsive CSS fixes as necessary */
+        @media (max-width: 767px) {
+            #footer {
+                margin-left: -20px;
+                margin-right: -20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+
+
+
+
+    </style>
 </head>
 
 <body>
@@ -217,15 +261,12 @@ $product->showPictureCategory($product->cutterMin($page), 5, $category);
 }
 
 if($_GET['category'] == 'rule') {
-    echo "rule";
+    $product->writeRule();
 }
 if($_GET['category'] == 'all') {
-    echo "all";
     $product->showPictureAll($product->cutterMin($page), 5);
 }
 if($_GET['category'] == 'top') {
-    echo "top";
-    echo $product->counter();
     $product->showPictureTop($product->cutterMin($page), 5);
 }
 ?>
@@ -263,6 +304,22 @@ if(!(($page=='add') || isset($_GET['picture']))) {
             <div class="col-md-2"></div>
         </div>
 </div>
+
+<!--footer-->
+ <!-- Begin page content -->
+<div class="container">
+
+
+
+<div id="footer">
+    <div class="container">
+        <br />
+        <p class="muted credit">Developed: Krzysztof Sikora Contact: listdlakrzycha@gmail.com</p>
+
+    </div>
+</div>
+</div>
+<!--end footer-->
 
 
 </body>

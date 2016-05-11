@@ -57,6 +57,18 @@ ENT_DISALLOWED;
 
     }
 
+    function writeRule()
+    {
+
+        echo <<< ENT_DISALLOWED
+<div class="row jumbotron">
+    Regulamin serwisu. <br>Developed: Krzysztof Sikora
+</div>
+ENT_DISALLOWED;
+
+
+    }
+
 
     function addProduct($file_upload, $userID, $category, $primaryName, $description, $likes)
     {
@@ -271,7 +283,11 @@ ENT_DISALLOWED;
 
 
         foreach ($this->db->query("SELECT * FROM `pictures` LIMIT $min, $max") as $result) {
-
+            $userIDD = $result['userID'];
+            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
+                $adder = $query['login'];
+//                echo $adder;
+            };
             echo '<div class="row jumbotron">
 
         <div class="thumbnail" style="text-align: center">
@@ -281,7 +297,7 @@ ENT_DISALLOWED;
 
             <h2> ' . $result['description'] . '</h2>
             <p>Polubienia:  ' . $result['likes'] . '
-                Dodał: ' . $adder . ' Dodał
+                Dodał: ' . $adder . ' 
                
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
@@ -298,6 +314,7 @@ ENT_DISALLOWED;
     {
 
         foreach ($this->db->query("SELECT * FROM `pictures` WHERE category LIKE '$category' LIMIT $min, $max") as $result) {
+            $userIDD = $result['userID'];
             foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
                 $adder = $query['login'];
 //                echo $adder;
@@ -312,7 +329,7 @@ ENT_DISALLOWED;
 
             <h2> ' . $result['description'] . '</h2>
             <p> Polubienia:  ' . $result['likes'] . '
-                Dodał: ' . $adder . ' Dodał
+                Dodał: ' . $adder . ' 
               
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
@@ -345,7 +362,7 @@ ENT_DISALLOWED;
 
             <h2> ' . $result['description'] . '</h2>
             <p> Polubienia:  ' . $result['likes'] . '
-                Dodał: ' . $adder . ' Dodał
+                Dodał: ' . $adder . ' 
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
@@ -392,7 +409,7 @@ ENT_DISALLOWED;
             <h2> ' . $result['description'] . '</h2>
             <p>
                 Polubienia:  ' . $result['likes'] . '
-                Dodał: ' . $adder . ' Dodał
+                Dodał: ' . $adder . '
                 
                 
                 
@@ -499,7 +516,7 @@ ENT_DISALLOWED;
             <h2> ' . $result['description'] . '</h2>
             <p>
                 Polubienia:  ' . $result['likes'] . '
-                Dodał: ' . $adder . ' Dodał
+                Dodał: ' . $adder . ' 
                 
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
