@@ -288,6 +288,7 @@ ENT_DISALLOWED;
                 $adder = $query['login'];
 //                echo $adder;
             };
+            $number = $result['imageID'];
             echo '<div class="row jumbotron">
 
         <div class="thumbnail" style="text-align: center">
@@ -296,7 +297,7 @@ ENT_DISALLOWED;
                     class="img-responsive center-block"/></a><br>
 
             <h2> ' . $result['description'] . '</h2>
-            <p>Polubienia:  ' . $result['likes'] . '
+            <p>Polubienia:  ' . $this->likeCounter($number) . '
                 Dodał: ' . $adder . ' 
                
 
@@ -319,7 +320,7 @@ ENT_DISALLOWED;
                 $adder = $query['login'];
 //                echo $adder;
             };
-
+            $number = $result['imageID'];
             echo '<div class="row jumbotron">
 
         <div class="thumbnail" style="text-align: center">
@@ -328,18 +329,24 @@ ENT_DISALLOWED;
                     class="img-responsive center-block"/></a><br>
 
             <h2> ' . $result['description'] . '</h2>
-            <p> Polubienia:  ' . $result['likes'] . '
+            <p> Polubienia:  ' . $this->likeCounter($number) . '
                 Dodał: ' . $adder . ' 
               
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
-
+          
+                <div class="fb-like" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/index_unknow.php?picture=' . $result['imageID'] . '"' .
+                ' data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
             </p>
          </div>
         </div>';
+
+
         }
 
     }
+    
+    
 
     function showPictureSearch($min, $max, $description)
     {
@@ -353,6 +360,7 @@ ENT_DISALLOWED;
                 $adder = $query['login'];
 //                echo $adder;
             };
+            $number = $result['imageID'];
             echo '<div class="row jumbotron">
 
         <div class="thumbnail" style="text-align: center">
@@ -361,16 +369,16 @@ ENT_DISALLOWED;
                     class="img-responsive center-block"/></a><br>
 
             <h2> ' . $result['description'] . '</h2>
-            <p> Polubienia:  ' . $result['likes'] . '
+            <p> Polubienia:  ' . $this->likeCounter($number) . '
                 Dodał: ' . $adder . ' 
 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
-
+                <div class="fb-like" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/index_unknow.php?picture=' . $result['imageID'] . '"' .
+                ' data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
             </p>
         </div>';
-//            <div class="fb-like" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
-//                'data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div> <br><br><br>
+
 
 //
 //            echo 'Liczba komenatrzy w commentBoxie wynosi:' .
@@ -393,11 +401,9 @@ ENT_DISALLOWED;
 //                echo $adder;
             };
 
+            $number = $result['imageID'];
 
 
-
-
-            //
 
             echo '<div class="row jumbotron">
 
@@ -408,7 +414,7 @@ ENT_DISALLOWED;
 
             <h2> ' . $result['description'] . '</h2>
             <p>
-                Polubienia:  ' . $result['likes'] . '
+                Polubienia:  ' . $this->likeCounter($number) . '
                 Dodał: ' . $adder . '
                 
                 
@@ -416,7 +422,8 @@ ENT_DISALLOWED;
                 
                 <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
                 ' data-numposts="5"></div><br><br>
-
+                <div class="fb-like" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/index_unknow.php?picture=' . $result['imageID'] . '"' .
+                ' data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
             </p>
             </div>
         </div>';
@@ -424,6 +431,38 @@ ENT_DISALLOWED;
 
     }
 
+    function showPictureTop($min, $max)
+    {
+
+        foreach ($this->db->query("SELECT * FROM `pictures` ORDER BY dataAdd DESC LIMIT $min, $max") as $result) {
+            $userIDD = $result['userID'];
+            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
+                $adder = $query['login'];
+//                echo $adder;
+            };
+            $number = $result['imageID'];
+            echo '<div class="row jumbotron">
+
+        <div class="thumbnail" style="text-align: center">
+            <a href="?picture=' . $result['imageID'] . '"><img
+                    src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
+                    class="img-responsive center-block"/></a><br>
+
+            <h2> ' . $result['description'] . '</h2>
+            <p>
+                Polubienia:  ' . $this->likeCounter($number) . '
+                Dodał: ' . $adder . ' 
+                
+
+                <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
+                ' data-numposts="5"></div><br><br>
+                <div class="fb-like" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/index_unknow.php?picture=' . $result['imageID'] . '"' .
+                ' data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+            </p>
+            </div>
+        </div>';
+        }
+    }
     function counter()
     {
         // zlicza ilość elementów w bazie
@@ -497,34 +536,18 @@ ENT_DISALLOWED;
 
     }
 
-    function showPictureTop($min, $max)
+
+
+    public function likeCounter($number)
     {
+        $source_url = "http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/index_unknow.php?picture=$number";
 
-        foreach ($this->db->query("SELECT * FROM `pictures` ORDER BY likes DESC LIMIT $min, $max") as $result) {
+        $url = "http://api.facebook.com/restserver.php?method=links.getStats&urls=".urlencode($source_url);
+        $xml = file_get_contents($url);
+        $xml = simplexml_load_string($xml);
 
-            foreach ($this -> db->query("SELECT * from `users` where userId = $userIDD") as $query) {
-                $adder = $query['login'];
-//                echo $adder;
-            };
-            echo '<div class="row jumbotron">
+        $likes =  $xml->link_stat->like_count; // Liczba like
 
-        <div class="thumbnail" style="text-align: center">
-            <a href="?picture=' . $result['imageID'] . '"><img
-                    src="data:image/jpeg;base64,' . base64_encode($result['img']) . '"
-                    class="img-responsive center-block"/></a><br>
-
-            <h2> ' . $result['description'] . '</h2>
-            <p>
-                Polubienia:  ' . $result['likes'] . '
-                Dodał: ' . $adder . ' 
-                
-
-                <div class="fb-comments" data-href="http://krzysztofsikora24.pl/wszystko/obiektowy_obrazki/?picture=' . $result['imageID'] . '"' .
-                ' data-numposts="5"></div><br><br>
-
-            </p>
-            </div>
-        </div>';
-        }
+        return $likes;
     }
 }
