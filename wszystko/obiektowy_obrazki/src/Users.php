@@ -53,7 +53,7 @@ class Users
             Zaloguj się.
 <form action="index_unknow.php" method="post">
     <input type="text" name="login" placeholder="Login" /><br><br>
-    <input type="text" name="password" placeholder="Hasło" /><br><br>
+    <input type="password" name="password" placeholder="Hasło" /><br><br>
     <input type="submit" name="log" value="Zaloguj"/>
 </form>
 <br>S
