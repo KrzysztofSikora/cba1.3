@@ -3,229 +3,241 @@
 <head>
 
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  <!--- kodowanie polskich znaków -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  <!--- kodowanie polskich znaków -->
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
 
     <style>
         body {
-			margin-top: 0px;
+            margin-top: 0px;
             background: url("images/backgroun.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center center;
             background-size: cover;
         }
-		
-		
-		
-		.top-200 {
-			margin-top: 0px;
-		
-		}
-		#pierwszy {
-			background: url("images/kod.JPG");
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-position: center center;
-			background-size: cover;
-			min-height: 700px;
-		}
-		
+
+        .top-200 {
+            margin-top: 0px;
+
+        }
+
+        #pierwszy {
+            background: url("images/black.JPG");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            min-height: 700px;
+        }
+
+        #pierwszy > div > p {
+            margin-bottom: 15px;
+            font-size: 15px;
+            font-weight: 200;
+            color: white;
+
+        }
+
+        #jaumiem {
+            background: url(images/right.png) center top no-repeat;
+            background-position: top right;
+            background-repeat: no-repeat;
+            margin-top: -120px;
+            min-height: 400px;
+
+        }
+
+        #jaumiem > div {
+            margin-top: 80px;
+
+        }
+
+        #trzeci {
+            background: url("images/kod.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            min-height: 500px;
+
+        }
+
+        #trzeci > div > p {
+            margin-bottom: 50px;
+            font-size: 15px;
+            font-weight: 200;
+            color: black;
+            font-weight: bold;
+
+        }
 
 
-		#pierwszy > div > p {
-			margin-bottom: 15px;
-			font-size: 15px;
-			font-weight: 200;
-			color: white;
-		
-		}
-		
-		
-		
-		
-		#jaumiem {
-			background: url(images/right.png) center top no-repeat;
-			background-position: top right; 
-			background-repeat: no-repeat;
-			margin-top: -120px;
-			min-height: 400px;
-			
-		
-		}
-		
-		
-		
-		#jaumiem > div {
-			margin-top: 80px;
-	
-		}
-		
-		
-		
-		
-		#trzeci {
-			background: url("images/home3.jpg");
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-position: center center;
-			background-size: cover;
-		
-		
-		}
-		#trzeci > div > p {
-			margin-bottom: 15px;
-			font-size: 15px;
-			font-weight: 200;
-			color: black;
-			font-weight: bold;
-			
-		
-		}
+        #jaumiem2 {
+            background: url(images/right.png) center top no-repeat;
+            background-position: top right;
+            background-repeat: no-repeat;
+            margin-top: -120px;
+            min-height: 400px;
 
-		#contact {
-			background: url(images/right.png) center top no-repeat;
-			background-position: top right;
-			background-repeat: no-repeat;
-			margin-top: -120px;
-			min-height: 400px;
+        }
 
+        #jaumiem2 > div {
+            margin-top: 80px;
+            /*margin-bottom: 400px;*/
 
-		}
+        }
 
+        #contact {
+            background: url(images/right.png) center top no-repeat;
+            background-position: top right;
+            background-repeat: no-repeat;
+            margin-top: -120px;
+            min-height: 400px;
 
+        }
 
-		#contact > div {
-			margin-top: 80px;
+        #contact > div {
+            margin-top: 80px;
 
-		}
+        }
 
-		#contactImage {
-			width: 50%;
-		}
+        #contactImage {
+            width: 50%;
+        }
 
-		#carousel-example-generic {
-			background: url(images/left.png) center top no-repeat;
-			background-position: top right; 
-			background-repeat: no-repeat;
-			margin-top: -120px;
-			margin-bottom: 20px;
+        #carousel-example-generic {
+            background: url(images/left.png) center top no-repeat;
+            background-position: top right;
+            background-repeat: no-repeat;
+            /*margin-top: -120px;*/
+            margin-bottom: 20px;
 
-			
-		
-		}
+        }
 
+        footer {
 
-		
-		footer {
+            height: 10px;
 
-			height: 10px;
+        }
 
+        /**/
 
-		}
-		/**/
+        body > footer > div > p {
+            text-align: center;
+        }
 
-		body > footer > div > p {
-			text-align: center;
-		}
+        #centrowanie > ul > li > div > a {
+            /*max-width: 300px;*/
 
+        }
 
-		
+        #centrowanie > ul > li {
+            list-style-type: none;
+        }
+
+        #pierwszy > div:nth-child(1) > h1 {
+            color: #fff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            position: absolute;
+            top: 230px;
+            left: -3px;
+            font-size: 100px;
+            text-align: left;
+            font-weight: 700;
+            text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);
+        }
+
+        #pierwszy > div:nth-child(1) > h2 {
+            color: #fff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            position: absolute;
+            top: 325px;
+            left: -6px;
+            font-size: 65px;
+            text-align: left;
+            text-shadow: 2px 6px 5px rgba(0, 0, 0, 1);
+        }
+
     </style>
 </head>
 <body>
 
 <!----------------------------------NAWIGACJA--------------------------------->
 <nav id="ramka" class="navbar navbar-default navbar-fixed-top" style="opacity: 0.9">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Krzysztof Sikora <span class="sr-only">(current)</span></a></li>
-		  <li><a href="#gallery">Galeria</a></li>
-        <li><a href="kontakt.html">Skontaktuj się</a></li>
-        <li><a href="#contact">Skontaktuj się2</a></li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Krzysztof Sikora <span class="sr-only">(current)</span></a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <!--<li><a href="kontakt.html">Skontaktuj się</a></li>-->
+                <li><a href="#contact">Skontaktuj się</a></li>
 
 
+            </ul>
+            </li>
+            </ul>
 
-          </ul>
-        </li>
-      </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.facebook.com/krzysztof.sikora.372" target="_blank">Facebook</a></li>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-
-        </ul>
-      </div>
-  </div><!-- /.container-fluid -->
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
 </nav>
 <!----------------------KONIEC-----------------NAWIGACJI--------------------------------->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--------------------------KONTENER-----DLA-----BODY------------------------------------------------------------------>
 <div class="container-fluid">
-	
-	
-	<!------------------------------SEKCJA---------PIERWSZA------------------------------------>
+
+
+    <!------------------------------SEKCJA---------PIERWSZA------------------------------------>
     <div id="pierwszy" class="row jumbotron top-200">
         <div class="col-sm-4">
-		<br>
-		<br>
-		<br>
-		<br>
-            <h2 style= "font-family: Impact "> <z style="color:white">KRZYSZTOF</z> SIKORA</h2>
 
-            <p>Cześsć<p>
-            
-			<p>Witaj na stronie, dzięki której chciałbym się Tobie przedstawić.</p>
+            <h1>SPORTOWIEC</h1>
+            <h2>I PROGRAMISTA</h2>
+            <!--<h2 style="font-family: Impact ">-->
+                <!--<z style="color:white">KRZYSZTOF</z>-->
+                <!--SIKORA-->
+            <!--</h2>-->
 
-            <p>Zobacz, kim jestem i czym chcę się z Tobą podzielić. Zapoznaj się z moimi umiejętnościami, które opanowałem oraz możliwością nawiązania ze mną współpracy.</p>
-			
-			<p>Jestem do Twojej dyspozycji – skontaktuj się ze mną mailowo bądź telefonicznie.</p>
-			
-			<p>Pozdrawiam!</p>
-			
-			<p style="font-family:Impact ">Krzysztof Sikora</p>
-       
+            <!--<p>Cześsć-->
+            <!--<p>-->
+
+            <!--<p>Witaj na stronie, dzięki której chciałbym się Tobie przedstawić.</p>-->
+
+            <!--<p>Zobacz, kim jestem i czym chcę się z Tobą podzielić. Zapoznaj się z moimi umiejętnościami, które-->
+                <!--opanowałem oraz możliwością nawiązania ze mną współpracy.</p>-->
+
+            <!--<p>Jestem do Twojej dyspozycji – skontaktuj się ze mną mailowo bądź telefonicznie.</p>-->
+
+            <!--<p>Pozdrawiam!</p>-->
+
+            <!--<p style="font-family:Impact ">Krzysztof Sikora</p>-->
 
 
-
-	   </div>
+        </div>
         <div class="col-sm-4">
             <h3></h3>
 
@@ -241,41 +253,106 @@
             <p></p>
         </div>
     </div>
-	<!-------------------------------KONIEC-----------SEKCJI--------------PIERWZEJ-------------------->
-	
-	
-	<!-------------------------------SEKCJA------DRUGA------------------------------------------------>
-	
+    <!-------------------------------KONIEC-----------SEKCJI--------------PIERWZEJ-------------------->
+
+
+    <!-------------------------------SEKCJA------DRUGA------------------------------------------------>
+
     <div id="jaumiem" class="row jumbotron top-200">
         <div class="col-sm-4">
-            <h3>Column 1</h3>
+            <h3>Maratończyk</h3>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Od dziecka podnoszę poprzeczkę. Tak samo się stało gdy przebiegłem pierwszy maraton.</p>
+            <p> Najpierw był jeden,
+                potem kolejny.</p>
+                <p>Do dziś przebiegłem ich pięć. Moim celem jest korona. Został już tylko jeden...</p>
 
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-			
+
 
         </div>
         <div class="col-sm-4">
-            <h3>Column 2</h3>
+            <!--<h3>Programista</h3>-->
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <!--<p>Nie zmieniaj rzeczywistości, kreuj ją.</p>-->
+            <!--<p> Każdy projekt to dla mnie wyzwanie. Są to światy, które tworzę</p>-->
 
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>-->
         </div>
         <div class="col-sm-4">
-            <h3>Column 3</h3>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="images/mysql.png" class="thumbnail">
+                    <img src="images/mysql.png" alt="obrazek">
+                </a>
+            </div>
+            <!--<h3>Podróżnik</h3>-->
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <!--<p>Odkrywam nowe światy.</p>-->
 
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>-->
         </div>
     </div>
-	<!------------------------------KONIEC---------SEKCJI---------DRUGIEJ----------------------------->
-	
-	
-	<!------------------------------SEKCJA-------TRZECA----------------------------------------------->
-	
+    <!------------------------------KONIEC---------SEKCJI---------DRUGIEJ----------------------------->
+
+
+
+
+    <!------------------------------SEKCJA-------TRZECA----------------------------------------------->
+
     <div id="trzeci" class="row jumbotron top-200">
         <div class="col-sm-4">
             <h3></h3>
@@ -292,194 +369,204 @@
             <p></p>
         </div>
         <div id="tekst" class="col-sm-4">
-            <h2 style= "font-family: Impact "> <z style="color:white">PRO</z> GRESS</h2>
-			
-            <p>Od dziecka ciągle podnszę poprzeczkę. Każdy projekt to dla mnie wyzwanie. W tych światach umiem rzeczy, jakich nie potrafię w tej chwili. Mówię do ludzi, których nawet nie znam, przyjmuję nagrody, na jakie jeszcze nie zasłużyłem i nawet najbardziej nieprawdopodobne wydarzenia wydają się być tak oczywiste, że stają się jedynym wyborem.</p>
+            <h2>
 
-            <p>Po prostu ciągle muszę podejmować nowe wyzwania.</p>
-			
-			<p>Te światy ciągle się zmieniają, ale idea pozostaje taka sama – stać się kimś nowym, kimś innym i pełniejszym. Odkryć, co jest na końcu króliczej nory i zrezygnować, zawsze z bólem, z tego co się już osiągnęło i już ma. Nie cierpię i kocham w tym samym czasie to samobójstwo, bo każdy nowy zdobyty świat okazuje się, gdy już go mam, znów niewystarczający.</p>
-			
-			<p></p>
-			
-			<p></p>
-			
+            </h2>
+
+            <p></p>
+
+            <p></p>
+
+            <p></p>
+
+            <p></p>
+
+            <p></p>
+
         </div>
     </div>
-	<!-------------------------KONIEC----------SEKCJI------------TRZECIEJ------------------------------>
+    <!-------------------------KONIEC----------SEKCJI------------TRZECIEJ------------------------------>
+    <div id="jaumiem2" class="row jumbotron top-200">
+        <div class="col-sm-4">
+            <!--<h3>Maratończyk</h3>-->
 
+            <!--<p>Od dziecka podnoszę poprzeczkę. Tak samo się stało gdy przebiegłem pierwszy maraton.</p>-->
+            <!--<p> Najpierw był jeden,-->
+                <!--potem kolejny.</p>-->
+            <!--<p>Do dziś przebiegłem ich pięć. Moim celem jest korona. Został już tylko jeden...</p>-->
+
+
+
+        </div>
+        <div class="col-sm-4">
+            <!--<h3>Programista</h3>-->
+
+            <!--<p>Nie zmieniaj rzeczywistości, kreuj ją.</p>-->
+            <!--<p> Każdy projekt to dla mnie wyzwanie. Są to światy, które tworzę</p>-->
+
+            <!--<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>-->
+        </div>
+        <div class="col-sm-4">
+            <h3>Programista</h3>
+
+            <p>Odkrywam nowe światy.</p>
+
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+    </div>
 </div>
 
 <!---------------------------------------KARUZELA------------GALERIA------------------------------------->
 <div id="carousel-example-generic" class="carousel slide">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+    </ol>
 
-  <!-- Wrapper for slides -->
-	<a name="gallery"></a>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-		<div class="item">
-      <div class="row">
-				<ul>
-					<li>
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo1.jpg" class="thumbnail">
-							<img src="images/lambo1.jpg" alt="obrazek">
-								</a>
-							</div>
+    <!-- Wrapper for slides -->
+    <!--<a name="gallery"></a>-->
+    <!--<div class="carousel-inner" role="listbox">-->
+        <!--<div class="item active">-->
+        <!--<div class="item">-->
+        <!--<div class="row">-->
+        <!--<ul>-->
+        <!--<li>-->
+        <!--<div class="col-xs-6 col-md-3">-->
+        <!--<a href="images/lambo1.jpg" class="thumbnail">-->
+        <!--<img src="images/lambo1.jpg" alt="obrazek">-->
+        <!--</a>-->
+        <!--</div>-->
 
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo2.jpg" class="thumbnail">
-							<img src="images/lambo2.jpg" alt="obrazek">
-								</a>
-							</div>
+        <!--<div class="col-xs-6 col-md-3">-->
+        <!--<a href="images/lambo2.jpg" class="thumbnail">-->
+        <!--<img src="images/lambo2.jpg" alt="obrazek">-->
+        <!--</a>-->
+        <!--</div>-->
 
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo3.jpg" class="thumbnail">
-							<img src="images/lambo3.jpg" alt="obrazek">
-								</a>
-							</div>
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo4.jpg" class="thumbnail">
-							<img src="images/lambo4.jpg" alt="obrazek">
-								</a>
-						</div>
+        <!--<div class="col-xs-6 col-md-3">-->
+        <!--<a href="images/lambo3.jpg" class="thumbnail">-->
+        <!--<img src="images/lambo3.jpg" alt="obrazek">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--<div class="col-xs-6 col-md-3">-->
+        <!--<a href="images/lambo4.jpg" class="thumbnail">-->
+        <!--<img src="images/lambo4.jpg" alt="obrazek">-->
+        <!--</a>-->
+        <!--</div>-->
 
-					</li>
-				</ul>
-		</div>
-			</div>
-					
-					
-					
-	  
-	  
-	  <div class="carousel-caption">
-       
-      </div>
-    </div>
-    
+        <!--</li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</div>-->
 
-	
-	<div class="item">
-      <div class="row">
-				<div id ="centrowanie">
-				<ul>
-					<li>
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo5.jpg" class="thumbnail">
-							<img src="images/lambo5.jpg" alt="obrazek">
-								</a>
-							</div>
 
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo6.jpg" class="thumbnail">
-							<img src="images/lambo6.jpg" alt="obrazek">
-								</a>
-							</div>
+        <!--<div class="carousel-caption">-->
 
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo7.jpg" class="thumbnail">
-							<img src="images/lambo7.jpg" alt="obrazek">
-								</a>
-							</div>
-						<div class="col-xs-6 col-md-3">
-								<a href="images/lambo8.jpg" class="thumbnail">
-							<img src="images/mean-stack-2-638.jpg" alt="obrazek">
-								</a>
-						</div>
-					</li>
-				</ul>
-				</div>
-		</div>
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <div class="item">
+        <div class="row">
+            <div id="centrowanie">
+                <ul>
+                    <li>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="images/lamp.png" class="thumbnail">
+                                <img src="images/lamp.png" alt="obrazek" style="height:200px">
+                            </a>
+                        </div>
+
+                        <div class="col-xs-6 col-md-3">
+                            <a href="images/mysql.png" class="thumbnail">
+                                <img src="images/mysql.png" alt="obrazek" style="height:200px">
+                            </a>
+                        </div>
+
+                        <div class="col-xs-6 col-md-3">
+                            <a href="images/front.png" class="thumbnail">
+                                <img src="images/front.png" alt="obrazek" style="height:200px">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <a href="images/mean.png" class="thumbnail">
+                                <img src="images/mean.png" alt="obrazek" style="height:200px">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     </div>
-   
-  </div>
 
-	<!------------------------------KONIEC---------SEKCJI---------DRUGIEJ----------------------------->
-
-
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+
+<!------------------------------KONIEC---------SEKCJI---------DRUGIEJ----------------------------->
+
+
+<!-- Controls -->
+<!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
+    <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+    <!--<span class="sr-only">Previous</span>-->
+<!--</a>-->
+<!--<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
+    <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+    <!--<span class="sr-only">Next</span>-->
+<!--</a>-->
+<!--</div>-->
 <!---------------------------------KONIEC----------KARUZELI-----------------GALERII------------------------->
 
 <!--kontakt-->
 <a name="contact"></a>
 <div class="container-fluid">
-	<div id="contact" class="row jumbotron top-200">
+    <div id="contact" class="row jumbotron top-200">
 
-		<div class="col-sm-3">
-			<!--<br><br>-->
+        <div class="col-sm-3">
+            <!--<br><br>-->
 
-			<!--<img src="images/telefon.jpg" class="img-responsive img-rounded center-block" id="contactImage" alt="obrazek" class="ikonka">-->
-
-
-		</div>
-
-		<div class="col-sm-6">
-			<h4>Możesz do mnie napisać:</h4>
-
-			<form class="form-horizontal" role="form" method="post" action="index.php">
-				<input type="text" class="form-control" id="name" name="name" placeholder="Imię" value="">
-				<input type="text" class="form-control" id="surname" name="name" placeholder="Nazwisko" value="">
-				<input type="text" class="form-control" id="telNumber" name="name" placeholder="Numer telefonu" value="">
-				<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-				<textarea class="form-control" rows="4" name="message"></textarea>
-
-				<div class="btn-group btn-group-justified" role="group" aria-label="...">
-					<div class="btn-group" role="group">
-						<input id="submit" name="submit" type="submit" value="Wyślij" class="btn btn-default">
-
-					</div>
-				</div>
+            <!--<img src="images/telefon.jpg" class="img-responsive img-rounded center-block" id="contactImage" alt="obrazek" class="ikonka">-->
 
 
+        </div>
 
-			</form>
-		</div>
+        <div class="col-sm-6">
+            <h4>Możesz do mnie napisać:</h4>
+
+            <form class="form-horizontal" role="form" method="post" action="index.php">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Imię" value="">
+                <input type="text" class="form-control" id="surname" name="name" placeholder="Nazwisko" value="">
+                <input type="text" class="form-control" id="telNumber" name="name" placeholder="Numer telefonu"
+                       value="">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com"
+                       value="">
+                <textarea class="form-control" rows="4" name="message"></textarea>
+
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                    <div class="btn-group" role="group">
+                        <input id="submit" name="submit" type="submit" value="Wyślij" class="btn btn-default">
+
+                    </div>
+                </div>
 
 
-
-		<div class="col-sm-3">
-			<!--<br><br><br><br>-->
-			<!--<h3>Skontaktuj się</h3>-->
-			<!--<p>listdlakrzycha@gmail.com</p>-->
-			<!--<p>Mobile: +48 728318771</p>-->
-			<!--<p></p>-->
-		</div>
+            </form>
+        </div>
 
 
+        <div class="col-sm-3">
+            <!--<br><br><br><br>-->
+            <!--<h3>Skontaktuj się</h3>-->
+            <!--<p>listdlakrzycha@gmail.com</p>-->
+            <!--<p>Mobile: +48 728318771</p>-->
+            <!--<p></p>-->
+        </div>
 
 
-
-
-
-	</div>
+    </div>
 </div>
 <!------------------------------KONIEC---------SEKCJI---------DRUGIEJ----------------------------->
-
-
-
-
-
-
-
-
-
 
 
 <!-------------------------------KONIEC-----------------KONTENERA-----------------------------DLA--------------BODY-------------------->
@@ -487,11 +574,11 @@
 </body>
 
 <!-------------------STOPKA------------->
- <footer class="footer">
-      <div class="container">
+<footer class="footer">
+    <div class="container">
         <p class="text-muted">Copyrights & Developed Krzysztof Sikora</p>
-      </div>
-    </footer>
+    </div>
+</footer>
 <!-------------------------------------->
 
 
