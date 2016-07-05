@@ -1,27 +1,15 @@
 <?php
 
-interface XML {
+interface documentLoader {
     public function load_on_XML($xml);
-    public function write();
-
-}
-
-interface Ini {
+    public function load_on_Yaml($yaml);
     public function load_on_Ini($ini);
-    public function write();
-}
-
-interface CSV {
     public function load_on_CSV($csv);
     public function write();
+
 }
 
-interface Yaml {
-    public function load_on_Yaml($yaml);
-    public function write();
-}
-
-class Wczytywanie implements XML, Ini, CSV, Yaml {
+class Wczytywanie implements documentLoader {
 
     private $dokXML;
     private $dokIni;
