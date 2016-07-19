@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Poznbaj Linuxa :)</title>
+    <meta name="description"
+          content="Serwis poświęcony systemowi Linux. Naucz się wszystkiego, co chcesz wiedzieć o Linuxie!"/>
+    <meta name="keywords" content="linux, kurs, nauka, poznaj, co to jest linux, ubuntu"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  <!--- kodowanie polskich znaków -->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="style.css" type="text/css"/>-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <style>
+
+        .container {
+            width: 58%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body {
+            background-color: #404040;
+            font-family: 'Lato', sans-serif;
+        }
+
+        #logo {
+            color: white;
+            margin-top: 20px;
+            font-size: 44px;
+            letter-spacing: 3px;
+            font-weight: 900;
+        }
+
+
+        .navbar {
+            background-color: #303030;
+            border-color: #303030;
+            border-radius: 0px;
+            padding: 5px;
+            margin-top: 20px;
+        }
+        #bs-example-navbar-collapse-1 > ul > li {
+            border-right: 2px dotted #444444;
+            opacity: 0.8;
+            float: left;
+
+            /*min-width:50px;*/
+            /*height: 25px;*/
+            font-size: 18px;
+            padding: 0px;
+        }
+
+        #bs-example-navbar-collapse-1 > ul > li:hover {
+            background-color: #000000;
+            cursor: pointer;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            color: #ffffff;
+        }
+
+        #topbar {
+            background-color: #128870;
+            color: white;
+            margin-right: 0px;
+            margin-left: 0px;
+
+        }
+
+        #topbarL {
+            float: left;
+            text-align: center;
+            border-right: 2px dotted #cccccc;
+            /*width: 15%;*/
+            /*padding: 20px;*/
+
+
+        }
+
+        #topbarR {
+            float: left;
+            padding: 20px;
+            font-size: 16px;
+            text-align: justify;
+
+        }
+
+        .bigtitle {
+            font-size: 32px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        #sidebarrow {
+            background-color: #dedede;
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        #sidebar {
+            /*width: 15%;*/
+            border-right: 2px dotted #666666;
+            min-height: 730px;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            background-color: lightgray;
+
+
+        }
+
+        #content > p {
+            font-size: 16px;
+        }
+        #content {
+            float:left;
+            /*margin: 2em;*/
+            /*width: 730px;*/
+            background-color: #dedede;
+            min-height: 580px;
+            text-align: justify;
+
+        }
+        p {
+            padding: 20px;
+
+        }
+        .dottedline {
+            height: 5px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-bottom: 2px dotted #444444;
+        }
+
+        .optionL {
+            font-size: 18px;
+            padding: 20px;
+
+            border-bottom: 2px dotted #444444;
+        }
+
+        .optionL:hover {
+            background-color: #f36742;
+            color: white;
+            cursor: pointer;
+        }
+        #footer {
+            clear:both;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="logo">
+        Poznaj Linuxa :)
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="#">Strona główna</a></li>
+                    <li><a href="#">Dystrybucje</a></li>
+                    <li><a href="#">Instalacja</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Polecenia</a></li>
+                    <li><a href="#">Linus Torvalds</a></li>
+                    <li><a href="#">O projekcie</a></li>
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+<div id="topbar" class="row">
+    <!--<div class="container">-->
+    <div id="topbarL" class="col-md-3">
+        <p></p><img src="linux.png"/></p>
+    </div>
+    <div id="topbarR" class="col-md-9"><span class="bigtitle">O projekcie słów kilka</span>
+        <div style="height: 15px;"></div>
+
+        Kiedy mówisz: "Napisałem program, który wywalił Windows, ludzie gapia sie na Ciebie głupkowato i mówią:
+        Hej, ja dostałem to wraz z systemem, za darmo" - Linus Torvalds, twórca Linuxa :)
+        Zapraszamy do zapoznania się z witryną,dzięki której dowiesz się co to jest Linux
+        i wybierzesz dystrybucję dla siebie!
+    </div>
+        <!--<div style="clear: both"></div>-->
+
+    <!--</div>-->
+</div>
+
+    <!--<div id="topbar">-->
+        <!--<div id="topbarL">-->
+            <!--<img src="linux.png"/>-->
+        <!--</div>-->
+        <!--<div id="topbarR"><span class="bigtitle">O projekcie słów kilka</span>-->
+            <!--<div style="height: 15px;"></div>-->
+            <!--Kiedy mówisz: "Napisałem program, który wywalił Windows, ludzie gapia sie na Ciebie głupkowato i mówią:-->
+            <!--Hej, ja dostałem to wraz z systemem, za darmo" - Linus Torvalds, twórca Linuxa :)-->
+            <!--Zapraszamy do zapoznania się z witryną,dzięki której dowiesz się co to jest Linux-->
+            <!--i wybierzesz dystrybucję dla siebie!-->
+        <!--</div>-->
+        <!--<div style="clear: both"></div>-->
+    <!--</div>-->
+<div id ="sidebarrow" class="row">
+    <div id="sidebar" class="col-md-3">
+        <div class="optionL">Strona główna</div>
+        <div class="optionL">Dystrybucje</div>
+        <div class="optionL">Instalacja</div>
+        <div class="optionL">Polecenia</div>
+        <div class="optionL"> Linus Torvalds</div>
+        <div class="optionL"> O projekcie</div>
+
+    </div>
+
+    <div id="content" class="col-md-9">
+        <p><span class="bigtitle">Dlaczego Linux?</span></p>
+        <div class="dottedline"></div>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a lorem dapibus, tincidunt nibh vitae,
+        venenatis massa. Nam aliquam orci eget nisl vehicula auctor. Maecenas maximus metus in lorem ultrices
+        vehicula.
+        Curabitur velit libero, hendrerit at erat in, molestie consectetur sapien. Nunc sodales quis velit eget
+        lacinia.
+        Proin sed molestie orci. Donec efficitur lorem vel magna efficitur rutrum. Nulla ultricies, risus nec porta
+        scelerisque, sapien est laoreet nibh, et lacinia tellus dui in mauris.
+        <br/><br/>
+        Cras luctus ligula quis tellus feugiat, non dapibus est egestas. Pellentesque habitant morbi tristique
+        senectus
+        et netus et malesuada fames ac turpis egestas. Morbi venenatis feugiat rutrum. Proin ullamcorper, lectus
+        quis
+        blandit ultricies, diam sem sollicitudin lacus, et rhoncus dui lorem ut felis. Mauris laoreet eros in massa
+        dignissim, at tempor velit rutrum. Suspendisse vehicula erat in ante convallis laoreet. Proin ante orci,
+        tempus
+        finibus lectus vel, suscipit fermentum enim. Suspendisse potenti. Cras sit amet ipsum aliquam est vestibulum
+        consectetur id non augue.
+        <br/><br/>
+        Aenean imperdiet, nisi malesuada bibendum imperdiet, quam purus dictum dui, sit amet tincidunt massa enim ac
+        purus. Quisque blandit augue nec maximus aliquam. Nam gravida elit purus, id scelerisque lorem vestibulum
+        sit
+        amet. Fusce malesuada erat sollicitudin, semper magna a, blandit nunc. Vivamus orci tortor, tincidunt
+        venenatis
+        tincidunt ac, elementum et libero. Sed vel consequat magna. Vestibulum quam metus, luctus quis vestibulum
+        in,
+        pellentesque quis ante. Quisque lacinia, dui vitae vehicula congue, diam nisl tempus odio, nec suscipit ante
+        mi
+        eleifend mi. Sed sed ex et velit tempus ultrices. Nunc vulputate at orci ut aliquet. Etiam purus nibh,
+        tristique
+        ut arcu quis, blandit tempus diam. Integer bibendum bibendum lorem ac lobortis. Donec eget ornare elit.
+        Vivamus
+        accumsan finibus dui, eget ornare augue imperdiet vel.</p>
+    </div>
+</div>
+    <div id="footer">
+        Poznaj Linuxa - najlepszy darmowy system operacyjny. Strona w sieci od 2014r. &copy Wszelkie prawa
+        zastrzeżone.
+    </div>
+</div>
+
+</body>
+</html>
