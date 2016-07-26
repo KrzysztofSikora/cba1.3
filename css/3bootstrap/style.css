@@ -1,0 +1,61 @@
+body {
+    background-color: #303030;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+    width: 100%;
+}
+
+
+
+/*.header {*/
+    /*width: 100%;*/
+    /*padding: 40px 0;*/
+
+/*}*/
+
+.logo {
+    /*width: 450px;*/
+    /*font-size: 100%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+/*.nav {*/
+    /*!*width: 100%;*!*/
+    /*!*!*padding: 10px 0;*!*!*/
+    /*!*background-color: #c34f4f;*!*/
+    /*!*text-align: center;*!*/
+    /*!*border-top: 1px solid #751b1b;*!*/
+    /*!*border-bottom: 1px solid #751b1b;*!*/
+/*}*/
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+/*.sticky {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+
+    /*!*text-align: center;*!*/
+    /*!*width: 100%;*!*/
+    /*!*margin: 0;*!*/
+
+    /*!*!*z-index: 100;*!*!*/
+    /*!*width: 50%;*!*/
+    /*!*border-left: 0;*!*/
+
+/*}*/
+/*!*.sticky {*!*/
+    /*!*width: 100%;*!*/
+    /*!*position: fixed;*!*/
+    /*!*left: 0;*!*/
+    /*!*top: 0;*!*/
+    /*!*z-index: 100;*!*/
+/*!*}*!*/
+

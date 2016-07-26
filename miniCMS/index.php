@@ -99,14 +99,16 @@ ENT_DISALLOWED;
 
 
         public function write($i) {
-            $query = $this->db->query("SELECT * from `news` WHERE `id` = $i");
-            $query = $query->fetch_assoc();
-            $id = $query['id'];
-            $title = $query['title'];
-            $data = $query['data'];
-            $content = $query['content'];
+            if($i) {
+                $query = $this->db->query("SELECT * from `news` WHERE `id` = $i");
+                $query = $query->fetch_assoc();
+                $id = $query['id'];
+                $title = $query['title'];
+                $data = $query['data'];
+                $content = $query['content'];
 
-            return array($id, $title, $data, $content);
+                return array($id, $title, $data, $content);
+            } else return array();
         }
 
 
@@ -139,23 +141,21 @@ class Controller {
 //            $this->index();
     }
 
-    public function index($page) {
-        $this->_newsModel= new NewsModel();
-        $this->_view= new View();
+    public function index($page)
+    {
+        $this->_newsModel = new NewsModel();
+        $this->_view = new View();
         $template = "templates/email_template.html";
 
 
-        $i = $page;
-        $range = $i + 2;
+        $range = $page  ;
+        $range = $range + 2;
+
+        for ($i = $range; $i < $range + 2; $i++) {
+        echo $this->_view->parseTemplate($template, $this->_newsModel->write($i)); #przekazujemy pobrane newsy
+    }
+
         $value = $this->_newsModel->counter(); // ilość wszystkich w bazie
-        for($i=1; $i < $range; $i++)
-        {
-
-            // z każdą iteracją
-            echo $this->_view->parseTemplate($template, $this->_newsModel->write($i)); #przekazujemy pobrane newsy
-
-        }
-
         $this->_newsModel->paginationAll($value,2);
 
     }
@@ -177,7 +177,15 @@ class Controller {
 /////// View
 
 $controller = new Controller();
-$_GET['page'];
-$controller->index($_GET['page']);
+
+echo "Page: $page <br/>";
+echo "GET: "; $_GET['page'];
+echo  $_GET['page'];
+echo "<br /> <br/>";
+
+if(isset($_GET['page'])) {
+    $page = $_GET['page'];
+} else $page = 1;
+$controller->index($page);
 
 //controller
