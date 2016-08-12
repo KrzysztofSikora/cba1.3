@@ -1,0 +1,78 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Lista szczegółowa</h1>
+
+    <table>
+        <thead>
+        <tr>
+
+            <th>
+                <p>Osoba</p>
+            </th>
+            <th>
+                <p>Kontakt</p>
+            </th>
+
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for contactDetail in contactDetails %}
+            <tr>
+                <td>
+                    <p>{{ contactDetail.contact }}</p>
+                </td>
+
+                <td><p>
+
+                    {% if contactDetail.value == '0' or contactDetail.value == null %}
+                        Brak kontaktu
+
+
+                    {% else %} {% if contactDetail.fieldType.fieldType == 'phone' %}
+                        Telefon <br />
+
+
+                    {% else %}{% endif %}
+                        {% if contactDetail.fieldType.fieldType == 'mobile' %}
+                            Mobile <br />
+
+
+                        {% else %}{% endif %}
+                        {% if contactDetail.fieldType.fieldType == 'email' %}
+                            Email <br />
+
+
+                        {% else %}{% endif %}
+                        {% if contactDetail.fieldType.fieldType == 'homepage_uri' %}
+                            WWW <br />
+
+
+                        {% else %}{% endif %}
+                        {% if contactDetail.fieldType.fieldType == 'note' %}
+                            Note <br />
+
+
+                        {% else %}{% endif %}{{ contactDetail.value }}{% endif %} </p>
+                </td>
+
+
+                <td>
+
+                    <a href="{{ path('contactdetails_edit', { 'id': contactDetail.id }) }}">Dodaj kontakt</a>
+
+
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('contactdetails_new') }}">Dodaj nowy kontakt</a>
+        </li>
+    </ul>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Dodany kontakt</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Isdeleted</th>
+                <td>{% if contact.isDeleted %}Yes{% else %}No{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Imię</th>
+                <td>{{ contact.firstname }}</td>
+            </tr>
+            <tr>
+                <th>Nazwisko</th>
+                <td>{{ contact.lastname }}</td>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <td>{{ contact.id }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('contacts_index') }}">Powrót do listy</a>
+        </li>
+
+    </ul>
+{% endblock %}

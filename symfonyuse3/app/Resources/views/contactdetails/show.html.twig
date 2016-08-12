@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Dodano rodzaj kontaktu</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ contactDetail.id }}</td>
+            </tr>
+            <tr>
+                <th>Imię i nazwisko</th>
+                <td>{{ contactDetail.contact }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('contactdetails_index') }}">Wróc do listy</a>
+        </li>
+    </ul>
+{% endblock %}

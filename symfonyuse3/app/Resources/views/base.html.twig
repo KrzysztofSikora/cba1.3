@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Aplikacja CRUD</title>
+    <meta name="description"
+          content="Serwis poświęcony systemowi Linux. Naucz się wszystkiego, co chcesz wiedzieć o Linuxie!"/>
+    <meta name="keywords" content="crud"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  <!--- kodowanie polskich znaków -->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="style.css" type="text/css"/>-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <style>
+
+        body {
+            background-color: #404040;
+            font-family: 'Lato', sans-serif;
+        }
+
+        #logo {
+            color: white;
+            margin-top: 20px;
+            font-size: 44px;
+            letter-spacing: 3px;
+            font-weight: 900;
+        }
+
+
+        .navbar {
+            background-color: #303030;
+            border-color: #303030;
+            border-radius: 0px;
+            padding: 5px;
+            margin-top: 20px;
+        }
+        #bs-example-navbar-collapse-1 > ul > li {
+            border-right: 2px dotted #444444;
+            opacity: 0.8;
+            float: left;
+
+            /*min-width:50px;*/
+            /*height: 25px;*/
+            font-size: 18px;
+            padding: 0px;
+        }
+
+        #bs-example-navbar-collapse-1 > ul > li:hover {
+            background-color: #000000;
+            cursor: pointer;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            color: #ffffff;
+        }
+
+        #topbar {
+            background-color: #128870;
+            color: white;
+            margin-right: 0px;
+            margin-left: 0px;
+
+        }
+
+
+
+        #sidebarrow {
+            background-color: #dedede;
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+
+        #content > p {
+            /*font-size: 16px;*/
+        }
+        #content {
+            /*float:left;*/
+            /*margin: 2em;*/
+            /*width: 730px;*/
+            background-color: #dedede;
+            min-height: 580px;
+            text-align: justify;
+
+        }
+        p {
+            padding: 20px;
+
+        }
+        .dottedline {
+            height: 5px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-bottom: 2px dotted #444444;
+        }
+
+        .optionL {
+            font-size: 18px;
+            padding: 20px;
+
+            border-bottom: 2px dotted #444444;
+        }
+
+        .optionL:hover {
+            background-color: #f36742;
+            color: white;
+            cursor: pointer;
+        }
+        #footer {
+            clear:both;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        #content > table > tbody > tr > td > div > p > a:hover {
+            color: #6a9211;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        #content > ul > li > a:hover {
+            color: #a7da39;
+            text-decoration: none;
+            list-style:none;
+        }
+        #content > ul > li  {
+            list-style:none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="logo">
+       Aplikacja CRUD
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="{{ path('contacts_index') }}">Dodaj osobę</a></li>
+                    <li><a href="{{ path('contactdetails_index') }}">Dodaj kontakt</a></li>
+
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div id ="sidebarrow" class="row">
+        {#<div id="sidebar" class="col-md-3">#}
+            {#<div class="optionL"><a href="{{ path('contacts_index') }}">Dodaj osobę</a></div>#}
+            {#<div class="optionL"> <a href="{{ path('contactdetails_index') }}">Dodaj kontakt</a></div>#}
+
+        {#</div>#}
+
+        <div id="content" class="col-md-12">
+            <div class="row">
+
+            {% block body %}{% endblock %}
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        Aplikacja CRUD. Symfony2. 2016r. &copy Developed Krzysztof Sikora
+    </div>
+</div>
+
+</body>
+</html>
+
