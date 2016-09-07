@@ -1,0 +1,89 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#<h1>Album list</h1>#}
+
+    {#<table>#}
+        {#<thead>#}
+            {#<tr>#}
+                {#<th>Id</th>#}
+                {#<th>Filenamee</th>#}
+                {#<th>Mimee</th>#}
+                {#<th>Contentss</th>#}
+                {#<th>Descriptionn</th>#}
+                {#<th>Actions</th>#}
+            {#</tr>#}
+        {#</thead>#}
+        {#<tbody>#}
+        {#{% for album in albums %}#}
+            {#<tr>#}
+                {#<td><a href="{{ path('album_show', { 'id': album.id }) }}">{{ album.id }}</a></td>#}
+                {#<td>{{ album.filenamee }}</td>#}
+                {#<td><a href="{{ path('filee_show', { 'filename': album.filenamee }) }}"><img#}
+                                {#src="{{ path('filee_show', { 'filename': album.filenamee }) }}  " style="height: 250px"></a>#}
+                {#<td>{{ album.mimee }}</td>#}
+                {#<td>{{ album.contentss }}</td>#}
+                {#<td>{{ album.descriptionn }}</td>#}
+                {#<td>#}
+                    {#<ul>#}
+                        {#<li>#}
+                            {#<a href="{{ path('album_show', { 'id': album.id }) }}">show</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="{{ path('album_edit', { 'id': album.id }) }}">edit</a>#}
+                        {#</li>#}
+                    {#</ul>#}
+                {#</td>#}
+            {#</tr>#}
+        {#{% endfor %}#}
+        {#</tbody>#}
+    {#</table>#}
+
+    {#<ul>#}
+        {#<li>#}
+            {#<a href="{{ path('album_new') }}">Create a new entry</a>#}
+        {#</li>#}
+    {#</ul>#}
+    <h1>Lista albumów</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+    <br/> <br/>
+
+        {% for album in albums %}
+
+            <div class="media">
+                <a class="pull-left">
+                    <img class="media-object" src="{{ path('filee_show', { 'filename': album.filenamee }) }}" width="128px">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Opis albumu: {{ album.descriptionn }}
+
+                        <small style="float: right">
+                            <ul style="float: right; display: inline">
+                                <ul>
+                                    <li>
+                                        <a href="{{ path('album_show', { 'id': album.id }) }}">Pokaż</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('album_edit', { 'id': album.id }) }}">Edycja</a>
+                                    </li>
+                                </ul>
+                            </ul></small>
+
+
+
+
+
+                    </h4><small style="float: left">Nazwa obrazka: {{ album.filenamee }}</small>
+
+                </div>
+            </div>
+
+        {% endfor %}
+
+    <ul>
+        <li>
+            <a href="{{ path('album_new') }}">Dodaj nowy album</a>
+        </li>
+    </ul>
+{% endblock %}

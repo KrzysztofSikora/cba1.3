@@ -1,0 +1,84 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#<h1>Story list</h1>#}
+
+    {#<table>#}
+        {#<thead>#}
+            {#<tr>#}
+                {#<th>Id</th>#}
+                {#<th>Paragraph</th>#}
+                {#<th>Actions</th>#}
+            {#</tr>#}
+        {#</thead>#}
+        {#<tbody>#}
+        {#{% for story in stories %}#}
+            {#<tr>#}
+                {#<td><a href="{{ path('story_show', { 'id': story.id }) }}">{{ story.id }}</a></td>#}
+                {#<td>{{ story.paragraph }}</td>#}
+                {#<td>#}
+                    {#<ul>#}
+                        {#<li>#}
+                            {#<a href="{{ path('story_show', { 'id': story.id }) }}">show</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="{{ path('story_edit', { 'id': story.id }) }}">edit</a>#}
+                        {#</li>#}
+                    {#</ul>#}
+                {#</td>#}
+            {#</tr>#}
+        {#{% endfor %}#}
+        {#</tbody>#}
+    {#</table>#}
+
+    {#<ul>#}
+        {#<li>#}
+            {#<a href="{{ path('story_new') }}">Create a new entry</a>#}
+        {#</li>#}
+    {#</ul>#}
+
+    <h1>Lista akapitów historii.</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+    <br/> <br/>
+    {% for story in stories %}
+    <div class="media">
+        <div class="media-body">
+            <h4 class="media-heading">Akapit numer: {{ story.position }}
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <li>
+                            <a href="{{ path('story_show', { 'id': story.id }) }}">Pokaż</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('story_edit', { 'id': story.id }) }}">Edycja</a>
+                        </li>
+                    </ul></small>
+                <small style="float: right"></small>
+
+
+
+            </h4>
+
+            {#<a href="{{ path('tasks_show', { 'id': task.id }) }}">{{ task.id }}</a>#}
+            <br/>
+
+            <p style="text-align: justify">{{ story.paragraph }}</p>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+        {% endfor %}
+
+    <ul>
+        <li>
+            <a href="{{ path('story_new') }}">Dodaj nowy akapit</a>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,66 @@
+my_frontend_contact:
+    resource: "@MyFrontendBundle/Controller/ContactController.php"
+    type:     annotation
+
+my_frontend_story:
+    resource: "@MyFrontendBundle/Controller/StoryController.php"
+    type:     annotation
+
+my_frontend_carousel:
+    resource: "@MyFrontendBundle/Controller/CarouselController.php"
+    type:     annotation
+
+my_frontend_squad:
+    resource: "@MyFrontendBundle/Controller/SquadController.php"
+    type:     annotation
+
+my_frontend_album:
+    resource: "@MyFrontendBundle/Controller/AlbumController.php"
+    type:     annotation
+
+my_frontend_album:
+    resource: "@MyFrontendBundle/Controller/AlbumController.php"
+    type:     annotation
+
+my_frontend_album:
+    resource: "@MyFrontendBundle/Controller/AlbumController.php"
+    type:     annotation
+
+my_frontend_album:
+    resource: "@MyFrontendBundle/Controller/AlbumController.php"
+    type:     annotation
+
+my_frontend_image:
+    resource: "@MyFrontendBundle/Controller/ImageController.php"
+    type:     annotation
+
+my_frontend_image:
+    resource: "@MyFrontendBundle/Controller/ImageController.php"
+    type:     annotation
+
+my_frontend_tasks:
+    resource: "@MyFrontendBundle/Controller/TasksController.php"
+    type:     annotation
+
+my_frontend_tasks:
+    resource: "@MyFrontendBundle/Controller/TasksController.php"
+    type:     annotation
+
+my_user:
+    resource: "@MyUserBundle/Controller/"
+    type:     annotation
+    prefix:   /user
+
+my_frontend:
+    resource: "@MyFrontendBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+
+
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation

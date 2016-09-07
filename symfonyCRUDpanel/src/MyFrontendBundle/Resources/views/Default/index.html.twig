@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="col-md-12">
+
+
+        {# table body #}
+        {% for article in pagination %}
+
+            <!-- Comment -->
+            <div class="media">
+                <div class="media-body">
+                    <h3 class="media-heading"><span style="padding: 10px">{{ article.title }}</span>
+                        <small style="float: right;padding: 10px">{{ article.posted|date('Y-m-d H:i:s') }}</small>
+                    </h3>
+                    <br/>
+                    <p style="padding: 10px;text-align: justify">{{ article.description }}</p>
+                </div>
+            </div>
+
+
+
+        {% endfor %}
+
+    </div>
+
+    <div class="col-md-12">
+        {# display navigation #}
+
+        <div class="navigation" style="text-align: center;bottom:0;">
+            {{ knp_pagination_render(pagination) }}
+        </div>
+    </div>
+
+{% endblock %}

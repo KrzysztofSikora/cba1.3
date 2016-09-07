@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{#Hello World!#}
+
+{#<a href="{{ path('tasks_new') }}"> Login</a>#}
+{# total items count #}
+{#<div class="count">#}
+    {#{{ pagination.getTotalItemCount }}#}
+{#</div>#}
+
+         {#sorting of properties based on query components#}
+        {#<th>{{ knp_pagination_sortable(pagination, 'Id', 'a.id') }}</th>#}
+        {#<th{% if pagination.isSorted('a.Title') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'Title', 'a.title') }}</th>#}
+        {#<th{% if pagination.isSorted('a.Title') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'Description', 'a.description') }}</th>#}
+        {#<th{% if pagination.isSorted('a.posted') %} class="sorted"{% endif %}>{{ knp_pagination_sortable(pagination, 'Posted', 'a.posted') }}</th>#}
+
+
+
+
+    {#{% for image in pagination %}#}
+
+            {#<div class="col-md-3">#}
+                {#<a href="{{ path('file_show', { 'filename': image.filename }) }}" class="thumbnail" >#}
+                    {#<img class= "img-responsive" src="{{ path('file_show', { 'filename': image.filename }) }}" alt="..." style="height: 180px">#}
+                {#</a>#}
+            {#</div>#}
+
+
+
+    {#{% endfor %}#}
+
+{#<div class="col-md-12">#}
+{# display navigation #}
+
+{#<div class="navigation" style="text-align: center;bottom:0;">#}
+    {#{{ knp_pagination_render(pagination) }}#}
+{#</div>#}
+{#</div>#}
+    {#<li><a href="{{ path('film_index') }}">Lista filmów</a></li>#}
+    {#{{ render(controller('MyFrontendBundle:Gallery:index')) }}#}
+    {#{% include 'MyFrontendBundle:Gallery:index'.html.twig'  %}#}
+
+
+{% endblock %}

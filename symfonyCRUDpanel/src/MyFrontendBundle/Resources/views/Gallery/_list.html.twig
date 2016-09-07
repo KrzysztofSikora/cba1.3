@@ -1,0 +1,26 @@
+{#<ul>#}
+<style>
+    .icon-camera:before {
+        font-size: 20px;
+        margin:10px;
+    }
+
+</style>
+    {% for film in dane %}
+
+
+        <div class="col-md-3" >
+
+            <div class="thumbnail" style="background-color: #2f4052">
+            <a href="{{ path('film_show', { 'id': film.id }) }}">
+                <img class= "img-responsive" src="{{ path('filee_show', { 'filename': film.filenamee }) }}" alt="..." style="height: 180px">
+            </a>
+            <i style="font-size: 20px" class="icon-camera" >{{ film.descriptionn }}</i>
+        </div>
+        {#<p style="text-align: center">{{ film.descriptionn }}</p>#}
+            <br/>
+        </div>
+
+
+    {% endfor %}
+{#</ul>#}

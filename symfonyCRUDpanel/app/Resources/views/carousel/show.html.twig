@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#<h1>Zdjęcia karuzeli</h1>#}
+
+    {#<table>#}
+        {#<tbody>#}
+            {#<tr>#}
+                {#<th>Id</th>#}
+                {#<td>{{ carousel.id }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Nazwa zdjęcia</th>#}
+                {#<td>{{ carousel.cfilename }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Typ zdjecia</th>#}
+                {#<td>{{ carousel.cmime }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Zdjęcie</th>#}
+                {#<td>{{ carousel.ccontents }}</td>#}
+            {#</tr>#}
+        {#</tbody>#}
+    {#</table>#}
+
+    {#<ul>#}
+        {#<li>#}
+            {#<a href="{{ path('carousel_index') }}">Powrót do listy</a>#}
+        {#</li>#}
+        {#<li>#}
+            {#<a href="{{ path('carousel_edit', { 'id': carousel.id }) }}">Edytuj</a>#}
+        {#</li>#}
+        {#<li>#}
+            {#{{ form_start(delete_form) }}#}
+                {#<input type="submit" value="Usuń">#}
+            {#{{ form_end(delete_form) }}#}
+        {#</li>#}
+    {#</ul>#}
+    <h1>Zdjęcia karuzeli</h1>
+    <div class="media">
+        <a class="pull-left">
+            <img class="media-object" src="{{ path('cfile_show', { 'filename': carousel.cfilename }) }}"
+                 width="128px">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading"> Nazwa obrazka: {{ carousel.cfilename }}
+
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <ul>
+                            <li>
+                                <a href="{{ path('carousel_index') }}">Powrót do listy</a>
+                            </li>
+                            {#<li>#}
+                                {#<a href="{{ path('carousel_edit', { 'id': carousel.id }) }}">Edytuj</a>#}
+                            {#</li>#}
+                            <li>
+                                {{ form_start(delete_form) }}
+                                <input type="submit" value="Usuń">
+                                {{ form_end(delete_form) }}
+                            </li>
+                        </ul>
+                    </ul>
+                </small>
+
+                <small style="float: right">
+                    <ul>
+                        <ul>
+                            <li>
+                                Typ obrazka: {{ carousel.cmime }}
+                            </li>
+                        </ul>
+                    </ul>
+                </small>
+
+
+            </h4>
+        </div>
+    </div>
+
+
+{% endblock %}

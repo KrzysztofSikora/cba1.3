@@ -1,0 +1,92 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#<h1>Lista zdjęć karuzeli</h1>#}
+
+    {#<table>#}
+    {#<thead>#}
+    {#<tr>#}
+    {#<th>Id</th>#}
+    {#<th>Nazwa zdjęcia</th>#}
+    {#<th>Typ zdjecia</th>#}
+    {#<th>Obrazek</th>#}
+    {#<th>Opcje</th>#}
+    {#</tr>#}
+    {#</thead>#}
+    {#<tbody>#}
+    {#{% for carousel in carousels %}#}
+    {#<tr>#}
+    {#<td><a href="{{ path('carousel_show', { 'id': carousel.id }) }}">{{ carousel.id }}</a></td>#}
+    {#<td>{{ carousel.cfilename }}</td>#}
+    {#<td>{{ carousel.cmime }}</td>#}
+    {#<td>{{ carousel.ccontents }}</td>#}
+    {#<td><a href="{{ path('cfile_show', { 'filename': carousel.cfilename }) }}"><img#}
+    {#src="{{ path('cfile_show', { 'filename': carousel.cfilename }) }}  " style="height: 250px"></a>#}
+    {#<td>#}
+    {#<ul>#}
+    {#<li>#}
+    {#<a href="{{ path('carousel_show', { 'id': carousel.id }) }}">Pokaż</a>#}
+    {#</li>#}
+    {#<li>#}
+    {#<a href="{{ path('carousel_edit', { 'id': carousel.id }) }}">Edycja</a>#}
+    {#</li>#}
+    {#</ul>#}
+    {#</td>#}
+    {#</tr>#}
+    {#{% endfor %}#}
+    {#</tbody>#}
+    {#</table>#}
+
+    {#<ul>#}
+    {#<li>#}
+    {#<a href="{{ path('carousel_new') }}">Dodaj zdjęcie</a>#}
+    {#</li>#}
+    {#</ul>#}
+    <h1>Lista zdjęć karuzeli</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+    <br/> <br/>
+
+    {% for carousel in carousels %}
+
+        <div class="media">
+            <a class="pull-left">
+                <img class="media-object" src="{{ path('cfile_show', { 'filename': carousel.cfilename }) }}"
+                     width="128px">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading"> Nazwa obrazka: {{ carousel.cfilename }}
+
+                    <small style="float: right">
+                        <ul style="float: right; display: inline">
+                            <ul>
+                                <li>
+                                    <a href="{{ path('carousel_show', { 'id': carousel.id }) }}">Pokaż</a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </small>
+
+                    <small style="float: right">
+                        <ul>
+                            <ul>
+                                <li>
+                                    Typ obrazka: {{ carousel.cmime }}
+                                </li>
+                            </ul>
+                        </ul>
+                    </small>
+
+
+                </h4>
+            </div>
+        </div>
+
+    {% endfor %}
+
+    <ul>
+        <li>
+            <a href="{{ path('carousel_new') }}">Dodaj zdjęcie</a>
+        </li>
+    </ul>
+{% endblock %}

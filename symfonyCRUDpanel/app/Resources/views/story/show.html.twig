@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#<h1>Story</h1>#}
+
+    {#<table>#}
+        {#<tbody>#}
+            {#<tr>#}
+                {#<th>Id</th>#}
+                {#<td>{{ story.id }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Paragraph</th>#}
+                {#<td>{{ story.paragraph }}</td>#}
+            {#</tr>#}
+        {#</tbody>#}
+    {#</table>#}
+
+    {#<ul>#}
+        {#<li>#}
+            {#<a href="{{ path('story_index') }}">Back to the list</a>#}
+        {#</li>#}
+        {#<li>#}
+            {#<a href="{{ path('story_edit', { 'id': story.id }) }}">Edit</a>#}
+        {#</li>#}
+        {#<li>#}
+            {#{{ form_start(delete_form) }}#}
+                {#<input type="submit" value="Delete">#}
+            {#{{ form_end(delete_form) }}#}
+        {#</li>#}
+    {#</ul>#}
+    <h1>Story</h1>
+    <div class="media">
+        <div class="media-body">
+            <h4 class="media-heading">Akapit numer: {{ story.position }}
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <li>
+                            <a href="{{ path('story_index') }}">Powrót do listy</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('story_edit', { 'id': story.id }) }}">Edycja</a>
+                        </li>
+                        <li>
+                            {{ form_start(delete_form) }}
+                            <input type="submit" value="Usuń">
+                            {{ form_end(delete_form) }}
+                        </li>
+                    </ul></small>
+                <small style="float: right"></small>
+
+
+
+            </h4>
+
+            {#<a href="{{ path('tasks_show', { 'id': task.id }) }}">{{ task.id }}</a>#}
+            <br/>
+
+            <p style="text-align: justify">{{ story.paragraph }}</p>
+
+
+        </div>
+    </div>
+
+
+
+{% endblock %}

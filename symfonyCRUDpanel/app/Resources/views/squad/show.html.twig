@@ -1,0 +1,101 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#<h1>Squad</h1>#}
+
+    {#<table>#}
+        {#<tbody>#}
+            {#<tr>#}
+                {#<th>Id</th>#}
+                {#<td>{{ squad.id }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Filenameee</th>#}
+                {#<td>{{ squad.filenameee }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Mimeee</th>#}
+                {#<td>{{ squad.mimeee }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Contentsss</th>#}
+                {#<td>{{ squad.contentsss }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Descriptionnn</th>#}
+                {#<td>{{ squad.descriptionnn }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Name</th>#}
+                {#<td>{{ squad.name }}</td>#}
+            {#</tr>#}
+            {#<tr>#}
+                {#<th>Info</th>#}
+                {#<td>{{ squad.info }}</td>#}
+            {#</tr>#}
+        {#</tbody>#}
+    {#</table>#}
+
+    {#<ul>#}
+        {#<li>#}
+            {#<a href="{{ path('squad_index') }}">Back to the list</a>#}
+        {#</li>#}
+        {#<li>#}
+            {#<a href="{{ path('squad_edit', { 'id': squad.id }) }}">Edit</a>#}
+        {#</li>#}
+        {#<li>#}
+            {#{{ form_start(delete_form) }}#}
+                {#<input type="submit" value="Delete">#}
+            {#{{ form_end(delete_form) }}#}
+        {#</li>#}
+    {#</ul>#}
+    <h1>Członkowie</h1>
+
+
+    <div class="media">
+        <a class="pull-left">
+            <img class="media-object" src="{{ path('fileee_show', { 'filename': squad.filenameee }) }}" width="128px">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">{{ squad.name }}
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <ul>
+                            <li>
+                                <a href="{{ path('squad_index') }}">Powrót do listy</a>
+                            </li>
+                            <li>
+                                <a href="{{ path('squad_edit', { 'id': squad.id }) }}">Edycja</a>
+                            </li>
+                            <li>
+                                {{ form_start(delete_form) }}
+                                <input type="submit" value="Usuń">
+                                {{ form_end(delete_form) }}
+                            </li>
+                        </ul>
+                    </ul></small>
+                <small style="float: right">
+                    <ul>
+                        <ul>
+                            {#<li>#}
+                                {#Nazwa obrazka: {{ squad.filenameee }}#}
+                            {#</li>#}
+                            <li>
+                                Typ obrazka: {{ squad.mimeee }}
+                            </li>
+                            <li>
+                                Pozycja: {{ squad.position }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+                <small>{{ squad.descriptionnn }} </small>
+
+            </h4>
+
+           {{ squad.info }}
+        </div>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <name>Jan</name>
+        <info>Lorem ipsum...</info>
+    </user>
+    <user>
+        <name>George</name>
+        <info>Dolor sit amet...</info>
+    </user>
+    <user>
+        <name>Hans</name>
+        <info>Consectetuer adipiscing elit...</info>
+    </user>
+</users>
