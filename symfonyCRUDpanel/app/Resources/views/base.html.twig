@@ -415,7 +415,7 @@
         }
 
         #myCarousel > div > div > img {
-            max-height: 300px !important;
+            max-height: 350px !important;
 
         }
 
@@ -708,8 +708,8 @@
             <div class="col-md-2">
                 <div>
                     {% if is_granted('IS_AUTHENTICATED_FULLY') %}
-                        <p>   Jesteś zalogowany</p> <p>jako administrator.</p>
-                        <p><a href="{{ path('fos_user_security_logout') }}">Wyloguj</a></p>
+                           Jesteś zalogowany jako administrator.
+                        <a href="{{ path('fos_user_security_logout') }}">Wyloguj</a>
                     {% elseif is_granted('IS_AUTHENTICATED_REMEMBERED') %}
 
                     {% elseif is_granted('IS_AUTHENTICATED_ANONYMOUSLY') %}
