@@ -117,6 +117,8 @@
 
         .navbar {
             border: 0;
+            /*dodaje*/
+            margin-bottom: 0;
         }
 
         #bs-example-navbar-collapse-1 > ol > ul > li {
@@ -415,7 +417,7 @@
         }
 
         #myCarousel > div > div > img {
-            max-height: 350px !important;
+            max-height: 300px !important;
 
         }
 
@@ -698,7 +700,7 @@
             <div class="col-md-2">
 
             </div>
-            <div id="content" class="col-md-8" style="min-height: 600px; margin-top: 25px;margin-bottom:25px">
+            <div id="content" class="col-md-8" style="min-height: 600px; margin-top: 25px;margin-bottom:25px;text-align: left">
 
 
                 {% block body %}{% endblock %}
@@ -753,7 +755,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row" style="text-align: center;background-color: #2f4052">
             <div class="col-md-12">
                 <p style="padding: 20px;">orkietstra.com &copy; 2016 Developed<a href="http://krzysztofsikora24.pl">
                         Krzysztof Sikora </a><a href="{{ path('panel_index') }}">Panel</a>
@@ -767,28 +769,56 @@
     <script src="{{ asset('js/jquery-3.1.0.min.js') }}"></script>
     <script>
 
-        $(document).ready(function () {
-            var NavY = $('.navbar').offset().top;
-
-            var stickyNav = function () {
-                var ScrollY = $(window).scrollTop();
-
-                if (ScrollY > NavY) {
-                    $('.navbar').addClass('sticky');
-                } else {
-                    $('.navbar').removeClass('sticky');
-                }
-            };
-
-            stickyNav();
-
-            $(window).scroll(function () {
-                stickyNav();
-            });
-        });
+//        $(document).ready(function () {
+//            var NavY = $('.navbar').offset().top;
+//
+//            var stickyNav = function () {
+//                var ScrollY = $(window).scrollTop();
+//
+//                if (ScrollY > NavY) {
+//                    $('.navbar').addClass('sticky');
+//                } else {
+//                    $('.navbar').removeClass('sticky');
+//                }
+//            };
+//
+//            stickyNav();
+//
+//            $(window).scroll(function () {
+//                stickyNav();
+//            });
+//        });
 
     </script>
+    <script>
+        // Create a clone of the menu, right next to original.
+        $('.navbar').addClass('original').clone().insertAfter('.navbar').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 
+        scrollIntervalID = setInterval(stickIt, 10);
+
+
+        function stickIt() {
+
+            var orgElementPos = $('.original').offset();
+            orgElementTop = orgElementPos.top;
+
+            if ($(window).scrollTop() >= (orgElementTop)) {
+                // scrolled past the original position; now only show the cloned, sticky element.
+
+                // Cloned element should always have same left position and width as original element.
+                orgElement = $('.original');
+                coordsOrgElement = orgElement.offset();
+                leftOrgElement = coordsOrgElement.left;
+                widthOrgElement = orgElement.css('width');
+                $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
+                $('.original').css('visibility','hidden');
+            } else {
+                // not scrolled past the menu; only show the original menu.
+                $('.cloned').hide();
+                $('.original').css('visibility','visible');
+            }
+        }
+    </script>
     <script src="{{ asset("/js/picturefill.min.js") }}"></script>
     {#<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>#}
     <script src="{{ asset("/js/lightgallery.js") }}"></script>
