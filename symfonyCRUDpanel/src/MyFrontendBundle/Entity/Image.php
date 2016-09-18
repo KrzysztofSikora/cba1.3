@@ -195,18 +195,7 @@ class Image
 
    
 
-    /**
-     * Get album
-     *
-     * @return string
-     */
 
-    public function __toString()
-    {
-         $s = $this->getAlbum();
-
-        return "$s";
-    }
 
     /**
      * Set album
@@ -231,5 +220,16 @@ class Image
         return $this->album;
     }
 
-    
+    /**
+     * Get album
+     *
+     * @return string
+     */
+
+    public function __toString()
+    {
+        $s = $this->getAlbum();
+
+        return "$s";
+    }
 }
