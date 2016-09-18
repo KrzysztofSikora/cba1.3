@@ -959,7 +959,8 @@ footers{background-color: #fff;
 /*header .navbar-default{background:none; border:none;margin: 0;background:#fff;}*/
 
 body {
-	background-color: #062904;
+	/*background-color: #062904;*/
+	background-color: #222930;
 	margin-top: 0;
 	font-size: larger;
 
