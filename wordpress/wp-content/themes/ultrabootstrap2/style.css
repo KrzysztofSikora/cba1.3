@@ -965,6 +965,13 @@ body {
 	font-size: larger;
 
 }
+a:hover {
+	color: #3BA66E;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
+}
 #pierwszy {
 	background: url("images/black.jpg");
 	background-repeat: no-repeat;
