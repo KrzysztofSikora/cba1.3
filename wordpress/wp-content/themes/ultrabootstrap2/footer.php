@@ -13,9 +13,15 @@
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
 			<div class="col-md-3">
-				<div class="fb"><a
-						href="https://www.facebook.com/krzysztofsikora24pl-1541480686181605"><i
-							class="icon-facebook"></i>sssssssssssss</a>
+				<div class="fb">
+
+					<?php
+					$facebook =  esc_url(get_theme_mod ('facebook_textbox'));
+
+					if($facebook){?>
+						<li><a href="<?php echo $facebook;?>"><i class="fa fa-facebook"></i></a></li>
+					<?php }?>
+
 				</div>
 			</div>
 
@@ -31,7 +37,7 @@
 			<div class="col-md-3">
 				<div class="gplus"><a href="https://www.plus.google.com"><i class="icon-snapchat-square"></i></a></div>
 			</div>
-			
+
 		</div>
 		<div class="col-md-2"></div>
 

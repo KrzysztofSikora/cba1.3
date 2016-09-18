@@ -1069,7 +1069,7 @@ footer {
 }
 #footbar > div > div.col-md-8 > div {
 
-	height: 150px;
+	/*height: 150px;*/
 }
 #footbar > div > div.col-md-8 > div:nth-child(1) {
 	background-color: red;
@@ -1089,6 +1089,19 @@ footer {
 	background-color: darkblue;
 	text-decoration: underline;
 }
+
+
+#footbar > div > div.col-md-8 > div:nth-child(1) > div > li > a > i {
+	font-size: 72px;
+	margin: 40px;
+	text-align: center;
+
+}
+#footbar > div > div.col-md-8 > div > div > li {
+	list-style-type: none;
+}
+
+
 /* endsocial-media custom */
 
 #footbar > div:nth-child(2) > div > p > a:hover {
