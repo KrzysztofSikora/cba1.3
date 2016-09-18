@@ -1056,6 +1056,11 @@ body > div.spacer > div > div {
 	background-color: #ffffff;
 }
 
+body > div.spacer > div > div > div > div.col-sm-8 {
+	padding-top: 10px;
+	border-left: 1px dotted;
+	border-right: 1px dotted;
+}
 
 footer {
 	background-color: #161b20;
