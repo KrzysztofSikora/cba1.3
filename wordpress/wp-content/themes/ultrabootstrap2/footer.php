@@ -26,16 +26,16 @@
 			</div>
 
 			<div class="col-md-3">
-				<div class="yt"><a href="https://www.youtube.com"><i class="icon-youtube-squared"></i></a></div>
+				<div class="yt"><a href="https://www.youtube.com"><i class="icon-snapchat-square"></i></a></div>
 			</div>
 
 			<div class="col-md-3">
-				<div class="tw"><a href="https://www.instagram.com"><i class="icon-instagram"></i></a></div>
+				<div class="tw"><a href="https://www.instagram.com"><i class="icon-youtube"></i></a></div>
 
 			</div>
 
 			<div class="col-md-3">
-				<div class="gplus"><a href="https://www.plus.google.com"><i class="icon-snapchat-square"></i></a></div>
+				<div class="gplus"><a href="https://www.plus.google.com"><i class="icon-github-squared"></i></a></div>
 			</div>
 
 		</div>
