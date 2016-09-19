@@ -975,45 +975,53 @@ a:hover {
 	-o-transition: all 800ms ease-out;
 	transition: all 800ms ease-out;
 }
-#pierwszy {
-	background: url("images/black.jpg");
+#pierwszy  {
+	background: url("images/black2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: center center ;
+
 	background-size: cover;
 	min-height: 500px;
-}
-
-#pierwszy > div > p {
-	/*margin-bottom: 15px;*/
-	/*font-size: 15px;*/
-	/*font-weight: 200;*/
-	/*color: white;*/
 
 }
 
-#pierwszy > div:nth-child(1) > h1 > p {
+
+body > header > div > section {
+	margin-top:-32px;
+}
+
+#pierwszy > div {
+	padding: 30px 50px;
+}
+
+#pierwszy > div > h1 {
+	/*font-size: 72px;*/
+	word-wrap: break-word;
+	/*text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);*/
+
 	color: #fff;
 	font-family: 'PT Sans Narrow', sans-serif;
-	/*position: absolute;*/
-	/*top: 1.5em;*/
-	/*margin-left: 30px;*/
-	/*font-size: 100px;*/
-	/*text-align: left;*/
-	/*font-weight: 700;*/
-	/*text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);*/
+	font-size: 52px;
+	text-align: left;
+	font-weight: 700;
+	text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);
+
+
 }
 
-#pierwszy > div:nth-child(1) > h2 > p {
-	/*color: #fff;*/
-	/*font-family: 'PT Sans Narrow', sans-serif;*/
-	/*position: absolute;*/
-	/*top: 325px;*/
-	/*margin-left: 30px;*/
-	/*font-size: 65px;*/
-	/*text-align: left;*/
-	/*text-shadow: 2px 6px 5px rgba(0, 0, 0, 1);*/
+#pierwszy > div > h2 {
+
+	word-wrap: break-word;
+	color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 35px;
+	text-align: left;
+	text-shadow: 2px 6px 5px rgba(0, 0, 0, 1);
 }
+
+
+
 
 header .navbar-default {
 
@@ -1072,6 +1080,7 @@ body > div.spacer > div > div > div > div.col-sm-8 {
 	border-left: 1px dotted;
 	border-right: 1px dotted;
 }
+
 
 footer {
 	background-color: #161b20;

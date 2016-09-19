@@ -27,27 +27,27 @@
 	<div class="header-main">
 
 		<div id="pierwszy">
-			<div class="col-sm-4">
+			<div class="col-sm-12">
 
-				<h1>SPORTOWIEC</h1>
-				<h2>I PROGRAMISTA</h2>
+				<h1>Krzysztof Sikora</h1>
+                <h2>Technology & Lifestyle Blog</h2>
 
 
 			</div>
-			<div class="col-sm-4">
-				<h3></h3>
-
-				<p></p>
-
-				<p></p>
-			</div>
-			<div class="col-sm-4">
-				<h3></h3>
-
-				<p></p>
-
-				<p></p>
-			</div>
+<!--			<div class="col-sm-4">-->
+<!--				<h3></h3>-->
+<!---->
+<!--				<p></p>-->
+<!---->
+<!--				<p></p>-->
+<!--			</div>-->
+<!--			<div class="col-sm-4">-->
+<!--				<h3></h3>-->
+<!---->
+<!--				<p></p>-->
+<!---->
+<!--				<p></p>-->
+<!--			</div>-->
 		</div>
 
 <!--		--><?php //echo do_shortcode("[R-slider id='1']"); ?>
@@ -64,7 +64,7 @@
 					        <span class="icon-bar"></span>
 				      	</button>
 				      	<div class="logo-tag">
-				      		
+
 				      			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php if ( has_custom_logo()): the_custom_logo(); else: ?>
 				      			<h1 class="site-title" style="color:<?php echo "#". $header_text_color;?>"><?php echo bloginfo( 'name' ); ?></h1>
 				      			<h2 class="site-description" style="color:<?php echo "#". $header_text_color;?>"><?php bloginfo('description'); ?></h2>
