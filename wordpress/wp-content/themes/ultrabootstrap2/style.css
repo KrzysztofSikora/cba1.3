@@ -1088,23 +1088,72 @@ footer {
 
 	/*height: 150px;*/
 }
-#footbar > div > div.col-md-8 > div:nth-child(1) {
-	background-color: red;
-	text-decoration: underline;
+
+#footbar > div > div.col-md-8 > div > div > li > a > i {
+	color: white;
 }
-#footbar > div > div.col-md-8 > div:nth-child(2) {
-	background-color: yellow;
+
+#footbar > div > div.col-md-8 > div > div > a > i {
+	color: white;
+}
+#footbar > div > div.col-md-8 > div:nth-child(1) {
+	/*background-color: #5e80b9;*/
+	background-color: #2f4052;
 	text-decoration: underline;
 }
 
-#footbar > div > div.col-md-8 > div:nth-child(3) {
-	background-color: white;
+#footbar > div > div.col-md-8 > div:nth-child(1):hover {
+	background-color: #5e80b9;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
+}
+
+
+
+
+#footbar > div > div.col-md-8 > div:nth-child(2) {
+	background-color: #2f4052;
+	/*background-color: #dcba45;*/
 	text-decoration: underline;
+}
+#footbar > div > div.col-md-8 > div:nth-child(2):hover {
+	background-color: #fffc01;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
+}
+
+
+
+#footbar > div > div.col-md-8 > div:nth-child(3) {
+	/*background-color: #cc181e;*/
+	background-color: #2f4052;
+	text-decoration: underline;
+}
+
+#footbar > div > div.col-md-8 > div:nth-child(3):hover {
+	background-color: #cc181e;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
 }
 
 #footbar > div > div.col-md-8 > div:nth-child(4) {
-	background-color: darkblue;
+	/*background-color: #800080;*/
+	background-color: #2f4052;
 	text-decoration: underline;
+}
+
+#footbar > div > div.col-md-8 > div:nth-child(4):hover {
+	background-color: #800080;
+	-webkit-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;
+	-o-transition: all 800ms ease-out;
+	transition: all 800ms ease-out;
 }
 
 

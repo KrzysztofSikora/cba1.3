@@ -28,7 +28,9 @@ get_header(); ?>
                     </section><!-- /.end of section -->
                 </div>
 
-                <div class="col-sm-2"><?php get_sidebar(); ?>
+                <div class="col-sm-2">
+                    
+                    <?php get_sidebar(); ?>
                 </div>
 
 

@@ -60,9 +60,15 @@ get_header(); ?>
 </div>
     </main><!-- #main -->
   </div><!-- #primary -->
+
+
+    
 </div>
-<div class="row">
-    <div class="col-sm-12" style="background-color: #2f4052s">
-<?php echo do_shortcode("[R-slider id='1']"); ?></div>
-    </div>
+
+
+
+
+
+
+
 <?php get_footer(); ?>
