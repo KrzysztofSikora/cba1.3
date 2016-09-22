@@ -51,6 +51,7 @@
 		</div>
 
 <!--		--><?php //echo do_shortcode("[R-slider id='1']"); ?>
+		
 <section class="logo-menu">
 	<nav class="navbar navbar-default navbar">
 		<div class="container">

@@ -62,12 +62,13 @@ get_header(); ?>
   </div><!-- #primary -->
 
 
-    
+
 </div>
 
 
 
-
+<?php echo do_shortcode('[gs_logo title="yes" posts="15" order="ASC" logo_cat="food" mode="vertical" speed="1000" inf_loop="0" ticker="1" logo_color="gray_to_def" ]
+'); ?>
 
 
 

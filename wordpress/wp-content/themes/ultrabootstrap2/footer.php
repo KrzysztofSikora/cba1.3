@@ -39,7 +39,7 @@
 			</div>
 
 			<div class="col-md-3">
-				<div class="tw"><a href="https://www.instagram.com"><i class="icon-youtube"></i></a></div>
+				<div class="tw"><a href="https://www.youtube.com/channel/UCHe4j0fsSoJDf5FuGxCJqNw"><i class="icon-youtube"></i></a></div>
 
 			</div>
 

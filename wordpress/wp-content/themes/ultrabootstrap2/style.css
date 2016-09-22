@@ -1200,3 +1200,17 @@ footer {
 #main > div > div > div > div > div > p {
 	height: 200px;
 }
+
+/*karuzela z logiem*/
+body > div.bx-wrapper {
+	max-width: none !important;
+	margin-right: -5px !important;
+}
+
+body > div.bx-wrapper > div.bx-viewport {
+	/*margin-left: 0 !important;*/
+}
+body > div.bx-wrapper > div.bx-viewport > div > div {
+	padding-top: 30px !important;
+
+}
