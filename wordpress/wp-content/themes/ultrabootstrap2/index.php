@@ -63,9 +63,10 @@ get_header(); ?>
 
 
 
-    <?php echo do_shortcode('[gs_logo title="yes" posts="15" order="ASC" logo_cat="food" mode="vertical" speed="1000" inf_loop="0" ticker="1" logo_color="gray_to_def" ]
-    '); ?>
-
+<!--    --><?php //echo do_shortcode('[gs_logo title="yes" posts="15" order="ASC" logo_cat="food" mode="vertical" speed="1000" inf_loop="0" ticker="1" logo_color="gray_to_def" ]
+//    '); ?>
+<!--    <div style="text-align: center" id="github-widget" data-user="KrzysztofSikora" data-display="calendar"></div>-->
+<!--    <script src="https://gh-widget.oyanglul.us/index.js"></script>-->
 </div>
 
 
