@@ -1082,7 +1082,7 @@ body > div.spacer > div > div > div > div.col-sm-8 {
 }
 
 
-footer {
+body > footer  {
 	background-color: #161b20;
 	text-align: center;
 }
@@ -1202,15 +1202,34 @@ footer {
 }
 
 /*karuzela z logiem*/
-body > div.bx-wrapper {
+body > div.spacer > div.bx-wrapper {
 	max-width: none !important;
-	margin-right: -5px !important;
+
 }
 
-body > div.bx-wrapper > div.bx-viewport {
-	/*margin-left: 0 !important;*/
-}
-body > div.bx-wrapper > div.bx-viewport > div > div {
+
+body > div.spacer > div.bx-wrapper > div.bx-viewport > div > div {
 	padding-top: 30px !important;
 
 }
+
+
+.bx-wrapper .bx-viewport {
+	left: 0 !important;
+}
+
+
+/*komenatrze */
+#comments > ol > li:first-child {
+	border-top: dotted 1px;
+	border-bottom: dotted 1px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+}
+
+#comments > ol > li {
+	border-bottom: dotted 1px;
+	border-left: dotted 1px;
+	border-right: dotted 1px;
+}
+
