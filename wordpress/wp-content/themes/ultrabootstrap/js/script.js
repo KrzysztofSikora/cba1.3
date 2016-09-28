@@ -1,8 +1,8 @@
  jQuery(function($) { // DOM is now read and ready to be manipulated
-
+  
     //Tab to top
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 1){
+    if ($(this).scrollTop() > 1){  
         $('.scroll-top-wrapper').addClass("show");
     }
     else{

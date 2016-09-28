@@ -1,11 +1,23 @@
-/*p {*/
-	/*margin-bottom: 1.5em;*/
-/*}*/
-
-
 /*
-Theme Name: ultrabootstrap eskperymentalne theme
+Theme Name: ultrabootstrap
+Theme URI: http://phantomthemes.com/downloads/ultrabootstrap-premium-wordpress-theme/
+Author: phantomthemes
+Author URI: http://phantomthemes.com
+Description: Ultrabootstrap is a multipurpose Free WordPress Theme for bloggers & artist. It consists of Featured Slider, Featured Posts, custom background, custom color and welcome message in Homepage layout. The theme can be customized from the Theme Options of Customizer. Blog page with right-sidebar. You may download this awesome and light weight theme. More detail of theme availabe in readme.txt file. for support http://phantomthemes.com/support/ or view demo http://phantomthemes.com/preview/?demo=ultrabootstrap
+Version: 1.1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ultrabootstrap
+Tags: right-sidebar, theme-options, featured-images,rtl-language-support,grid-layout, editor-style, custom-header, threaded-comments, custom-background, custom-colors, blog, footer-widgets
 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ultrabootstrap is based on Underscores http://underscores.me/, (C) 2012-2015 phantomthemes.
+Ultrabootstrap is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 /*--------------------------------------------------------------
@@ -824,7 +836,7 @@ a.readmore{font-size: 0.8em;text-transform: uppercase;letter-spacing: 3px;}
 .logged-in header .navbar-default{top: 32px;}
 
 
-header
+/*header*/
 header .logo-tag{margin:5px 0;}
 header .logo-tag h1{margin:6px 0;font-size: 1.5em;}
 header .logo-tag h1 a:hover{text-decoration: none;}
@@ -834,7 +846,7 @@ header .navbar-form {margin-top: 0;margin-bottom: 0;}
 header .navbar-form .main-search{position: relative;}
 header .navbar-form .main-search .btn .fa{font-size: 1.5em;}
 header .navbar-form .btn{background: #F66264; padding: 0 21px;box-shadow: none;border: none;color: #fff;text-shadow: none;line-height: 55px;border-radius: 0;outline: none !important;}
-header .navbar-form .search-box{position: absolute;right: 0;}
+header .navbar-form .search-box{position: absolute;right: 0;} 
 header .navbar-form .search-box .well{border: none;border-radius: 0;padding: 10px;background: #fff;width: 250px;}
 header .navbar-form .search-box .well input{border: 0;border-radius: 0;background: #ddd;color: #000;font-size: 0.8em;width: 100%;box-shadow: none;padding: 10px;}
 header .navbar-form .nav{margin:0;}
@@ -930,7 +942,7 @@ footers{background-color: #fff;
 	header .navbar-default .navbar-nav>li>a{padding: 5px 30px;}
 	header .navbar-nav{display: block;margin-top:0; }
 
-	/*header .navbar-nav .dropdown-menu{margin-left: 5px;display: none !important;}*/
+	header .navbar-nav .dropdown-menu{margin-left: 5px;display: none !important;}
 	header .navbar-nav .open .dropdown-menu{display: block !important;}
 	h4{margin-bottom: 10px;}
 	.logo-tag{margin-left: 15px;}
@@ -953,302 +965,3 @@ footers{background-color: #fff;
 
 
 }
-
-
-
-/*custom css*/
-
-
-/*header .navbar-default{background:none; border:none;margin: 0;background:#fff;}*/
-
-/*body {*/
-	/*!*background-color: #062904;*!*/
-	/*background-color: #222930;*/
-	/*margin-top: 0;*/
-	/*font-size: larger;*/
-
-/*}*/
-
-
-body {
-	/*background-color: #062904;*/
-	background-color: #222930;
-	margin-top: 0;
-	font-size: small;
-
-}
-
-body > div.spacer > div > div > div > div.col-sm-8 > section > div > div.single-post > div > article > p {
-	font-size: large;
-}
-
-body > div.spacer > div > div > div > div.col-sm-8 > section > div > div.single-post > div.post-content {
-	font-size: large;
-
-}
-a:hover {
-	color: #3BA66E;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-#pierwszy  {
-	background: url("images/black2.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center ;
-
-	background-size: cover;
-	min-height: 500px;
-
-}
-
-
-body > header > div > section {
-	margin-top:-32px;
-}
-
-#pierwszy > div {
-	padding: 30px 50px;
-}
-
-#pierwszy > div > h1 {
-	/*font-size: 72px;*/
-	word-wrap: break-word;
-	/*text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);*/
-
-	color: #fff;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 52px;
-	text-align: left;
-	font-weight: 700;
-	text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);
-
-
-}
-
-#pierwszy > div > h2 {
-
-	word-wrap: break-word;
-	color: #fff;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 35px;
-	text-align: left;
-	text-shadow: 2px 6px 5px rgba(0, 0, 0, 1);
-}
-
-
-
-
-header .navbar-default {
-
-	background-color: #c34f4f;
-	width: 100%;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-
-header .navbar-default:hover {
-	background-color: #3BA66E;
-	width: 100%;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-
-
-.navbar-right {
-	float: none !important;
-}
-.navbar {
-	 border-radius: 0;
-}
-.navbar-nav li a {
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	 font-size: 30px;
-	font-family: 'Lato', sans-serif;
-	line-height: 25px;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #ffffff;
-}
-
-body > header > div > section > nav > div > div.navbar-header > div > a > h1 {
-
-}
-
-body > header > div > section > nav > div > div.navbar-header > div > a > h2 {
-	font-size: 0.5em;
-}
-
-
-body > div.spacer > div > div {
-	background-color: #ffffff;
-}
-
-body > div.spacer > div > div > div > div.col-sm-8 {
-	padding-top: 10px;
-	border-left: 1px dotted;
-	border-right: 1px dotted;
-}
-
-
-body > footer  {
-	background-color: #161b20;
-	text-align: center;
-}
-/* social-media custom */
-#footbar {
-	text-align: center;
-}
-#footbar > div {
-	background-color: #2f4052;
-}
-#footbar > div > div.col-md-8 > div {
-
-	/*height: 150px;*/
-}
-
-#footbar > div > div.col-md-8 > div > div > li > a > i {
-	color: white;
-}
-
-#footbar > div > div.col-md-8 > div > div > a > i {
-	color: white;
-}
-#footbar > div > div.col-md-8 > div:nth-child(1) {
-	/*background-color: #5e80b9;*/
-	background-color: #2f4052;
-	text-decoration: underline;
-}
-
-#footbar > div > div.col-md-8 > div:nth-child(1):hover {
-	background-color: #5e80b9;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-
-
-
-
-#footbar > div > div.col-md-8 > div:nth-child(2) {
-	background-color: #2f4052;
-	/*background-color: #dcba45;*/
-	text-decoration: underline;
-}
-#footbar > div > div.col-md-8 > div:nth-child(2):hover {
-	background-color: #fffc01;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-
-
-
-#footbar > div > div.col-md-8 > div:nth-child(3) {
-	/*background-color: #cc181e;*/
-	background-color: #2f4052;
-	text-decoration: underline;
-}
-
-#footbar > div > div.col-md-8 > div:nth-child(3):hover {
-	background-color: #cc181e;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-
-#footbar > div > div.col-md-8 > div:nth-child(4) {
-	/*background-color: #800080;*/
-	background-color: #2f4052;
-	text-decoration: underline;
-}
-
-#footbar > div > div.col-md-8 > div:nth-child(4):hover {
-	background-color: #800080;
-	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
-	-o-transition: all 800ms ease-out;
-	transition: all 800ms ease-out;
-}
-
-
-#footbar > div > div.col-md-8 > div:nth-child(1) > div > li > a > i {
-	font-size: 72px;
-	margin: 40px;
-	text-align: center;
-
-}
-#footbar > div > div.col-md-8 > div > div > li {
-	list-style-type: none;
-}
-
-
-/* endsocial-media custom */
-
-#footbar > div:nth-child(2) > div > p > a:hover {
-	color: #3BA66E;
-	text-decoration: none;
-}
-.sticky {
-	 width: 100%;
-	 position: fixed;
-	 top: 0;
-	 z-index: 100;
- }
-
-#main > div > div > div > div > a > img {
-	max-height: 208px;
-	text-align: center;
-	display: block; margin: 0 auto;
-
-}
-
-#main > div > div > div > div > div > p {
-	height: 200px;
-}
-
-/*karuzela z logiem*/
-body > div.spacer > div.bx-wrapper {
-	max-width: none !important;
-
-}
-
-
-body > div.spacer > div.bx-wrapper > div.bx-viewport > div > div {
-	padding-top: 30px !important;
-
-}
-
-
-.bx-wrapper .bx-viewport {
-	left: 0 !important;
-}
-
-
-/*komenatrze */
-#comments > ol > li:first-child {
-	border-top: dotted 1px;
-	border-bottom: dotted 1px;
-	border-left: dotted 1px;
-	border-right: dotted 1px;
-}
-
-#comments > ol > li {
-	border-bottom: dotted 1px;
-	border-left: dotted 1px;
-	border-right: dotted 1px;
-}
-
-/*header .navbar-nav .dropdown-menu {margin-left: 5px;display:inline!important; float: right}*/

@@ -34,7 +34,7 @@
 				$( 'h1.site-title,.site-description,.navbar-default .navbar-nav > li > a ').css( {
 					'color': to
 				} );
-
+				
 			}
 		} );
 	} );
