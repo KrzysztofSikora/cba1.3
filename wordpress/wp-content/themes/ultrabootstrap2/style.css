@@ -993,8 +993,10 @@ a:hover {
 	-o-transition: all 800ms ease-out;
 	transition: all 800ms ease-out;
 }
+
+
 #pierwszy  {
-	background: url("images/black2.jpg");
+	background: url("images/blackLight2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center ;
