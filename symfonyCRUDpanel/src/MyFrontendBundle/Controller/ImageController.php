@@ -62,7 +62,7 @@ class ImageController extends Controller
                 return $this->render('image/new.html.twig', array(
                     'image' => $image,
                     'form' => $form->createView(),
-                    'err' => 'Błędny typ danych. Wrzuć .jpg lub .png'
+                    'err' => 'Błędny typ danych. Wymagany .jpg lub .png'
                 ));
             }
                 if (finfo_file($finfo, $i) == 'image/jpeg' or finfo_file($finfo, $i) == 'image/png') {
@@ -81,7 +81,7 @@ class ImageController extends Controller
                     return $this->render('image/new.html.twig', array(
                         'image' => $image,
                         'form' => $form->createView(),
-                        'err' => 'Błędny typ danych. Wrzuć .jpg lub .png'
+                        'err' => 'Błędny typ danych. Wymagany .jpg lub .png'
                     ));
                 }
 
