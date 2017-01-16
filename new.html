@@ -3,8 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" id="ssbaFont-css" href="//fonts.googleapis.com/css?family=Indie+Flower&amp;ver=4.5.5"
+          type="text/css" media="all">
+    <style>
+
+        .jumbotron {
+            margin-top: 200px;
+            width: 900px;
+            height: 500px;
+            /*padding: 0;*/
+
+            padding-top: 0; !important;
+        }
+
+        #front {
+            background-color: #181e25;
+        }
+
+        #front > h1 {
+
+            /* text-shadow: 3px 6px 30px rgba(0, 0, 0, 1); */
+            color: #fff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 52px;
+            padding-left: 250px;
+            font-weight: 700;
+            text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);
+            /*padding: 10%;*/
+            position: absolute;
+
+        }
+
+        #front > h2 {
+
+            /* text-shadow: 3px 6px 30px rgba(0, 0, 0, 1); */
+            color: #fff;
+            font-family: 'PT Sans Narrow', sans-serif;
+            font-size: 22px;
+            padding-left: 350px;
+            padding-top: 70px;
+            font-weight: 700;
+            text-shadow: 3px 6px 30px rgba(0, 0, 0, 1);
+            font-style:italic;
+            position: absolute;
+
+        }
+
+        #horizontal {
+            background-color: #00a000;
+            width: 10px;
+            height: 500px;
+            position: absolute;
+            margin-left: 120px;
+        }
+
+        #upright {
+            background-color: #00a000;
+            width: 900px;
+            height: 10px;
+            position: absolute;
+            margin-top: 160px;
+
+        }
+
+        #address {
+            /*background-color: #00a9f1;*/
+            width: 400px;
+            height: 200px;
+            margin-top: 230px;
+            margin-left: 400px;
+            position: absolute;
+        }
+        #back {
+            background-color: #181e25;
+
+        }
+    </style>
 </head>
 <body>
-dasdasdsssssssaasadasddasaafasaqd
+
+<div class="container">
+    <div class="jumbotron" id="front" style="padding: 0">
+        <div id="horizontal"></div>
+        <div id="upright"></div>
+        <h1>Krzysztof Sikora</h1>
+        <h2>Software developer</h2>
+<div id="address">
+    <button type="button" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 728318771
+    </button>
+
+</div>
+    </div>
+    <div class="jumbotron" id="back">
+        tył
+    </div>
+</div>
+
 </body>
 </html>
