@@ -17,12 +17,9 @@ get_header(); ?>
     <div class="text-center">
         <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
              width="<?php echo get_custom_header()->width; ?>" alt=""/>
-              <div class="container" id="nameContainer">
-<!--                  <div class="col-md-12"><p>KRZYSZTOF SIKORA</p></div>-->
-              </div>
 
-<!--                <div id="name">KRZYSZTOF SIKORA</div>-->
-<!--                <div id="underName">SOFTWARE DEVELOPER</div>-->
+<!--<div id="name"><h4>KRZYSZTOF SIKORA</h4> <br/> <br/><br/><h4>SOFTWARE DEVELOPER</h4></div>-->
+
         <!--        text into image-->
     </div>
 <?php endif; ?>
