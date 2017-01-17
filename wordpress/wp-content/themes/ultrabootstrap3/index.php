@@ -17,28 +17,35 @@ get_header(); ?>
     <div class="text-center">
         <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
              width="<?php echo get_custom_header()->width; ?>" alt=""/>
-<!--        <div id="name">KRZYSZTOF SIKORA</div>-->
-<!--        <div id="underName">SOFTWARE DEVELOPER</div>-->
-<!--        text into image-->
+        <!--        <div id="name">KRZYSZTOF SIKORA</div>-->
+        <!--        <div id="underName">SOFTWARE DEVELOPER</div>-->
+        <!--        text into image-->
     </div>
 <?php endif; ?>
     <!-- Header Image -->
 
-    <div class="container" style="background-color: white; width: 100%; height: 400px; text-align: center">
-        <div class="col-md-12"><p style="font-size: 200%;padding-top: 10px">SERVICES</p></div>
+    <div class="container" id="aboutContainer">
+        <div class="col-md-12"><p id="about">ABOUT ME</p></div>
 
 
-        <div class="col-md-4">DESIGN <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+        <div class="col-md-12">
+            <h4>My name - Krzysztof Sikora</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
+
         </div>
-        <div class="col-md-4">GLOBAL COVERAGE<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
-            enim.
-        </div>
-        <div class="col-md-4">FREE COFFE <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
-            enim.
-        </div>
+
 
 
     </div>
+    <div class="container" id="skrew1"></div>
+
     <div class="spacer">
         <div id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
@@ -79,4 +86,39 @@ get_header(); ?>
             </main><!-- #main -->
         </div><!-- #primary -->
     </div>
+
+    <!--skew section-->
+    <div class="container" id="skrew2"></div>
+
+    <!--section services-->
+    <div class="container" id="servicesContainer">
+
+        <div class="col-md-12"><p id="services">SERVICES</p></div>
+
+
+        <div class="col-md-4"><h4>DESIGN</h4>
+            <p><i class="fa fa-facebook"></i></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
+        </div>
+        <div class="col-md-4"><h4>GLOBAL COVERAGE</h4>
+            <p><i class="fa fa-facebook"></i></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
+                enim.</p>
+        </div>
+        <div class="col-md-4"><h4>FREE COFFE</h4>
+            <p><i class="fa fa-facebook"></i></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
+                enim.</p>
+        </div>
+
+
+    </div>
+
+    <!--last section probably for gallery-->
+    <div class="container" id="galleryContainer">
+        <div class="col-md-12"><p id="gallery"></p></div>
+
+    </div>
+
+
 <?php get_footer(); ?>
