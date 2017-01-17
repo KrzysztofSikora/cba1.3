@@ -17,8 +17,12 @@ get_header(); ?>
     <div class="text-center">
         <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
              width="<?php echo get_custom_header()->width; ?>" alt=""/>
-        <!--        <div id="name">KRZYSZTOF SIKORA</div>-->
-        <!--        <div id="underName">SOFTWARE DEVELOPER</div>-->
+              <div class="container" id="nameContainer">
+<!--                  <div class="col-md-12"><p>KRZYSZTOF SIKORA</p></div>-->
+              </div>
+
+<!--                <div id="name">KRZYSZTOF SIKORA</div>-->
+<!--                <div id="underName">SOFTWARE DEVELOPER</div>-->
         <!--        text into image-->
     </div>
 <?php endif; ?>
@@ -44,7 +48,7 @@ get_header(); ?>
 
 
     </div>
-    <div class="container" id="skrew1"></div>
+    <div class="container" id="skew1"></div>
 
     <div class="spacer">
         <div id="primary" class="content-area">
@@ -88,7 +92,7 @@ get_header(); ?>
     </div>
 
     <!--skew section-->
-    <div class="container" id="skrew2"></div>
+    <div class="container" id="skew2"></div>
 
     <!--section services-->
     <div class="container" id="servicesContainer">
