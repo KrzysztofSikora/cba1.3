@@ -12,53 +12,71 @@
  */
 
 get_header(); ?>
-<!-- Header Image -->
+    <!-- Header Image -->
 <?php if (has_header_image()): ?>
-<div class="text-center">
-<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-</div>
-<?php endif;?>
-<!-- Header Image -->
+    <div class="text-center">
+        <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
+             width="<?php echo get_custom_header()->width; ?>" alt=""/>
+<!--        <div id="name">KRZYSZTOF SIKORA</div>-->
+<!--        <div id="underName">SOFTWARE DEVELOPER</div>-->
+<!--        text into image-->
+    </div>
+<?php endif; ?>
+    <!-- Header Image -->
+
+    <div class="container" style="background-color: white; width: 100%; height: 400px; text-align: center">
+        <div class="col-md-12"><p style="font-size: 200%;padding-top: 10px">SERVICES</p></div>
 
 
-<div class="spacer">
-<div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
+        <div class="col-md-4">DESIGN <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+        </div>
+        <div class="col-md-4">GLOBAL COVERAGE<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
+            enim.
+        </div>
+        <div class="col-md-4">FREE COFFE <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
+            enim.
+        </div>
 
-    <?php if ( have_posts() ) : ?>
 
-      <?php if ( is_home() && ! is_front_page() ) : ?>
-        <header>
-          <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-        </header>
-      <?php endif; ?>
-<div class="container">
-  <div class="row post-list">
-      <?php /* Start the Loop */ ?>
-      <?php while ( have_posts() ) : the_post(); ?>
+    </div>
+    <div class="spacer">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main" role="main">
 
-        <?php
+                <?php if (have_posts()) : ?>
 
-          /*
-           * Include the Post-Format-specific template for the content.
-           * If you want to override this in a child theme, then include a file
-           * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-           */
-          get_template_part( 'template-parts/content', get_post_format() );
-        ?>
+                <?php if (is_home() && !is_front_page()) : ?>
+                    <header>
+                        <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+                    </header>
+                <?php endif; ?>
+                <div class="container">
+                    <div class="row post-list">
+                        <?php /* Start the Loop */ ?>
+                        <?php while (have_posts()) : the_post(); ?>
 
-      <?php endwhile; ?>
+                            <?php
 
-      <?php the_posts_navigation(); ?>
+                            /*
+                             * Include the Post-Format-specific template for the content.
+                             * If you want to override this in a child theme, then include a file
+                             * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+                             */
+                            get_template_part('template-parts/content', get_post_format());
+                            ?>
 
-    <?php else : ?>
+                        <?php endwhile; ?>
 
-      <?php get_template_part( 'template-parts/content', 'none' ); ?>
+                        <?php the_posts_navigation(); ?>
 
-    <?php endif; ?>
-</div>
-</div>
-    </main><!-- #main -->
-  </div><!-- #primary -->
-</div>
+                        <?php else : ?>
+
+                            <?php get_template_part('template-parts/content', 'none'); ?>
+
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </main><!-- #main -->
+        </div><!-- #primary -->
+    </div>
 <?php get_footer(); ?>

@@ -29,5 +29,5 @@
 
 
 <div class="entry-meta">
-	<?php edit_post_link( __( 'Edit', 'ultrabootstrap' ), '<span class="edit-link">', '</span>' ); ?>
+	<?php edit_post_link( __( 'Edytuj', 'ultrabootstrap' ), '<span class="edit-link">', '</span>' ); ?>
 </div><!-- .entry-meta -->
