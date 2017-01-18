@@ -94,9 +94,40 @@ get_header(); ?>
     <!--section services-->
     <div class="container" id="servicesContainer">
 
-        <div class="col-md-12"><p id="services">SERVICES</p></div>
+        <div class="col-md-12"><p id="services">SKILLS</p></div>
 
 
+        <div class="col-md-4"><h4>BACKEND</h4>
+            <p><i class="fa fa-facebook"></i></p>
+            <p class="justifyClass">My favorite technology is node.js. I use it with loopback framework.
+                Second framework which I prefer is Symfony 2 with Doctrine library.
+                I have been used these tools into my engineering thesis. I have been used these tools into my engineering thesis.  <br/>
+                <br/>
+                <br/></p>
+        </div>
+        <div class="col-md-4"><h4>FRONTEND</h4>
+            <p><i class="fa fa-facebook"></i></p>
+            <p class="justifyClass">Into my project I prefer to use backbone.js/marionette.js. It is scalable and fast framework.</p>
+        </div>
+        <div class="col-md-4"><h4>ANOTHER</h4>
+            <p><i class="fa fa-facebook"></i></p>
+            <p class="justifyClass">I can professional use databases like mongoDB and MySql.</p>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+
+
+    </div>
+
+    <!-- gallery-->
+    <div class="container" id="galleryContainer">
+        <div class="col-md-12"> <p id="gallery"></p></div>
+
+    </div>
+    <!--last section probably for gallery-->
+    <div class="container" id="achivmentsContainer">
+        <div class="col-md-12"> <p id="achivments">MY ACHIVMENTS</p></div>
         <div class="col-md-4"><h4>DESIGN</h4>
             <p><i class="fa fa-facebook"></i></p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
@@ -108,18 +139,10 @@ get_header(); ?>
         </div>
         <div class="col-md-4"><h4>FREE COFFE</h4>
             <p><i class="fa fa-facebook"></i></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum
-                enim.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsumenim.</p>
+            <br/>
+            <br/>
         </div>
-
-
     </div>
-
-    <!--last section probably for gallery-->
-    <div class="container" id="galleryContainer">
-        <div class="col-md-12"><p id="gallery"></p></div>
-
-    </div>
-
 
 <?php get_footer(); ?>
