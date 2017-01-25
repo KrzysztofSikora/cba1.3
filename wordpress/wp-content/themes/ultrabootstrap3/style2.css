@@ -1032,28 +1032,28 @@ body > header > section > nav > div > div.navbar-header > div > a > h2 {
 color: white !important;
 }
 body > div.scroll-top-wrapper.show {
-background-color: #c34f4f !important;
+background-color: #315b9d !important;
 
 }
 .scroll-top-wrapper {
-background-color: #c34f4f !important;
+background-color: #315b9d !important;
 
 }
 #bs-example-navbar-collapse-1 > form > ul > div > button {
-background-color: #c34f4f !important;
+background-color: #315b9d !important;
 
 }
 #submit {
-background-color: #c34f4f !important;
+background-color: #315b9d !important;
 
 }
 
 h4 {
-border-bottom: 3px solid #c34f4f;
+border-bottom: 3px solid #315b9d;
 }
 
 a {
-color: #c34f4f !important;
+color: #315b9d !important;
 }
 li > a {
 color: white !important;
@@ -1073,6 +1073,7 @@ background-color: #e7e7e7;
 
 
 
+
 header .navbar-default {
 
 	background-color: #000;
@@ -1084,7 +1085,7 @@ header .navbar-default {
 }
 
 header .navbar-default:hover {
-	background-color: #c34f4f;
+	background-color: #315b9d;
 	width: 100%;
 	-webkit-transition: all 800ms ease-out;
 	-moz-transition: all 800ms ease-out;
@@ -1271,14 +1272,6 @@ body > div.text-center > img { width: 100%; }
 	font-weight: 800;
 }
 
-#from {
-	padding-bottom: 20px;
-	font-size: 36px;
-	font-weight: 800;
-	text-align: center;
-	color: white;
-}
-
 #services {
 	 padding-top: 20px;
 	 font-size: 36px;
@@ -1309,19 +1302,8 @@ body > div.text-center > img { width: 100%; }
 	transform:skewY(3deg);
 }
 
-#skew3 {
-	/*padding-top: 300px;*/
-	background-color: white;
-	width: 100%; height: 200px;
-	margin-top: -50px;
-	/*margin-bottom: 30px;*/
-	text-align: center;
-	transform:skewY(3deg);
-}
 .justifyClass {
 text-align: justify;
-	font-size: 16px;
-
 }
 
 p {
@@ -1332,8 +1314,6 @@ p {
 	background-color: white;
 	width: 100%;
 	text-align: center;
-	padding-bottom: 50px;
-
 
 }
 
@@ -1361,41 +1341,10 @@ p {
 	width: 100%;
 	/*height: 400px;*/
 	text-align: center;
-
-
 }
 
 #achivments {
 	padding-top: 20px;
 	font-size: 36px;
 	font-weight: 800;
-
-}
-
-#myName {
-	font-size: 14px;
-	text-align: justify;
-}
-
-#progress {
-	text-align: justify;
-	float: left;
-}
-
-#progress div > div > span {
-	padding-left: 5px;
-	float: left;
-	font-weight: 700;
-}
-
-#progressContainer {
-	/*background-color: white;*/
-	padding-top: 50px;
-	width: 100%;
-	height: 400px;
-	text-align: center
-}
-
-#progressContainer {
-	text-align: justify;
 }

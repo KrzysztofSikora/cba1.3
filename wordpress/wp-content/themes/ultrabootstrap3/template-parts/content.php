@@ -8,6 +8,7 @@
 ?>
 
     <div class="col-lg-4 col-md-6 eq-blocks" style="height: 520px">
+
         <div class="post-block">
             <?php if (has_post_thumbnail()) : ?>
                 <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('portfolio-thumb'); ?></a>

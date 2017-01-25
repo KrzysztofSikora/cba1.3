@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <?php $header_text_color = get_header_textcolor();?>
 
-<header>	
+<header>
 <section class="logo-menu">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
