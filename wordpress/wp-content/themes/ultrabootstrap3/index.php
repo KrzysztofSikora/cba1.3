@@ -14,11 +14,18 @@
 get_header(); ?>
     <!-- Header Image -->
 <?php if (has_header_image()): ?>
+
+    <div id="nameTitle" class="container">
+
+        <div class="col-md-12"><h2 id="name">KRZYSZTOF SIKORA</h2><h3 id="surname">SOFTWARE DEVELOPER</h3></div>
+        <a href="#skew2" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Skills</a>
+        <a href="http://krzysztofsikora24.pl/wordpress/kontakt/" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Contact</a>
+
+    </div>
     <div class="text-center">
         <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
              width="<?php echo get_custom_header()->width; ?>" alt=""/>
 
-        <!--<div id="name"><h4>KRZYSZTOF SIKORA</h4> <br/> <br/><br/><h4>SOFTWARE DEVELOPER</h4></div>-->
 
         <!--        text into image-->
     </div>
@@ -52,7 +59,7 @@ get_header(); ?>
 
 
     </div>
-<!--    <div class="container" id="skew1"></div>-->
+    <!--    <div class="container" id="skew1"></div>-->
     <h2 id="from"><br/>FROM MY BLOG</h2>
     <div class="spacer">
 
@@ -130,53 +137,53 @@ get_header(); ?>
         <div class="col-md-1"></div>
 
     </div>
-    <!--    <div class="container" id="progressContainer">-->
+    <!--        <div class="container" id="progressContainer">-->
     <!---->
-    <!--        <h2>SKILLS:</h2>-->
-    <!--        <h3>Knowledge and experience</h3>-->
-    <!--        <div class="col-md-12">-->
-    <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum quis tortor in placerat.-->
-    <!--            Mauris vitae maximus ante, eu condimentum turpis. Sed facilisis ante sed purus suscipit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id purus id metus maximus fermentum. In scelerisque vel leo vitae viverra. Curabitur faucibus, turpis in mattis dignissim, nisi enim porta erat, sed condimentum quam lorem sed nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.-->
-    <!--            Pellentesque rutrum sagittis erat. In tincidunt metus sit amet risus semper, non ornare ipsum efficitur.-->
+    <!--            <h2>SKILLS:</h2>-->
+    <!--            <h3>Knowledge and experience</h3>-->
+    <!--            <div class="col-md-12">-->
+    <!--                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum quis tortor in placerat.-->
+    <!--                Mauris vitae maximus ante, eu condimentum turpis. Sed facilisis ante sed purus suscipit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id purus id metus maximus fermentum. In scelerisque vel leo vitae viverra. Curabitur faucibus, turpis in mattis dignissim, nisi enim porta erat, sed condimentum quam lorem sed nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.-->
+    <!--                Pellentesque rutrum sagittis erat. In tincidunt metus sit amet risus semper, non ornare ipsum efficitur.-->
+    <!---->
+    <!--            </div>-->
+    <!--            <div class="col-md-4">-->
+    <!--                dsdsdsdsdsdsdsdsdsd-->
+    <!--                dsdsdsdsdsdsdsdsdsd-->
+    <!--                dsdsdsdsdsdsdsdsdsd-->
+    <!--                dsdsdsdsdsdsdsdsdsd-->
+    <!---->
+    <!---->
+    <!--            </div>-->
+    <!--            <div class="col-md-8" id="progress">-->
+    <!--                <div class="progress">Node.js L-->
+    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
+    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
+    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="progress">-->
+    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
+    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
+    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="progress">-->
+    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
+    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
+    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="progress">-->
+    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
+    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
+    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!---->
     <!---->
     <!--        </div>-->
-    <!--        <div class="col-md-4">-->
-    <!--            dsdsdsdsdsdsdsdsdsd-->
-    <!--            dsdsdsdsdsdsdsdsdsd-->
-    <!--            dsdsdsdsdsdsdsdsdsd-->
-    <!--            dsdsdsdsdsdsdsdsdsd-->
-    <!---->
-    <!---->
-    <!--        </div>-->
-    <!--        <div class="col-md-8" id="progress">-->
-    <!--            <div class="progress">Node.js L-->
-    <!--                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                    <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="progress">-->
-    <!--                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                    <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="progress">-->
-    <!--                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                    <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="progress">-->
-    <!--                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                    <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!---->
-    <!---->
-    <!--    </div>-->
     <!-- gallery-->
     <div class="container" id="galleryContainer">
         <div class="col-md-12"><p id="gallery"></p></div>
@@ -191,7 +198,7 @@ get_header(); ?>
                 <p><i class="fa fa-facebook"></i></p>
                 <p class="justifyClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
             </div>
-            <div class="col-md-4"><h4>SPORT</h4>
+            <div class="col-md-4"><h4>RUNNING</h4>
                 <p><i class="fa fa-facebook"></i></p>
                 <p class="justifyClass">Until now have run: <br/>
                     &nbsp 2014 Cracovia Maraton<br/>
@@ -199,12 +206,18 @@ get_header(); ?>
                     &nbsp 2015 Warszawa <br/>
                     &nbsp 2016 Dębno<br/>
                     &nbsp 2016 Cracovia Maraton<br/>
-                    &nbsp 2016 Wrocław <br/>
-                     2014-2016 I won the crown of Poland's marathons.</p>
+                    &nbsp 2016 Wrocław <br/></p>
+                <p class="justifyClass"> 2014-2016 I won the crown of Poland's marathons.</p>
             </div>
             <div class="col-md-4"><h4>OTHER</h4>
                 <p><i class="fa fa-facebook"></i></p>
-                <p class="justifyClass">In 2013 I have gone to Gdynia from Cracov by bicycle. I do it in 44" 44'. </p>
+                <p class="justifyClass">In 2013 with my three friend, I went with Cracow to Gdyniaon a bike. I've done
+                    more than 600km in 44 hours 44 minutes.</p>
+                <p class="justifyClass">Similarly, in 2015. This time to Paris in ten days.</p>
+                <p class="justifyClass">You can read more in our web page about <a href="http://www.raceforhope.eu"
+                                                                                   target="_blank">Foundation Race for
+                        Hope</a>. </p>
+
                 <br/>
                 <br/>
             </div>
