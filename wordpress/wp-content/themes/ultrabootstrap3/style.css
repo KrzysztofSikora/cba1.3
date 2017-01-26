@@ -1811,3 +1811,17 @@ p {
 #progressContainer {
     text-align: justify;
 }
+
+/* blog page */
+body > div.spacer > div > section > div > div.single-post {
+    background-color: white;
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+}
+
+body > div.spacer > div > section > div > div.single-post > div > article > div > div > div.col-md-8 {
+    border-left: dotted 1px;
+    border-right: dotted 1px;
+    border-bottom: dotted 1px;
+}
+
