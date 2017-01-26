@@ -5,9 +5,9 @@
 
 ?>
 
-<div class="page-title">
-	<h1><?php the_title(); ?></h1>
-</div>
+<!--<div class="page-title">-->
+<!--	<h1>--><?php //the_title(); ?><!--</h1>-->
+<!--</div>-->
 
 <div class="single-post">
 	<div class="post-content">

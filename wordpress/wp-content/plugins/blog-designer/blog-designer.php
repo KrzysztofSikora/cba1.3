@@ -713,6 +713,7 @@ if (!function_exists('wp_classical_template')) {
         <div class="col-md-12">
             <div class="col-md-2"></div>
             <div class="col-md-8">
+
                 <div class="post-image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full'); ?></a></div>
 
                 <div class="blog_header">

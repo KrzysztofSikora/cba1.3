@@ -1166,10 +1166,7 @@ footer ul {
     margin: 0;
 }
 
-footers {
-    background-color: #fff;
-    padding: 15px 0;
-}
+
 
 /*inside page*/
 .page-title {
@@ -1653,7 +1650,7 @@ body > footer {
 /*text-align: center;*/
 /*display: block; margin: 0 auto;*/
 
-}
+/*}*/
 
 /*#main > div > div > div > div > div > p {*/
 /*height: 200px;*/
@@ -1825,3 +1822,6 @@ body > div.spacer > div > section > div > div.single-post > div > article > div 
     border-bottom: dotted 1px;
 }
 
+body > div.spacer > div > section > div > div.single-post > div > article > div > div > div.col-md-8 > div.post_content {
+    font-size: large;
+}
