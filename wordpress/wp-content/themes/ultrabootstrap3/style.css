@@ -1171,6 +1171,7 @@ footer ul {
 /*inside page*/
 .page-title {
     margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .page-title h1 {
@@ -1824,4 +1825,12 @@ body > div.spacer > div > section > div > div.single-post > div > article > div 
 
 body > div.spacer > div > section > div > div.single-post > div > article > div > div > div.col-md-8 > div.post_content {
     font-size: large;
+}
+
+.fa-gear:hover {
+    animation: fa-spin 2s infinite linear;
+}
+
+.fa-spinner:hover {
+    animation: fa-spin 2s infinite linear;
 }

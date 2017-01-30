@@ -17,9 +17,11 @@ get_header(); ?>
 
     <div id="nameTitle" class="container">
 
-        <div class="col-md-12"><h2 id="name">KRZYSZTOF SIKORA</h2><h3 id="surname">SOFTWARE DEVELOPER</h3></div>
+        <div class="col-md-12"><h2 id="name">KRZYSZTOF SIKORA</h2>
+            <h3 id="surname">SOFTWARE DEVELOPER</h3></div>
         <a href="#skew2" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Skills</a>
-        <a href="http://krzysztofsikora24.pl/wordpress/kontakt/" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Contact</a>
+        <a href="http://krzysztofsikora24.pl/wordpress/kontakt/" class="btn btn-primary btn-lg" role="button"
+           aria-disabled="true">Contact</a>
 
     </div>
     <div class="text-center">
@@ -114,20 +116,23 @@ get_header(); ?>
         <div class="col-md-1"></div>
         <div class="col-md-10">
 
-            <div class="col-md-4"><h4>BACKEND</h4>
-                <p><i class="fa fa-facebook"></i></p>
+            <div class="col-md-4">
+                <p><i class="fa fa-gear" style="font-size:48px;"></i></p><h4>BACKEND</h4>
                 <p class="justifyClass"><br/>
-                    <br/>
-                    <br/></p>
+
+                <br/>
+                <br/></p>
+
             </div>
-            <div class="col-md-4"><h4>FRONTEND</h4>
-                <p><i class="fa fa-facebook"></i></p>
+            <div class="col-md-4">
+                <p><i class="fa fa-desktop" style="font-size:48px;"></i><h4>FRONTEND</h4>
                 <p class="justifyClass">Into my project I prefer to use backbone.js/marionette.js. It is scalable and
                     fast
                     framework.</p>
             </div>
-            <div class="col-md-4"><h4>OTHER</h4>
-                <p><i class="fa fa-facebook"></i></p>
+            <div class="col-md-4">
+                <p><i class="fa fa-database" style="font-size:48px;"></i></p>
+                <h4>OTHER</h4>
                 <p class="justifyClass">I can professional use databases like mongoDB and MySql.</p>
                 <br/>
                 <br/>
@@ -194,12 +199,12 @@ get_header(); ?>
         <div class="col-md-12"><p id="achivments">MY ACHIVMENTS</p></div>
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <div class="col-md-4"><h4>DESIGN</h4>
-                <p><i class="fa fa-facebook"></i></p>
+            <div class="col-md-4">
+                <p><i class="fa fa-spinner" style="font-size:48px"></i></p><h4>DESIGN</h4>
                 <p class="justifyClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
             </div>
-            <div class="col-md-4"><h4>RUNNING</h4>
-                <p><i class="fa fa-facebook"></i></p>
+            <div class="col-md-4">
+                <p><i class="material-icons" style="font-size:48px;">directions_run</i></p><h4>RUNNING</h4>
                 <p class="justifyClass">Until now have run: <br/>
                     &nbsp 2014 Cracovia Maraton<br/>
                     &nbsp 2014 Poznań <br/>
@@ -209,8 +214,9 @@ get_header(); ?>
                     &nbsp 2016 Wrocław <br/></p>
                 <p class="justifyClass"> 2014-2016 I won the crown of Poland's marathons.</p>
             </div>
-            <div class="col-md-4"><h4>OTHER</h4>
-                <p><i class="fa fa-facebook"></i></p>
+            <div class="col-md-4">
+                <p><i class="material-icons" style="font-size:48px;">directions_bike</i>
+                </p><h4>OTHER</h4>
                 <p class="justifyClass">In 2013 with my three friend, I went with Cracow to Gdyniaon a bike. I've done
                     more than 600km in 44 hours 44 minutes.</p>
                 <p class="justifyClass">Similarly, in 2015. This time to Paris in ten days.</p>
