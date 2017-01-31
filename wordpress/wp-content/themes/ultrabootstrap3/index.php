@@ -39,12 +39,12 @@ get_header(); ?>
 
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <h4>My name - Krzysztof Sikora</h4>
+            <h4>Nazywam się - Krzysztof Sikora</h4>
             <div id="myName">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <p class="justifyClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+                    <p class="justifyClass">Ukończyłem Wyższą Szkołę Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
+                        Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
@@ -230,5 +230,13 @@ get_header(); ?>
         </div>
         <div class="col-md-1"></div>
     </div>
+
+
+
+
+
+
+<?php //echo do_shortcode( '[contact-form-7 id="112" title="Contact form 1"]' ); ?>
+<?php echo do_shortcode('[supsystic-gallery id=1]') ?>
 
 <?php get_footer(); ?>
