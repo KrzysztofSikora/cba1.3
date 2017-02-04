@@ -299,7 +299,7 @@ get_header(); ?>
                             Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
+                            Lorem ipsum dolor sit addmet, consectetur adipiscing elit. Aenean ipsum enim.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
