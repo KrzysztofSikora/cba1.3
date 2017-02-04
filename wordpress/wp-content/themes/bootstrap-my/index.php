@@ -25,8 +25,8 @@ get_header(); ?>
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">Skills</a>
-                <a href="http://krzysztofsikora24.pl/wordpress/kontakt/" class="btn btn-primary btn-lg btn-color"
+                <a href="#skills" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">Skills</a>
+                <a href="#contact" class="btn btn-primary btn-lg btn-color"
                    role="button"
                    aria-disabled="true">Contact</a>
             </div>
@@ -117,8 +117,10 @@ get_header(); ?>
                 </div>
             </main><!-- #main -->
         </div><!-- #primary -->
+        <div id="skills"></div>
     </div>
     <!--second section about skills-->
+
     <div class="container-fluid background-color-white min-height-300 padding-top-50">
         <div class="row">
             <div class="col-md-12"><h1 class="text-center"><strong>SKILLS</strong></h1></div>
@@ -279,7 +281,7 @@ get_header(); ?>
     <!--fifth section about gallery-->
 <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
     <!--!fifth section about gallery-->
-
+<div id="contact"></div>
     <div class="container-fluid padding-top-50">
         <div class="row">
             <div class="col-md-1"></div>
