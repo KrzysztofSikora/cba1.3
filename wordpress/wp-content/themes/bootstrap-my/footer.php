@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-3">
 
-                        <div class="snap text-center"><a class="font-color-white" href="https://www.facebook.com/krzysztof.sikora.372/"><i class="icon-snapchat-square"></i></a>
+                        <div class="fa text-center"><a class="font-color-white" href="https://www.facebook.com/krzysztof.sikora.372/"><i class="fa fa-facebook-official"></i></a>
 
                     </div>
                 </div>

@@ -15,7 +15,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <!--	custom header-->
-	<link rel="stylesheet" href="/wordpress/wp-content/themes/ultrabootstrap2/fontasset/css/fontello.css"/>
+	<link rel="stylesheet" href="/wordpress/wp-content/themes/bootstrap-my/fontasset/css/fontello.css"/>
 
 	<!--	!custom header-->
 	<?php wp_head(); ?>
