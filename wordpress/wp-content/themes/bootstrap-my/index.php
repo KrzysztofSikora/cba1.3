@@ -305,8 +305,8 @@ get_header(); ?>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-md-1"></div>
-                            <div class="col-md-8">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-9">
                                 <img src="/wordpress/wp-content/themes/bootstrap-my/images/phone.jpg"
                                      class="img-responsive" alt="Phone">
                             </div>
