@@ -118,8 +118,10 @@ get_header(); ?>
 
             <div class="col-md-4">
                 <p><i class="fa fa-gear" style="font-size:48px;"></i></p><h4>BACKEND</h4>
-                <p class="justifyClass"><br/>
-
+                <p class="justifyClass">
+                    Into my project I prefer to use backbone.js/marionette.js. It is scalable and
+                    fast
+                    framework.
                 <br/>
                 <br/></p>
 
@@ -133,7 +135,9 @@ get_header(); ?>
             <div class="col-md-4">
                 <p><i class="fa fa-database" style="font-size:48px;"></i></p>
                 <h4>OTHER</h4>
-                <p class="justifyClass">I can professional use databases like mongoDB and MySql.</p>
+                <p class="justifyClass">I can professional use databases like mongoDB and MySql.Into my project I prefer to use backbone.js/marionette.js. It is scalable and
+                    fast
+                    framework.</p>
                 <br/>
                 <br/>
                 <br/>
@@ -142,53 +146,53 @@ get_header(); ?>
         <div class="col-md-1"></div>
 
     </div>
-    <!--        <div class="container" id="progressContainer">-->
-    <!---->
-    <!--            <h2>SKILLS:</h2>-->
-    <!--            <h3>Knowledge and experience</h3>-->
-    <!--            <div class="col-md-12">-->
-    <!--                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum quis tortor in placerat.-->
-    <!--                Mauris vitae maximus ante, eu condimentum turpis. Sed facilisis ante sed purus suscipit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id purus id metus maximus fermentum. In scelerisque vel leo vitae viverra. Curabitur faucibus, turpis in mattis dignissim, nisi enim porta erat, sed condimentum quam lorem sed nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.-->
-    <!--                Pellentesque rutrum sagittis erat. In tincidunt metus sit amet risus semper, non ornare ipsum efficitur.-->
-    <!---->
-    <!--            </div>-->
-    <!--            <div class="col-md-4">-->
-    <!--                dsdsdsdsdsdsdsdsdsd-->
-    <!--                dsdsdsdsdsdsdsdsdsd-->
-    <!--                dsdsdsdsdsdsdsdsdsd-->
-    <!--                dsdsdsdsdsdsdsdsdsd-->
-    <!---->
-    <!---->
-    <!--            </div>-->
-    <!--            <div class="col-md-8" id="progress">-->
-    <!--                <div class="progress">Node.js L-->
-    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="progress">-->
-    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="progress">-->
-    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--                <div class="progress">-->
-    <!--                    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"-->
-    <!--                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">-->
-    <!--                        <span class="sr-only">80% Complete (danger)</span>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!---->
-    <!---->
-    <!--        </div>-->
+            <div class="container" id="progressContainer">
+
+                <h2>SKILLS:</h2>
+                <h3>Knowledge and experience</h3>
+                <div class="col-md-12">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum quis tortor in placerat.
+                    Mauris vitae maximus ante, eu condimentum turpis. Sed facilisis ante sed purus suscipit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id purus id metus maximus fermentum. In scelerisque vel leo vitae viverra. Curabitur faucibus, turpis in mattis dignissim, nisi enim porta erat, sed condimentum quam lorem sed nunc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Pellentesque rutrum sagittis erat. In tincidunt metus sit amet risus semper, non ornare ipsum efficitur.
+
+                </div>
+                <div class="col-md-4">
+                    dsdsdsdsdsdsdsdsdsd
+                    dsdsdsdsdsdsdsdsdsd
+                    dsdsdsdsdsdsdsdsdsd
+                    dsdsdsdsdsdsdsdsdsd
+
+
+                </div>
+                <div class="col-md-8" id="progress">
+                    <div class="progress">Node.js L
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
     <!-- gallery-->
     <div class="container" id="galleryContainer">
         <div class="col-md-12"><p id="gallery"></p></div>
@@ -236,7 +240,34 @@ get_header(); ?>
 
 
 
-<?php //echo do_shortcode( '[contact-form-7 id="112" title="Contact form 1"]' ); ?>
 <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="col-md-12" style="height: 200px;background-color: white">
 
+<!--             --><?php //echo do_shortcode( '[contact-form-7 id="112" title="Contact form 1"]' ); ?><!--</div>-->
+
+            </div>
+          </div>
+        <div class="col-md-4">
+<h2>CONTACT WITH ME</h2>
+
+
+
+        </div>
+        <div class="col-md-4"><h2>GET IN TOUCH</h2>
+        </div>
+
+
+
+    </div>
+
+
+
+</div>
 <?php get_footer(); ?>
+
+
+<?php //echo do_shortcode( '[contact-form-7 id="112" title="Contact form 1"]' ); ?>
+

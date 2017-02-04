@@ -864,7 +864,7 @@ h4, h5, h6 {
 h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
-    border-bottom: 2px solid #F66062;
+    border-bottom: 2px solid #D24B5A;
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -1448,10 +1448,10 @@ body > div.scroll-top-wrapper.show {
 
 }
 
-#bs-example-navbar-collapse-1 > form > ul > div > button {
-    background-color: #c34f4f !important;
+/*#bs-example-navbar-collapse-1 > form > ul > div > button {*/
+    /*background-color: #c34f4f !important;*/
 
-}
+/*}*/
 
 #submit {
     background-color: #c34f4f !important;
@@ -1486,21 +1486,38 @@ li > ul > li > a {
 
 header .navbar-default {
 
-    background-color: #000;
+    /*background-color: #200f39;*/
     width: 100%;
+    background: #D24B5A;
+    background: -moz-linear-gradient(top, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgba(210,75,90,1)));
+    background: -webkit-linear-gradient(top, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -o-linear-gradient(top, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -ms-linear-gradient(top, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: linear-gradient(to bottom, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=0 );
+
+
+
+
+
+
+
     -webkit-transition: all 800ms ease-out;
     -moz-transition: all 800ms ease-out;
     -o-transition: all 800ms ease-out;
     transition: all 800ms ease-out;
+    opacity: 0.8;
 }
 
 header .navbar-default:hover {
-    background-color: #c34f4f;
+    background-color: #200f39;
     width: 100%;
     -webkit-transition: all 800ms ease-out;
     -moz-transition: all 800ms ease-out;
     -o-transition: all 800ms ease-out;
     transition: all 800ms ease-out;
+    opacity: 1;
 }
 
 .navbar {
@@ -1833,4 +1850,78 @@ body > div.spacer > div > section > div > div.single-post > div > article > div 
 
 .fa-spinner:hover {
     animation: fa-spin 2s infinite linear;
+}
+
+#nameTitle > a:nth-child(3) {
+
+    border: 2px solid silver;
+
+    background: rgba(32,15,57,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgba(210,75,90,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=1 );
+}
+
+#bs-example-navbar-collapse-1 > form > ul > div > button {
+    background-color: #D24B5A;
+border-left: 2px solid silver;
+border-right: 2px solid silver;
+}
+.scroll-top-wrapper {
+    border: 1px solid silver;
+}
+
+
+
+h4 {
+    border-bottom: 3px solid #D24B5A !important;
+}
+#nameTitle > a:nth-child(2) {
+    border: 2px solid silver;
+
+    background: rgba(32,15,57,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgba(210,75,90,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgba(210,75,90,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=1 );
+}
+
+#nameTitle > a:nth-child(2) {
+     position: relative;
+    /*border-top: 2px solid #fff;*/
+    /*border-bottom: 2px solid #fff;*/
+    border-left: 0;
+    border-right: 0;
+    color: #fff;
+    padding: 15px 35px;
+    margin-left: 30px;
+}
+
+#nameTitle > a:nth-child(2)::before, #nameTitle > a:nth-child(2)::after {
+    content: '';
+    width: 2px;
+    height: 160%;
+    position: absolute;
+    top: -30%;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#nameTitle > a:nth-child(2)::before, #nameTitle > a:nth-child(2)::after {
+    content: '';
+    width: 2px;
+    height: 160%;
+    position: absolute;
+    top: -30%;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
