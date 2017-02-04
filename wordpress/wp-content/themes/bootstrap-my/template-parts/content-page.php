@@ -5,11 +5,12 @@
 
 ?>
 
-<div class="page-title">
-	<h1><?php the_title(); ?></h1>
-</div>
+<!--<div class="page-title">-->
+<!--	<h1>--><?php //the_title(); ?><!--</h1>-->
+<!--</div>-->
 
-<div class="single-post">
+<div class="single-post background-color-white">
+
 	<div class="post-content">
 
 		<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>

@@ -14,6 +14,29 @@
 get_header(); ?>
     <!-- Header Image -->
 <?php if (has_header_image()): ?>
+
+    <!--    custom buttom and text-->
+    <div class="container custom-header">
+        <div class="row">
+            <div class="col-md-12 text-center padding-bottom-10">
+                <h1>KRZYSZTOF SIKORA</h1>
+                <h2>SOFTWARE DEVELOPER</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">Skills</a>
+                <a href="http://krzysztofsikora24.pl/wordpress/kontakt/" class="btn btn-primary btn-lg btn-color"
+                   role="button"
+                   aria-disabled="true">Contact</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!--    !custom buttom and text-->
     <div class="text-center">
         <img class="image-full-width" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
              width="<?php echo get_custom_header()->width; ?>" alt=""/>
@@ -268,7 +291,6 @@ get_header(); ?>
                 <h4><strong class="font-color-white">GET IN TOUCH</strong></h4>
                 <div class="row">
                     <div class="col-md-6"><p class="text-justify">
-
                             Ukończyłem Wyższą
                             Szkołę
                             Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
@@ -281,12 +303,12 @@ get_header(); ?>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-md-2"></div>
+                            <div class="col-md-1"></div>
                             <div class="col-md-8">
                                 <img src="/wordpress/wp-content/themes/bootstrap-my/images/phone.jpg"
                                      class="img-responsive" alt="Phone">
                             </div>
-                            <div class="col-md-2"></div>
+                            <div class="col-md-1"></div>
                         </div>
                     </div>
                 </div>

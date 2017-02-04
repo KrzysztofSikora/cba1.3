@@ -85,7 +85,7 @@ get_header(); ?>
   	<div class="container">
       <div class="row">
         <div class="col-sm-7 spacer">
-          			<h4><?php echo esc_attr(get_theme_mod( 'welcome_textbox1', '' )); ?></h1>
+          			<h4><?php echo esc_attr(get_theme_mod( 'welcome_textbox1', '' )); ?></h4>
           			<p><?php echo esc_attr(get_theme_mod( 'textarea_setting', '' )); ?></p> 
           			<a href="<?php echo esc_attr(get_theme_mod( 'welcome_button', '' )); ?>" title="Read More" class="btn btn-danger">Read More</a>
         </div> 
