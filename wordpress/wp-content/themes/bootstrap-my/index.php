@@ -171,11 +171,11 @@ get_header(); ?>
     <!--third section about experience-->
 
     <div class="container-fluid min-height-300 black-runner">
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"><h1 class="achivments text-center">MOJE OSIĄGNIĘCIA</h1></div>
-            <div class="col-md-4 "></div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-md-4"></div>-->
+<!--            <div class="col-md-4"><h1 class="achivments text-center">OSIĄGNIĘCIA</h1></div>-->
+<!--            <div class="col-md-4 "></div>-->
+<!--        </div>-->
     </div>
 
 
@@ -183,9 +183,9 @@ get_header(); ?>
 
 
     <!--fourth section about skills-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-20">
+    <div class="container-fluid background-color-white min-height-300 padding-top-50">
         <div class="row">
-            <div class="col-md-12"></div>
+            <div class="col-md-12"><h1 class="text-center"><strong>OSIĄGNIĘCIA</strong></h1></div>
 
         </div>
         <div class="row padding-top-30">

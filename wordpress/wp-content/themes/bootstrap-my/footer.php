@@ -15,7 +15,7 @@
         <div class="col-md-8">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="fb text-center"><a class="font-color-white" href="https://www.youtube.com/channel/UCHe4j0fsSoJDf5FuGxCJqNw"><i class="icon-facebook"></i></a></div>
+                    <div class="fb text-center"><a class="font-color-white" href="https://www.facebook.com/krzysztofsikora24pl-1541480686181605/"><i class="icon-facebook"></i></a></div>
 
                 </div>
                 <div class="col-md-3">
