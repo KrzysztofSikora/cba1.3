@@ -20,15 +20,15 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-12 text-center padding-bottom-10">
                 <h1>KRZYSZTOF SIKORA</h1>
-                <h2>SOFTWARE DEVELOPER</h2>
+                <h3>SOFTWARE | SPORT | PASJA</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="#skills" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">Skills</a>
+                <a href="#skills" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">UMIEJĘTNOŚCI</a>
                 <a href="#contact" class="btn btn-primary btn-lg btn-color"
                    role="button"
-                   aria-disabled="true">Contact</a>
+                   aria-disabled="true">KONTAKT</a>
             </div>
         </div>
 
@@ -46,24 +46,31 @@ get_header(); ?>
 
 
     <!--first section about-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-50">
+    <div class="container-fluid background-color-white min-height-300 padding-top-20">
         <div class="row">
-            <div class="col-md-12"><h1 class="text-center"><strong>ABOUT ME</strong></h1></div>
+            <div class="col-md-12"><h1 class="text-center"><strong>O MNIE</strong></h1></div>
 
         </div>
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8"><p class="text-justify lead padding-top-50 padding-bottom-50">Ukończyłem Wyższą Szkołę
-                    Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                    Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p>
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><p class="text-justify lead padding-top-20 padding-bottom-50">
+
+                    Ukończyłem <strong>Wyższą Szkołę Zarządzania i Bankowości
+                        w
+                        Krakowie</strong> i
+                    specjalizuję się w aplikacjach internetowych. Swoją pasję do programowania odkryłem jednak już w
+                    technikum. Potrafiłem godzinami przesiadywać przed komputerem, by poszerzajać swoją wiedzę
+                    eksplorując
+                    fora dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
+                    Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie. Bardzo ważną
+                    rolę w moim życiu ogrywa dla mnie sport.
+                    Na tym polu także podejmuję wyzwania. Im najbardziej szalone tym bardziej mnie fascynują. Zdobyłem
+                    <strong>Koronę Maratonów Polskich</strong>, brałem udział w ekstremalnych przejazdach rowerowych.
+                    Najpierw z <strong>Gdyni do
+                        Krakowa</strong> w 42 godziny i 42 minuty potem w 10 dni z <strong>Krakowa do Paryża</strong>.
+                </p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-3"></div>
 
 
         </div>
@@ -123,68 +130,35 @@ get_header(); ?>
 
     <div class="container-fluid background-color-white min-height-300 padding-top-50">
         <div class="row">
-            <div class="col-md-12"><h1 class="text-center"><strong>SKILLS</strong></h1></div>
+            <div class="col-md-12"><h1 class="text-center"><strong>UMIEJĘTNOŚCI</strong></h1></div>
 
         </div>
         <div class="row padding-top-30">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-2"></div>
                     <div class="col-md-8 text-center"><h4><strong>BACKEND</strong></h4>
-                        <p class="text-justify padding-bottom-50">
-
-                            Ukończyłem Wyższą
-                            Szkołę
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
+                        <p class="text-justify padding-bottom-50 lead">
+                        Moje zaintersowania i umiejętności skupiają się na aplikacjach webowych. Do ulubionych języków programowania należą JavaScript i PHP.
+                        Posiadam umiejętności potrzebne do implementacji częsci serwerowej aplikacji.
+                            Moje ulubione frameworki to <strong>Loopback - Node.js </strong> przeznaczony do budowy API a także <strong>Symfony 2</strong>. Rozwijam swoje kompetencje także w wrażaniu <strong>CMS - Wordpress</strong>.</p>
+                    </div>
 
                 </div>
 
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
-                        <p class="text-justify padding-bottom-50">Ukończyłem Wyższą
+                        <p class="text-justify padding-bottom-50 lead">
+                            W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single Page Aplication</strong>.
+                            W tym zakresie posiadam umiejętności implementacji części klienckiej w frameworku <strong>Backbone.js - Marionette.js</strong> jak i pokrewne.
+                            Znam także bibliotekę <strong>jQuery</strong>. Warstwę prezentacji danych opieram o framework <strong>Bootstrap</strong>.
 
-                            Szkołę
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
-                    <div class="col-md-2"></div>
-
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-8 text-center"><h4><strong>ANOTHER</strong></h4>
-                        <p class="text-justify padding-bottom-50">
-
-                            Ukończyłem Wyższą
-                            Szkołę
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
-                    <div class="col-md-2"></div>
+                        </p></div>
                     <div class="col-md-2"></div>
                 </div>
             </div>
@@ -197,7 +171,11 @@ get_header(); ?>
     <!--third section about experience-->
 
     <div class="container-fluid min-height-300 black-runner">
-
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><h1 class="achivments text-center">MOJE OSIĄGNIĘCIA</h1></div>
+            <div class="col-md-4 "></div>
+        </div>
     </div>
 
 
@@ -205,74 +183,32 @@ get_header(); ?>
 
 
     <!--fourth section about skills-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-50">
+    <div class="container-fluid background-color-white min-height-300 padding-top-20">
         <div class="row">
-            <div class="col-md-12"><h1 class="text-center"><strong>MY ACHIVMENTS</strong></h1></div>
+            <div class="col-md-12"></div>
 
         </div>
         <div class="row padding-top-30">
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8 text-center"><h4><strong>BACKEND</strong></h4>
-                        <p class="text-justify padding-bottom-50">
+            <div class="col-md-3"></div>
 
-                            Ukończyłem Wyższą
-                            Szkołę
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
+            <div class="col-md-6 text-center">
+                <h4><strong>BIEGANIE</strong></h4>
 
-                </div>
+
+                <p class="text-center lead padding-bottom-50">
+                    18 maja 2014 - <strong>Cracovia Maraton</strong><br/>
+                    12 października 2014 - <strong>Poznań Maraton</strong><br/>
+                    27 września 2015 - <strong>Maraton Warszawski</strong><br/>
+                    3 kwietnia 2015 - <strong>Maraton Dębno</strong><br/>
+                    15 maja 2016 - <strong>Cracovia Maraton</strong><br/>
+                    11 września 2016 - <strong>Wrocław Maraton</strong><br/>
+                    <strong>2015 - 2016 zdobyłem Koronę Maratonów Polski</strong></p>
 
 
             </div>
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
-                        <p class="text-justify padding-bottom-50">Ukończyłem Wyższą
-
-                            Szkołę
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
-                    <div class="col-md-2"></div>
-
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-8 text-center"><h4><strong>ANOTHER</strong></h4>
-                        <p class="text-justify padding-bottom-50">
-
-                            Ukończyłem Wyższą
-                            Szkołę
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2"></div>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
         </div>
+
     </div>
 
     <!--!fourth section about skills-->
@@ -280,8 +216,40 @@ get_header(); ?>
 
     <!--fifth section about gallery-->
 <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
-    <!--!fifth section about gallery-->
-<div id="contact"></div>
+    <!--!fifith section about gallery-->
+
+
+    <!--section sixth-->
+    <div class="container-fluid background-color-white min-height-300 padding-top-50">
+
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 text-center">
+                <h4 ><strong >INNE</strong></h4>
+                <p class="text-justify padding-bottom-50 lead">
+                    W 2013 w raz z przyjaciółmi udałem się na ekstremalny przejazd rowerowy z Krakowa do Gdyni.
+                    Udało nam się to osiągnac w 42 godziny i 42 minuty.
+                    Po upływie dwóch lat od tego wydarzenia podnieśliśmy porzeczkę.
+                    Założyliśmy fundację <a href="http://www.raceforhope.eu">Wyścig po Nadzieję</a> i w ramach
+                    zbiórki pieniędzy udaliśmy się z Krakowa do Paryża w 10 dni.
+
+
+                </p></div>
+
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <!--!section sixth-->
+
+
+
+
+
+    <div id="contact"></div>
     <div class="container-fluid padding-top-50">
         <div class="row">
             <div class="col-md-1"></div>
@@ -290,19 +258,15 @@ get_header(); ?>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-6 font-color-white text-center">
-                <h4><strong class="font-color-white">GET IN TOUCH</strong></h4>
+                <h4><strong class="font-color-white">BĄDŹMY W KONTAKCIE</strong></h4>
                 <div class="row">
-                    <div class="col-md-6"><p class="text-justify">
-                            Ukończyłem Wyższą
-                            Szkołęeeee
-                            Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
-                            Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit addmet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.</p></div>
+                    <div class="col-md-6"><p class="text-justyfiy lead">
+                            Jeśli chcesz się ze mna skontaktować. Czegoś dowiedzieć napisz. Odpisuję tego samego dnia.
+                        </p>
+                        <p class="text-justify lead"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
+                            kontakt@krzysztofsikora24.pl</p>
+                    </div>
+
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-md-2"></div>

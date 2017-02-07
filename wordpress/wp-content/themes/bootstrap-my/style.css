@@ -1003,7 +1003,12 @@ body {
 .margin-left-15 {
 	margin-left: 15px !important;
 }
-
+.padding-top-15 {
+	padding-top: 15px;
+}
+.padding-top-20 {
+	padding-top: 20px;
+}
 .padding-top-30 {
 	padding-top: 30px;
 }
@@ -1171,7 +1176,17 @@ header .navbar-form .btn {
 /*!menu*/
 
 /*another*/
+.achivments {
+	position: absolute;
+	margin-top: 40%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 600;
+	color: rgb(0, 0, 26);
+	text-shadow: 4px 3px 5px #ffffff;
+	width: 100%;
 
+
+}
 .scroll-top-wrapper {
 	background-color: #D24B5A;
 	border: 1px solid silver;
