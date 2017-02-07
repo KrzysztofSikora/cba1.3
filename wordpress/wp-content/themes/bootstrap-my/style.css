@@ -1184,7 +1184,7 @@ header .navbar-form .btn {
 	background-color: #161b20;
 }
 
-.fb-footer:hover {
+.fb:hover {
 	background-color: #5e80b9;
 	-webkit-transition: all 800ms ease-out;
 	-moz-transition: all 800ms ease-out;

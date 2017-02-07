@@ -294,7 +294,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-md-6"><p class="text-justify">
                             Ukończyłem Wyższą
-                            Szkołę
+                            Szkołęeeee
                             Zarządzania i Bankowości w Krakówie. Specjalizuję się w aplikacjach internetowych.
                             Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ipsum enim.
