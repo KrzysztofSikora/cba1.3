@@ -80,7 +80,7 @@ get_header(); ?>
     <!--!first section about-->
     <div class="container-fluid padding-top-50 font-color-white">
         <div class="row">
-            <div class="col-md-12"><h1 class="text-center"><strong>FROM MY BLOG</strong></h1></div>
+            <div class="col-md-12"><h1 class="text-center"><strong>BLOG</strong></h1></div>
         </div>
 
     </div>
@@ -260,10 +260,10 @@ get_header(); ?>
             <div class="col-md-6 font-color-white text-center">
                 <h4><strong class="font-color-white">BĄDŹMY W KONTAKCIE</strong></h4>
                 <div class="row">
-                    <div class="col-md-6"><p class="text-justyfiy lead">
-                            Jeśli chcesz się ze mna skontaktować. Czegoś dowiedzieć napisz. Odpisuję tego samego dnia.
+                    <div class="col-md-6"><p class="lead">
+                            Jeśli chcesz się ze mna skontaktować lub czegoś dowiedzieć, napisz. Odpisuję tego samego dnia.
                         </p>
-                        <p class="text-justify lead"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
+                        <p class=" lead"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
                             kontakt@krzysztofsikora24.pl</p>
                     </div>
 
