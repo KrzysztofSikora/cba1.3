@@ -140,9 +140,12 @@ get_header(); ?>
                     <div class="col-md-2"></div>
                     <div class="col-md-8 text-center"><h4><strong>BACKEND</strong></h4>
                         <p class="text-justify padding-bottom-50 lead">
-                        Moje zaintersowania i umiejętności skupiają się na aplikacjach webowych. Do ulubionych języków programowania należą JavaScript i PHP.
-                        Posiadam umiejętności potrzebne do implementacji częsci serwerowej aplikacji.
-                            Moje ulubione frameworki to <strong>Loopback - Node.js </strong> przeznaczony do budowy API a także <strong>Symfony 2</strong>. Rozwijam swoje kompetencje także w wrażaniu <strong>CMS - Wordpress</strong>.</p>
+                            Moje zaintersowania i umiejętności skupiają się na aplikacjach webowych. Do ulubionych
+                            języków programowania należą JavaScript i PHP.
+                            Posiadam umiejętności potrzebne do implementacji częsci serwerowej aplikacji.
+                            Moje ulubione frameworki to <strong>Loopback - Node.js </strong> przeznaczony do budowy API
+                            a także <strong>Symfony 2</strong>. Rozwijam swoje kompetencje także w wdrażaniu <strong>CMS
+                                - Wordpress</strong>.</p>
                     </div>
 
                 </div>
@@ -154,9 +157,12 @@ get_header(); ?>
                     <div class="col-md-2"></div>
                     <div class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
                         <p class="text-justify padding-bottom-50 lead">
-                            W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single Page Aplication</strong>.
-                            W tym zakresie posiadam umiejętności implementacji części klienckiej w frameworku <strong>Backbone.js - Marionette.js</strong> jak i pokrewne.
-                            Znam także bibliotekę <strong>jQuery</strong>. Warstwę prezentacji danych opieram o framework <strong>Bootstrap</strong>.
+                            W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single Page
+                                Aplication</strong>.
+                            W tym zakresie posiadam umiejętności implementacji części klienckiej w frameworku <strong>Backbone.js
+                                - Marionette.js</strong> jak i pokrewne.
+                            Znam także bibliotekę <strong>jQuery</strong>. Warstwę prezentacji danych opieram o
+                            framework <strong>Bootstrap</strong>.
 
                         </p></div>
                     <div class="col-md-2"></div>
@@ -171,11 +177,6 @@ get_header(); ?>
     <!--third section about experience-->
 
     <div class="container-fluid min-height-300 black-runner">
-<!--        <div class="row">-->
-<!--            <div class="col-md-4"></div>-->
-<!--            <div class="col-md-4"><h1 class="achivments text-center">OSIĄGNIĘCIA</h1></div>-->
-<!--            <div class="col-md-4 "></div>-->
-<!--        </div>-->
     </div>
 
 
@@ -228,7 +229,7 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center">
-                <h4 ><strong >INNE</strong></h4>
+                <h4><strong>INNE</strong></h4>
                 <p class="text-justify padding-bottom-50 lead">
                     W 2013 w raz z przyjaciółmi udałem się na ekstremalny przejazd rowerowy z Krakowa do Gdyni.
                     Udało nam się to osiągnac w 42 godziny i 42 minuty.
@@ -246,9 +247,6 @@ get_header(); ?>
     <!--!section sixth-->
 
 
-
-
-
     <div id="contact"></div>
     <div class="container-fluid padding-top-50">
         <div class="row">
@@ -261,7 +259,8 @@ get_header(); ?>
                 <h4><strong class="font-color-white">BĄDŹMY W KONTAKCIE</strong></h4>
                 <div class="row">
                     <div class="col-md-6"><p class="lead">
-                            Jeśli chcesz się ze mna skontaktować lub czegoś dowiedzieć, napisz. Odpisuję tego samego dnia.
+                            Jeśli chcesz się ze mna skontaktować lub czegoś dowiedzieć, napisz. Odpisuję tego samego
+                            dnia.
                         </p>
                         <p class=" lead"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
                             kontakt@krzysztofsikora24.pl</p>
