@@ -191,7 +191,7 @@ get_header(); ?>
         </div>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
-
+<!--test-->
             <div data-aos="fade-up" class="col-md-6 text-center">
                 <h4><strong>BIEGANIE</strong></h4>
 
