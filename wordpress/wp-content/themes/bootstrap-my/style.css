@@ -971,8 +971,15 @@ footers{background-color: #fff;
 
 body {
 	background-color: #222930;
-}
+	font-family: 'Josefin Sans', sans-serif;
 
+}
+.custom-font {
+	font-family: 'Josefin Sans', sans-serif;
+}
+p {
+	font-family: 'Poppins', sans-serif;
+}
 .background-color {
 	background-color: #fe3338;
 }

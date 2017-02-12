@@ -16,15 +16,15 @@ get_header(); ?>
 <?php if (has_header_image()): ?>
 
     <!--    custom buttom and text-->
-    <div class="container custom-header">
+    <div class="container custom-header custom-font">
         <div class="row">
-            <div class="col-md-12 text-center padding-bottom-10">
+            <div data-aos="zoom-in" class="col-md-12 text-center padding-bottom-10 custom-font lead">
                 <h1>KRZYSZTOF SIKORA</h1>
                 <h3>SOFTWARE | SPORT | PASJA</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div data-aos="zoom-in" class="col-md-12 text-center">
                 <a href="#skills" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">UMIEJĘTNOŚCI</a>
                 <a href="#contact" class="btn btn-primary btn-lg btn-color"
                    role="button"
@@ -46,14 +46,14 @@ get_header(); ?>
 
 
     <!--first section about-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-20">
+    <div class="container-fluid background-color-white min-height-300 padding-top-20 custom-font">
         <div class="row">
             <div class="col-md-12"><h1 class="text-center"><strong>O MNIE</strong></h1></div>
 
         </div>
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6"><p class="text-justify lead padding-top-20 padding-bottom-50">
+            <div data-aos="fade-right" class="col-md-6"><p class="text-justify lead padding-top-20 padding-bottom-50">
 
                     Ukończyłem <strong>Wyższą Szkołę Zarządzania i Bankowości
                         w
@@ -78,14 +78,14 @@ get_header(); ?>
 
 
     <!--!first section about-->
-    <div class="container-fluid padding-top-50 font-color-white">
+    <div class="container-fluid padding-top-50 font-color-white custom-font">
         <div class="row">
             <div class="col-md-12"><h1 class="text-center"><strong>BLOG</strong></h1></div>
         </div>
 
     </div>
 
-    <div class="spacer">
+    <div data-aos="zoom-out-down" class="spacer">
         <div id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
 
@@ -128,7 +128,7 @@ get_header(); ?>
     </div>
     <!--second section about skills-->
 
-    <div class="container-fluid background-color-white min-height-300 padding-top-50">
+    <div class="container-fluid background-color-white min-height-300 padding-top-50 custom-font">
         <div class="row">
             <div class="col-md-12"><h1 class="text-center"><strong>UMIEJĘTNOŚCI</strong></h1></div>
 
@@ -138,7 +138,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-2"></div>
-                    <div class="col-md-8 text-center"><h4><strong>BACKEND</strong></h4>
+                    <div data-aos="zoom-out-right" class="col-md-8 text-center"><h4><strong>BACKEND</strong></h4>
                         <p class="text-justify padding-bottom-50 lead">
                             Moje zaintersowania i umiejętności skupiają się na aplikacjach webowych. Do ulubionych
                             języków programowania należą JavaScript i PHP.
@@ -155,7 +155,7 @@ get_header(); ?>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-2"></div>
-                    <div class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
+                    <div data-aos="zoom-out-left" class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
                         <p class="text-justify padding-bottom-50 lead">
                             W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single Page
                                 Aplication</strong>.
@@ -184,7 +184,7 @@ get_header(); ?>
 
 
     <!--fourth section about skills-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-50">
+    <div class="container-fluid background-color-white min-height-300 padding-top-50 custom-font">
         <div class="row">
             <div class="col-md-12"><h1 class="text-center"><strong>OSIĄGNIĘCIA</strong></h1></div>
 
@@ -192,7 +192,7 @@ get_header(); ?>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
 
-            <div class="col-md-6 text-center">
+            <div data-aos="fade-up" class="col-md-6 text-center">
                 <h4><strong>BIEGANIE</strong></h4>
 
 
@@ -216,19 +216,22 @@ get_header(); ?>
 
 
     <!--fifth section about gallery-->
+<div class="container-fluid">
 <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
+</div>
     <!--!fifith section about gallery-->
 
 
     <!--section sixth-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-50">
+    <div class="container-fluid background-color-white min-height-300 padding-top-50 custom-font">
 
         <div class="row">
             <div class="col-md-12"></div>
         </div>
         <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 text-center">
+
+            <div class="col-md-1"></div>
+            <div class="col-md-7 text-center">
                 <h4><strong>INNE</strong></h4>
                 <p class="text-justify padding-bottom-50 lead">
                     W 2013 w raz z przyjaciółmi udałem się na ekstremalny przejazd rowerowy z Krakowa do Gdyni.
@@ -240,7 +243,14 @@ get_header(); ?>
 
                 </p></div>
 
-            <div class="col-md-3"></div>
+
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/wUaZECbOjXk?ecver=1"></iframe>
+                </div>
+                <br/>
+            </div>
         </div>
     </div>
 
@@ -248,13 +258,13 @@ get_header(); ?>
 
 
     <div id="contact"></div>
-    <div class="container-fluid padding-top-50">
+    <div class="container-fluid padding-top-50 custom-font">
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-3 padding-top-10">
                 <?php echo do_shortcode('[contact-form-7 id="112" title="Contact form 1"]'); ?>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-1 "></div>
             <div class="col-md-6 font-color-white text-center">
                 <h4><strong class="font-color-white">BĄDŹMY W KONTAKCIE</strong></h4>
                 <div class="row">
