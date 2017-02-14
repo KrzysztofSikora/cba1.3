@@ -155,7 +155,7 @@ get_header(); ?>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-2"></div>
-                    <div data-aos="zoom-out-left" class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
+                    <div data-aos="zoom-out-right" class="col-md-8 text-center"><h4><strong>FRONTEND</strong></h4>
                         <p class="text-justify padding-bottom-50 lead">
                             W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single Page
                                 Aplication</strong>.
@@ -217,7 +217,7 @@ get_header(); ?>
 
     <!--fifth section about gallery-->
 <div class="container-fluid">
-<?php echo do_shortcode('[supsystic-gallery id=1]') ?>
+<?php echo do_shortcode('[supsystic-gallery id=3]') ?>
 </div>
     <!--!fifith section about gallery-->
 
