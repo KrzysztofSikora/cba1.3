@@ -1006,7 +1006,9 @@ p {
 .min-height-300 {
 	min-height: 300px;
 }
-
+.min-height-100 {
+	min-height: 100px;
+}
 .margin-left-15 {
 	margin-left: 15px !important;
 }
@@ -1101,6 +1103,7 @@ body > div.spacer.padding-top-10 > div > section > div > div.single-post.backgro
 	background-position: center center;
 	background-size: cover;
 	width: 100%;
+
 }
 
 .phone {
@@ -1242,3 +1245,4 @@ header .navbar-form .btn {
 }
 
 /*!footer social section*/
+

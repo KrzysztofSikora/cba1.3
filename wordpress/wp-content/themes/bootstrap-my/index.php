@@ -52,7 +52,9 @@ get_header(); ?>
 
         </div>
         <div class="row">
-            <div class="col-md-3"></div>
+            <div class="col-md-3">
+
+            </div>
             <div data-aos="fade-right" class="col-md-6"><p class="text-justify lead padding-top-20 padding-bottom-50">
 
                     Ukończyłem <strong>Wyższą Szkołę Zarządzania i Bankowości
@@ -176,7 +178,9 @@ get_header(); ?>
 
     <!--third section about experience-->
 
-    <div class="container-fluid min-height-300 black-runner">
+    <div class="pv-container min-height-300">
+        <div class="pv-block" pv-speed=-2
+             pv-image="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/images/black.jpg"></div>
     </div>
 
 
@@ -191,7 +195,7 @@ get_header(); ?>
         </div>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
-<!--test-->
+            <!--test-->
             <div data-aos="fade-up" class="col-md-6 text-center">
                 <h4><strong>BIEGANIE</strong></h4>
 
@@ -216,9 +220,9 @@ get_header(); ?>
 
 
     <!--fifth section about gallery-->
-<div class="container-fluid">
-<?php echo do_shortcode('[supsystic-gallery id=3]') ?>
-</div>
+    <div class="container-fluid">
+        <?php echo do_shortcode('[supsystic-gallery id=3]') ?>
+    </div>
     <!--!fifith section about gallery-->
 
 
@@ -273,7 +277,7 @@ get_header(); ?>
                             dnia.
                         </p>
                         <p class=" lead"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
-                            kontakt@krzysztofsikora24.pl</p>
+                            kontakt@krzysztofsikora.pl</p>
                     </div>
 
                     <div class="col-md-6">
@@ -291,5 +295,6 @@ get_header(); ?>
             <div class="col-md-1"></div>
         </div>
     </div>
+
 
 <?php get_footer(); ?>

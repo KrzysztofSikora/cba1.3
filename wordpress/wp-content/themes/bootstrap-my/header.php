@@ -19,6 +19,15 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/parallax-vanilla/dist/css/parallax-vanilla.css">
+    <!-- javascript -->
+
+    <style type="text/css">
+        .pv-container {
+            position: relative; /* In order for tooltips to position properly */
+        }
+    </style>
+
 
     <!--	!custom header-->
     <?php wp_head(); ?>
@@ -33,6 +42,7 @@
         }
     );
 </script>
+
 <header>
     <section class="logo-menu">
         <nav class="navbar navbar-default navbar-custom navbar-fixed-top">

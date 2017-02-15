@@ -111,5 +111,21 @@
 
 
 <?php wp_footer(); ?>
+
+<script type="text/javascript" src="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/parallax-vanilla/dist/js/parallax-vanilla.js
+"></script>
+<script type="text/javascript">
+    pv.init({
+        container : {
+            class : 'pv-container', // targeted container
+            height : '333px' // default height
+        },
+        block : {
+            class : 'pv-block', // targeted parallax block
+            speed : -1, // default speed
+            image : "images/ladybug.jpg" // default image
+        }
+    });
+</script>
 </body>
 </html>
