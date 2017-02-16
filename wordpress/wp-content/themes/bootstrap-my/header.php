@@ -31,12 +31,10 @@
 
 <body <?php body_class(); ?>>
 <?php $header_text_color = get_header_textcolor(); ?>
-<script>
-    AOS.init({
-            duration: 1200
-        }
-    );
-</script>
+
+<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/js/aos-run.js"></script>
+
+
 
 <header>
     <section class="logo-menu">
