@@ -22,11 +22,6 @@
     <link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/parallax-vanilla/dist/css/parallax-vanilla.css">
     <!-- javascript -->
 
-    <style type="text/css">
-        .pv-container {
-            position: relative; /* In order for tooltips to position properly */
-        }
-    </style>
 
 
     <!--	!custom header-->

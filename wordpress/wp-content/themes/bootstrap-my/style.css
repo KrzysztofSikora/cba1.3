@@ -972,6 +972,7 @@ footers{background-color: #fff;
 body {
 	background-color: #222930;
 	font-family: 'Josefin Sans', sans-serif;
+	/*overflow-x: hidden*/
 
 }
 .custom-font {
@@ -1246,3 +1247,7 @@ header .navbar-form .btn {
 
 /*!footer social section*/
 
+/*parallax*/
+.pv-container {
+	position: relative; /* In order for tooltips to position properly */
+}

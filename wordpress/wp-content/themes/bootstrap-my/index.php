@@ -18,9 +18,9 @@ get_header(); ?>
     <!--    custom buttom and text-->
     <div class="container custom-header custom-font">
         <div class="row">
-            <div data-aos="zoom-in" class="col-md-12 text-center padding-bottom-10 custom-font lead">
+            <div data-aos="zoom-in" class="col-md-12 text-center custom-font lead">
                 <h1>KRZYSZTOF SIKORA</h1>
-                <h3>SOFTWARE | SPORT | PASJA</h3>
+                <h3 class="hidden-xs">SOFTWARE | SPORT | PASJA</h3>
             </div>
         </div>
         <div class="row">
@@ -46,7 +46,7 @@ get_header(); ?>
 
 
     <!--first section about-->
-    <div class="container-fluid background-color-white min-height-300 padding-top-20 custom-font">
+    <div class="container-fluid background-color-white min-height-300 padding-top-50 custom-font">
         <div class="row">
             <div class="col-md-12"><h1 class="text-center"><strong>O MNIE</strong></h1></div>
 
@@ -87,8 +87,8 @@ get_header(); ?>
 
     </div>
 
-    <div data-aos="zoom-out-down" class="spacer">
-        <div id="primary" class="content-area">
+    <div class="spacer">
+        <div  id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
 
                 <?php if (have_posts()) : ?>
@@ -221,7 +221,13 @@ get_header(); ?>
 
     <!--fifth section about gallery-->
     <div class="container-fluid">
-        <?php echo do_shortcode('[supsystic-gallery id=3]') ?>
+        <div class="row">
+            <div class="col-mr-12">
+                <?php echo do_shortcode('[supsystic-gallery id=3]') ?>
+
+            </div>
+
+        </div>
     </div>
     <!--!fifith section about gallery-->
 
