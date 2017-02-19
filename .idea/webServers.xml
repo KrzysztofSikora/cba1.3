@@ -5,7 +5,7 @@
       <webServer id="b89f715e-1db7-4c0f-b29b-2e86e9837c40" name="CBA" url="http://krzysztofsikora.pl">
         <fileTransfer host="krzysztofsikora.pl" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" />
+            <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
