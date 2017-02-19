@@ -65,6 +65,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <form class="navbar-form navbar-right" role="search">
+
+
+
                         <ul class="nav pull-right">
                             <div class="main-search">
                                 <button class="btn btn-search" type="button" data-toggle="collapse"

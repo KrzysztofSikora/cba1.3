@@ -2,13 +2,13 @@
 Contributors: phantomthemes
 Tags: one-column,two-columns, grid-layout,right-sidebar, theme-options, rtl-language-support, editor-style, custom-header, threaded-comments, custom-background, custom-colors, blog
 
-Description: Ultrabootstrap is a multipurpose Free WordPress Theme for bloggers & artist. It consists of Featured Slider, Featured Posts, custom background, custom color and welcome message in Homepage layout. The theme can be customized from the Theme Options of Customizer. Blog page with right-sidebar. You may download this awesome and light weight theme. More detail of theme availabe in readme.txt file. for support http://phantomthemes.com/support/ or Demo http://phantomthemes.com/preview/?demo=ultrabootstrap
+Description: Ultrabootstrap is a multipurpose Free WordPress Theme for bloggers & artist. It consists of Featured Slider, Featured Posts, custom background, custom color and welcome message in Homepage layout. The theme can be customized from the Theme Options of Customizer. Blog page with right-sidebar. You may download this awesome and light weight theme. More detail of theme availabe in readme.txt file. for support http://phantomthemes.com/support/ or Demo http://phantomthemes.com/view?theme=UltraBootstrap
 
 
 
-Requires at least: 4.0
-Tested up to: 4.5.3
-Stable tag: 1.1.3
+Requires at least: 4.5
+Tested up to: 4.7.2
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

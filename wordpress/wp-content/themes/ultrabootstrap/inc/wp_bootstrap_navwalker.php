@@ -18,7 +18,7 @@
 
  */
 
-class wp_bootstrap_navwalker extends Walker_Nav_Menu {
+class ultrabootsrap_wp_bootstrap_navwalker extends Walker_Nav_Menu {
 
   /**
 

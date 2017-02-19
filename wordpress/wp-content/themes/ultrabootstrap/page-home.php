@@ -87,7 +87,7 @@ get_header(); ?>
         <div class="col-sm-7 spacer">
           			<h4><?php echo esc_attr(get_theme_mod( 'welcome_textbox1', '' )); ?></h1>
           			<p><?php echo esc_attr(get_theme_mod( 'textarea_setting', '' )); ?></p> 
-          			<a href="<?php echo esc_attr(get_theme_mod( 'welcome_button', '' )); ?>" title="Read More" class="btn btn-danger">Read More</a>
+          			<a href="<?php echo esc_attr(get_theme_mod( 'welcome_button', '' )); ?>" title="Read More" class="btn btn-danger"><?php _e('Read More','ultrabootstrap'); ?></a>
         </div> 
         <div class="col-sm-4 col-sm-offset-1">
           <div class="spacer message">
@@ -122,7 +122,7 @@ get_header(); ?>
 
           <div class="clearfix">
             <h4><?php echo esc_attr(get_theme_mod( 'features_title', __('Featured Category' , 'ultrabootstrap') )); ?></h4>
-            <a href="<?php echo esc_url( $category_link ); ?>" title="" class="pull-right">View All</a>
+            <a href="<?php echo esc_url( $category_link ); ?>" title="" class="pull-right"><?php _e('View All','ultrabootstrap'); ?></a>
           </div>
 
           <div class="row">
@@ -150,7 +150,7 @@ get_header(); ?>
               
           		<?php the_excerpt('ultrabootstrap_excerpt_length');?>
              
-              <a href="<?php the_permalink(); ?>" rel="bookmark" class="readmore">Read More</a>
+              <a href="<?php the_permalink(); ?>" rel="bookmark" class="readmore"><?php _e('Read More','ultrabootstrap'); ?></a>
               </div>
                  <!-- summary -->
               </div>
