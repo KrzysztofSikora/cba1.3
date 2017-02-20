@@ -7,7 +7,7 @@
 
 get_header(); ?>
 <div class="spacer post-list">
-    <div class="container">
+    <div class="container background-color-white">
 <section id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
 
