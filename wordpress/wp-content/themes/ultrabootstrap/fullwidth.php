@@ -6,7 +6,7 @@
  * @package ultrabootstrap
  */
 get_header(); ?>
-<div class="spacer">
+<div class="spacer padding-top-10">
 <div class="container">
 <section class="page-section">
           

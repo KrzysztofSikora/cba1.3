@@ -1053,8 +1053,10 @@ body > div.spacer.padding-top-10 > div > section > div > div.single-post.backgro
 	border: 1px dotted #000000;
 }
 body > div.spacer.padding-top-10 > div > section > div > div.single-post.background-color-white > div > article > div > div > div.col-md-8 > div.post_content > p {
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
+	background-color: #ffffff;
+}
+#page-top > div.spacer > div > section > div > div.single-post.background-color-white.padding-top-10 > div > article > div > div > div.col-md-8 {
+	border: solid 1px #000000;
 }
 /*!blog plugin style*/
 
@@ -1253,3 +1255,4 @@ header .navbar-form .btn {
 .pv-container {
 	position: relative; /* In order for tooltips to position properly */
 }
+

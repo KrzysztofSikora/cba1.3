@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<div class="spacer padding-top-0">
+<div class="spacer padding-top-15">
 <div class="container background-color-white">
   <div class="row">
       <div class="col-sm-2"></div>
