@@ -59,25 +59,25 @@
 						<ul class="nav navbar-nav">
 						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 							<li class="hidden">
-								<a class="page-scroll" href="#page-top"></a>
+								<a class="page-scroll btn btn-pils" href="#page-top"></a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#about">O mnie</a>
+								<a class="page-scroll btn btn-pils" href="#about">O mnie</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#news">News</a>
+								<a class="page-scroll btn btn-pils" href="#news">News</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#skills">Umiejętności</a>
+								<a class="page-scroll btn btn-pils" href="#skills">Umiejętności</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#achivments">Osiągnięcia</a>
+								<a class="page-scroll btn btn-pils" href="#achivments">Osiągnięcia</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#other">Inne</a>
+								<a class="page-scroll btn btn-pils" href="#other">Inne</a>
 							</li>
 							<li>
-								<a class="page-scroll" href="#contact">Kontakt</a>
+								<a class="page-scroll btn btn-pils" href="#contact">Kontakt</a>
 							</li>
 						</ul>
 EOD;
