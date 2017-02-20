@@ -1290,6 +1290,16 @@ header .navbar-form .btn {
 	color: #d24ba8;
 
 }
+#progress-bar{
+	/*width: 200px;*/
+	/*height: 200px;*/
+	position: relative;
+	background: none;
+	box-shadow: none;
+	/*margin: 0 auto;*/
+	/*color: #d24ba8;*/
+
+}
 #progress-first > svg > path:nth-child(2) {
 	stroke: #d24ba8;
 }

@@ -44,7 +44,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 				      	</button>
-				      	<div class="logo-tag margin-left-15">
+				      	<div class="logo-tag margin-left-15 hidden-sm">
 
 				      			<?php if ( has_custom_logo()): the_custom_logo(); else: ?>
 				      			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1 class="site-title" style="color:<?php echo "#". $header_text_color;?>"><?php echo bloginfo( 'name' ); ?></h1>

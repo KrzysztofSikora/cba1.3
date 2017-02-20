@@ -176,7 +176,10 @@ get_header(); ?>
 <!--            <div class="col-md-6">-->
 <!--                <div class="progress" id="progress-first" ></div>-->
 <!--            </div>-->
-<!--            <div class="col-md-6"></div>-->
+<!--            <div class="col-md-6">-->
+<!--                <div class="progress" id="progress-bar" ></div>-->
+<!---->
+<!--            </div>-->
 <!--        </div>-->
     </div>
 
