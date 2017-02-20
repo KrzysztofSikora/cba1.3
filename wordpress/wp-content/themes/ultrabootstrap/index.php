@@ -25,8 +25,8 @@ get_header(); ?>
         </div>
         <div class="row">
             <div data-aos="zoom-in" class="col-md-12 text-center">
-                <a href="#skills" class="btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">UMIEJĘTNOŚCI</a>
-                <a href="#contact" class="btn btn-primary btn-lg btn-color"
+                <a href="#skills" class="page-scroll btn btn-primary btn-lg btn-color" role="button" aria-disabled="true">UMIEJĘTNOŚCI</a>
+                <a href="#contact" class="page-scroll btn btn-primary btn-lg btn-color"
                    role="button"
                    aria-disabled="true">KONTAKT</a>
             </div>
@@ -171,6 +171,13 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+
+<!--        <div class="row ">-->
+<!--            <div class="col-md-6">-->
+<!--                <div class="progress" id="progress-first" ></div>-->
+<!--            </div>-->
+<!--            <div class="col-md-6"></div>-->
+<!--        </div>-->
     </div>
 
     <!--!second section about skills-->

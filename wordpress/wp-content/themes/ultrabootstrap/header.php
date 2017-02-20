@@ -19,14 +19,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins" rel="stylesheet">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-	<link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/parallax-vanilla/dist/css/parallax-vanilla.css">
+	<link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/parallax-vanilla/dist/css/parallax-vanilla.css">
+	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/progressbar.js"></script>
+	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/bar.js"></script>
 	<?php wp_head(); ?>
 </head>
 
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" <?php body_class(); ?>>
 <?php $header_text_color = get_header_textcolor();?>
-<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/bootstrap-my/js/aos-run.js"></script>
+<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/aos-run.js"></script>
 
 <header>
 <section class="logo-menu">

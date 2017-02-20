@@ -1092,6 +1092,7 @@ body > div.spacer.padding-top-10 > div > section > div > div.single-post.backgro
 	background: -ms-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
 	background: radial-gradient(ellipse at center, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=1 );
+	border-radius: 20px;
 }
 
 
@@ -1223,7 +1224,7 @@ header .navbar-form .btn {
 }
 
 .fa-2x {
-	font-size: 3em;
+	font-size: 42px;
 }
 .scroll-top-wrapper {
 	width: 50px;
@@ -1279,3 +1280,16 @@ header .navbar-form .btn {
 	position: relative; /* In order for tooltips to position properly */
 }
 
+#progress-first{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background: none;
+	box-shadow: none;
+	margin: 0 auto;
+	color: #d24ba8;
+
+}
+#progress-first > svg > path:nth-child(2) {
+	stroke: #d24ba8;
+}
