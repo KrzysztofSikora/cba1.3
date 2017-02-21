@@ -232,7 +232,7 @@ get_header(); ?>
         </div>
     </div>
     <!--!fifith section about gallery-->
-
+<!--ss-->
 
     <!--section sixth-->
     <div id="other" class="container-fluid background-color-white min-height-300 padding-top-65 custom-font">
