@@ -19,8 +19,8 @@ window.onload = function onLoad() {
     });
 
     $(window).scroll(function () {
-        var hT = $('#skills').offset().top,
-            hH = $('#skills').outerHeight(),
+        var hT = $('#other').offset().top,
+            hH = $('#other').outerHeight(),
             wH = $(window).height(),
             wS = $(this).scrollTop();
 
