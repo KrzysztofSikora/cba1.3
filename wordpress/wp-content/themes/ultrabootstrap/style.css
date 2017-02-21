@@ -1299,7 +1299,8 @@ header .navbar-form .btn {
 	/*margin: 0 auto;*/
 	/*color: #d24ba8;*/
 
+
 }
-#progress-first > svg > path:nth-child(2) {
-	stroke: #d24ba8;
+.progressbar-text {
+	color: #000000 !important;
 }

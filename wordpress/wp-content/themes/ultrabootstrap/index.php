@@ -166,21 +166,13 @@ get_header(); ?>
                             Znam także bibliotekę <strong>jQuery</strong>. Warstwę prezentacji danych opieram o
                             framework <strong>Bootstrap</strong>.
 
-                        </p></div>
+                        </p>
+                        <div class="progress" id="progress-bar" ></div>
+                    </div>
                     <div class="col-md-2"></div>
                 </div>
             </div>
         </div>
-
-<!--        <div class="row ">-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="progress" id="progress-first" ></div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="progress" id="progress-bar" ></div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 
     <!--!second section about skills-->
@@ -253,7 +245,7 @@ get_header(); ?>
             <div class="col-md-1"></div>
             <div class="col-md-7 text-center">
                 <h4><strong>INNE</strong></h4>
-                <p class="text-justify padding-bottom-50 lead">
+                <p class="text-justify lead">
                     W 2013 w raz z przyjaciółmi udałem się na ekstremalny przejazd rowerowy z Krakowa do Gdyni.
                     Udało nam się to osiągnac w 42 godziny i 42 minuty.
                     Po upływie dwóch lat od tego wydarzenia podnieśliśmy porzeczkę.
@@ -261,7 +253,11 @@ get_header(); ?>
                     zbiórki pieniędzy udaliśmy się z Krakowa do Paryża w 10 dni.
 
 
-                </p></div>
+                </p>
+                <div class="row">
+                    <div class="col-md-12"><div class="progress" id="progress-bar-first"></div></div>
+                </div>
+            </div>
 
 
             <div class="col-md-4">

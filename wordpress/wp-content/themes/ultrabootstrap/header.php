@@ -23,7 +23,7 @@
 	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/parallax-vanilla/dist/css/parallax-vanilla.css">
 	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/progressbar.js"></script>
-<!--	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/bar.js"></script>-->
+	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/bar.js"></script>
 	<?php wp_head(); ?>
 </head>
 
