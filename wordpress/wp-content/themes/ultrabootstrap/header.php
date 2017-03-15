@@ -15,7 +15,6 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="icon" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/images/favicon3.ico">
-<title>Krzysztof Sikora</title>
 	<link href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/css/scrolling-nav.css" rel="stylesheet">
 	<link rel="stylesheet" href="/wordpress/wp-content/themes/bootstrap-my/fontasset/css/fontello.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins" rel="stylesheet">
@@ -44,18 +43,20 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 				      	</button>
-				      	<div class="logo-tag margin-left-15 hidden-sm">
+<!--				      	<div class="logo-tag margin-left-15 hidden-sm">-->
+<!---->
+<!--				      			--><?php //if ( has_custom_logo()): the_custom_logo(); else: ?>
+<!---->
+<!--				      			<a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--"><h1 class="site-title" style="color:--><?php //echo "#". $header_text_color;?><!--">--><?php //echo bloginfo( 'name' ); ?><!--</h1>-->
+<!--				      			<h2 class="site-description" style="color:--><?php //echo "#". $header_text_color;?><!--">-->
+<!--									--><?php //bloginfo('description'); ?><!--</h2>-->
+<!---->
+<!--									--><?php //endif; ?><!--</a>-->
+<!---->
+<!--      					</div>-->
 
-				      			<?php if ( has_custom_logo()): the_custom_logo(); else: ?>
-
-				      			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1 class="site-title" style="color:<?php echo "#". $header_text_color;?>"><?php echo bloginfo( 'name' ); ?></h1>
-				      			<h2 class="site-description" style="color:<?php echo "#". $header_text_color;?>">
-									<?php bloginfo('description'); ?></h2>
-
-									<?php endif; ?></a>
-
-      					</div>
 				    </div>
+
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -89,7 +90,15 @@
 							</li>
 						</ul>
 EOD;
-						?>
+					else {
+						echo <<<EOD
+						<ul class="nav navbar-nav">
+						<li>
+								<a class="page-scroll btn btn-pils" href="http://krzysztofsikora.pl">Home</a>
+							</li>
+						</ul>
+EOD;
+					}	?>
 						<form  class="navbar-form navbar-right" role="search">
 							<ul class="nav pull-right">
 								<div class="main-search">
