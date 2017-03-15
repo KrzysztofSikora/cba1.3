@@ -1,0 +1,26 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+    <h2></h2>
+
+    <h4>Zdjęcia:</h4>
+
+    <div class="demo-gallery">
+        <ul id="lightgallery" class="list-unstyled row">
+            {% for e in entity %}
+
+                <li class="col-xs-6 col-sm-4 col-md-3" style="height: 300px; padding-top: 5%; background-color: #2f4052"
+                    data-src="{{ path('file_show', { 'filename': e.filename }) }}"
+                    data-sub-html="<h4>{{ e.description }}</h4><p> </p>" data-pinterest-text="Pin it1"
+                    data-tweet-text="share on twitter 1">
+
+                    <a href="">
+                        <img class="img-responsive" src="{{ path('file_show', { 'filename': e.filename }) }}"
+                             alt="Thumb-1">
+                    </a>
+                </li>
+
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

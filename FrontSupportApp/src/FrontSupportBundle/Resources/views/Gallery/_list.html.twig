@@ -1,0 +1,23 @@
+<style>
+    .icon-camera:before {
+        font-size: 20px;
+        margin:10px;
+    }
+
+</style>
+    {% for picture in dane %}
+
+
+        <div class="col-md-3" >
+
+            <div class="thumbnail" style="background-color: #2f4052">
+            <a href="{{ path('picture_show', { 'id': picture.id }) }}">
+                <img class= "img-responsive" src="{{ path('filee_show', { 'filename': picture.filenamee }) }}" alt="..." style="height: 180px">
+            </a>
+            <i style="font-size: 20px" class="icon-camera" >{{ picture.descriptionn }}</i>
+        </div>
+            <br/>
+        </div>
+
+
+    {% endfor %}

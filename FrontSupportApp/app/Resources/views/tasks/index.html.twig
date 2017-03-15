@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>Lista postów</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+<br/> <br/>
+<div class="col-md-12">
+
+
+        {% for task in tasks %}
+
+
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">{{ task.title }}
+                        <small style="float: right">
+                            <ul style="float: right; display: inline">
+                                <li>
+                                    <a href="{{ path('tasks_show', { 'id': task.id }) }}">Pokaż</a>
+                                </li>
+                                <li>
+                                    <a href="{{ path('tasks_edit', { 'id': task.id }) }}">Edytuj</a>
+                                </li>
+                            </ul></small>
+                        <small style="float: right">{{ task.posted|date('Y-m-d H:i:s') }}</small>
+
+
+
+                    </h4>
+
+                    {#<a href="{{ path('tasks_show', { 'id': task.id }) }}">{{ task.id }}</a>#}
+                    <br/>
+
+
+                  <p style="text-align: justify">{{ task.description }}</p>
+
+                </div>
+            </div>
+
+
+
+
+                {#<a href="{{ path('tasks_show', { 'id': task.id }) }}">{{ task.id }}</a>#}
+
+
+                {#{% if task.status %}Yes{% else %}No{% endif %}#}
+                {#{% if task.posted %}{{ task.posted|date('Y-m-d H:i:s') }}{% endif %}#}
+
+                    {#<ul>#}
+                        {#<li>#}
+                            {#<a href="{{ path('tasks_show', { 'id': task.id }) }}">Pokaż</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="{{ path('tasks_edit', { 'id': task.id }) }}">Edytuj</a>#}
+                        {#</li>#}
+                    {#</ul>#}
+
+
+        {% endfor %}
+</div>
+
+    <ul>
+        <li>
+            <a href="{{ path('tasks_new') }}">Dodaj nowy post</a>
+        </li>
+    </ul>
+{% endblock %}

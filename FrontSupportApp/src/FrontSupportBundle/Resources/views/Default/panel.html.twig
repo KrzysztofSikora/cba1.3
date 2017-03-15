@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <!-- Carousel
+    ================================================== -->
+
+
+
+
+    <div class="row" style="text-align: center">
+
+        <a href="{{ path('tasks_index') }}">
+            <div class="col-md-3">
+                <div class="post">
+
+                    <i class="icon-comment-empty"></i>
+
+
+                </div>
+            </div>
+        </a>
+
+        <a href="{{ path('squad_index') }}">
+            <div class="col-md-3">
+                <div class="squad"><i
+                            class="icon-users"></i>
+                </div>
+            </div>
+        </a>
+
+        <a href="{{ path('image_index') }}">
+            <div class="col-md-3">
+                <div class="images"><i class="icon-camera"></i></div>
+
+            </div>
+        </a>
+
+
+
+        <a href="{{ path('album_index') }}">
+            <div class="col-md-3">
+                <div class="albums"><i class="icon-th"></i></div>
+            </div>
+        </a>
+
+        <a href="{{ path('carousel_index') }}">
+            <div class="col-md-3">
+                <div class="caro"><i class="icon-docs"></i></div>
+            </div>
+        </a>
+
+        <a href="{{ path('story_index') }}">
+            <div class="col-md-3">
+                <div class="story"><i class="icon-hourglass"></i></div>
+            </div>
+        </a>
+
+        <a href="{{ path('contact_index') }}">
+            <div class="col-md-3">
+                <div class="contact"><i class="icon-mail-alt"></i></div>
+            </div>
+        </a>
+
+        <a href="{{ path('fos_user_security_logout') }}">
+
+        <div class="col-md-3">
+                <div class="logout"><i class="icon-logout"></i></div>
+            </div>
+        </a>
+        {#<div style="clear: both"></div>#}
+
+
+    </div>
+
+
+{% endblock %}

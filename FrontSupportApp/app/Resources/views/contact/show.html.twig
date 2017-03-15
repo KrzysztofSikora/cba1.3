@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>Kontakt</h1>
+
+    <div class="media">
+        <a class="pull-left">
+            <img class="media-object" src="{{ path('confile_show', { 'filename': contact.cofilename }) }}" width="128px">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">
+                Opis: {{ contact.condescription }}<br/> <small style="float: left">
+                    <ul>
+                        <ul>
+                            <li>
+
+                                Imię i nazwisko: {{ contact.conname }}
+                            </li>
+                            <li>
+                                Telefon: {{ contact.tel }}
+                            </li>
+                            <li>
+                                Email: {{ contact.meil }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <ul>
+                            <li>
+                                <a href="{{ path('contact_index') }}">Powrót do listy</a>
+                            </li>
+                            <li>
+                                <a href="{{ path('contact_edit', { 'id': contact.id }) }}">Edycja</a>
+                            </li>
+                            <li>
+                                {{ form_start(delete_form) }}
+                                <input type="submit" value="Usuń">
+                                {{ form_end(delete_form) }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+                <small style="float: right">
+                    <ul>
+                        <ul>Pozycja{{ contact.position }}
+                            {#<li>#}
+                            {#Nazwa obrazka: {{ contact.cofilename }}#}
+                            {#</li>#}
+                            <li>
+                                Typ obrazka: {{ contact.conmime }}
+                            </li>
+                            <li>
+                                Pozycja: {{ contact.position }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+
+
+            </h4>
+
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>Zdjęcie</h1>
+
+
+    <div class="media">
+        <a class="pull-left">
+            <img class="media-object" src="{{ path('file_show', { 'filename': image.filename }) }}" width="128px">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">Opis: {{ image.description }}
+
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <ul>
+                            <li>
+                                <a href="{{ path('image_index') }}">Powrót do listy</a>
+                            </li>
+                            <li>
+                                <a href="{{ path('image_edit', { 'id': image.id }) }}">Edycja</a>
+                            </li>
+                            <li>
+                                {{ form_start(delete_form) }}
+                                <input type="submit" value="Usuń">
+                                {{ form_end(delete_form) }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+                <small style="float: right">
+                    <ul>
+                        <ul>
+                            <li>
+                                Album: {{ image.album }}
+                            </li>
+                            <li>
+                                Typ obrazka: {{ image.mime }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+
+
+            </h4><small style="float: left">Nazwa obrazka: {{ image.filename }}</small>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+{% endblock %}

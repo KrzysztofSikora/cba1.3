@@ -15,7 +15,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="icon" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/images/favicon3.ico">
-
+<title>Krzysztof Sikora</title>
 	<link href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/css/scrolling-nav.css" rel="stylesheet">
 	<link rel="stylesheet" href="/wordpress/wp-content/themes/bootstrap-my/fontasset/css/fontello.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins" rel="stylesheet">
@@ -23,7 +23,7 @@
 	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/parallax-vanilla/dist/css/parallax-vanilla.css">
 	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/progressbar.js"></script>
-	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/bar.js"></script>
+<!--	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/bar.js"></script>-->
 	<?php wp_head(); ?>
 </head>
 
@@ -47,8 +47,12 @@
 				      	<div class="logo-tag margin-left-15 hidden-sm">
 
 				      			<?php if ( has_custom_logo()): the_custom_logo(); else: ?>
+
 				      			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1 class="site-title" style="color:<?php echo "#". $header_text_color;?>"><?php echo bloginfo( 'name' ); ?></h1>
-				      			<h2 class="site-description" style="color:<?php echo "#". $header_text_color;?>"><?php bloginfo('description'); ?></h2><?php endif; ?></a>
+				      			<h2 class="site-description" style="color:<?php echo "#". $header_text_color;?>">
+									<?php bloginfo('description'); ?></h2>
+
+									<?php endif; ?></a>
 
       					</div>
 				    </div>

@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>Album</h1>
+    <div class="media">
+        <a class="pull-left">
+            <img class="media-object" src="{{ path('filee_show', { 'filename': album.filenamee }) }}" width="128px">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">Opis albumu: {{ album.descriptionn }}
+
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <ul>
+                            <li>
+                                <a href="{{ path('album_index') }}">Powrót do listy</a>
+                            </li>
+                            <li>
+                                <a href="{{ path('album_edit', { 'id': album.id }) }}">Edycja</a>
+                            </li>
+                            <li>
+                                {{ form_start(delete_form) }}
+                                <input type="submit" value="Usuń">
+                                {{ form_end(delete_form) }}
+                            </li>
+                        </ul>
+                    </ul></small>
+                <small style="float: right">
+                    <ul>
+                        <ul>
+                            <li>
+                                Typ obrazka: {{ album.mimee }}
+                            </li>
+                        </ul>
+                    </ul></small>
+
+
+
+
+            </h4><small style="float: left">Nazwa obrazka: {{ album.filenamee }}</small>
+
+        </div>
+    </div>
+
+{% endblock %}

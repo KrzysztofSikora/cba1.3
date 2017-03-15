@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Członkowie</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+    <br/> <br/>
+
+        {% for squad in squads %}
+            <div class="media">
+            <a class="pull-left">
+                <img class="media-object" src="{{ path('fileee_show', { 'filename': squad.filenameee }) }}" width="128px">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{ squad.name }}
+                    <small style="float: right">
+                        <ul style="float: right; display: inline">
+                            <ul>
+                                <li>
+                                    <a href="{{ path('squad_show', { 'id': squad.id }) }}">Pokaż</a>
+                                </li>
+                                <li>
+                                    <a href="{{ path('squad_edit', { 'id': squad.id }) }}">Edycja</a>
+                                </li>
+                            </ul>
+                        </ul></small>
+                    <small style="float: right">
+                        <ul>
+                            <ul>
+                                {#<li>#}
+                                    {#Nazwa obrazka: {{ squad.filenameee }}#}
+                                {#</li>#}
+                                <li>
+                                    Typ obrazka: {{ squad.mimeee }}
+                                </li>
+                                <li>
+                                    Pozycja: {{ squad.position }}
+                                </li>
+                            </ul>
+                        </ul></small>
+
+                    <small>{{ squad.descriptionnn }} </small>
+
+                </h4>
+
+                {{ squad.info }}
+            </div>
+            </div>
+
+
+            {#<tr>#}
+                {#<td><a href="{{ path('squad_show', { 'id': squad.id }) }}">{{ squad.id }}</a></td>#}
+                {#<td>{{ squad.filenameee }}</td>#}
+                {#<td><a href="{{ path('fileee_show', { 'filename': squad.filenameee }) }}"><img#}
+                                {#src="{{ path('fileee_show', { 'filename': squad.filenameee }) }}  " style="height: 250px"></a>#}
+                    {#<td>{{ squad.mimeee }}</td>#}
+                    {#<td>{{ squad.contentsss }}</td>#}
+                {#<td>{{ squad.descriptionnn }}</td>#}
+                {#<td>{{ squad.name }}
+                {#<td>{{ squad.info }}
+
+                    {#<ul>#}
+                        {#<li>#}
+                            {#<a href="{{ path('squad_show', { 'id': squad.id }) }}">show</a>#}
+                        {#</li>#}
+                        {#<li>#}
+                            {#<a href="{{ path('squad_edit', { 'id': squad.id }) }}">edit</a>#}
+                        {#</li>#}
+                    {#</ul>#}
+
+        {% endfor %}
+
+
+    <ul>
+        <li>
+            <a href="{{ path('squad_new') }}">Dodaj nowego członka</a>
+        </li>
+    </ul>
+{% endblock %}

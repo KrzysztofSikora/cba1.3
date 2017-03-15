@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+    <h1>Lista akapitów historii.</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+    <br/> <br/>
+    {% for story in stories %}
+    <div class="media">
+        <div class="media-body">
+            <h4 class="media-heading">Akapit numer: {{ story.position }}
+                <small style="float: right">
+                    <ul style="float: right; display: inline">
+                        <li>
+                            <a href="{{ path('story_show', { 'id': story.id }) }}">Pokaż</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('story_edit', { 'id': story.id }) }}">Edycja</a>
+                        </li>
+                    </ul></small>
+                <small style="float: right"></small>
+
+
+
+            </h4>
+
+            {#<a href="{{ path('tasks_show', { 'id': task.id }) }}">{{ task.id }}</a>#}
+            <br/>
+
+            <p style="text-align: justify">{{ story.paragraph }}</p>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+        {% endfor %}
+
+    <ul>
+        <li>
+            <a href="{{ path('story_new') }}">Dodaj nowy akapit</a>
+        </li>
+    </ul>
+{% endblock %}

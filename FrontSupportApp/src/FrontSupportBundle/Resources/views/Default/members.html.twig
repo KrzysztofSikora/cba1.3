@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Członkowie</h1>
+{% for squad in pagination %}
+    <!-- Comment -->
+    <div class="media">
+        <a class="pull-left">
+            <img class="media-object" src="{{ path('fileee_show', { 'filename': squad.filenameee }) }}" width="128px">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading" style="padding-left: 10px;padding-top:10px;text-align: justify">{{ squad.name }}
+                <small style="padding: 10px;text-align: justify">{{ squad.descriptionnn }}</small>
+            </h4>
+            <p style="padding-left: 10px;padding-top:10px;text-align: justify">{{ squad.info }}</p>
+        </div>
+    </div>
+{% endfor %}
+
+        {#<tr {% if loop.index is odd %}class="color"{% endif %}>#}
+        {#<td>{{ article.id }}</td>#}
+        {#<td>{{ article.title }}</td>#}
+        {#<td>{{ article.description }}</td>#}
+        {#<td>{{ article.posted|date('Y-m-d H:i:s') }}</td>#}
+
+        {#</tr>#}
+
+       {#{{ squad|join }}#}
+        {#<div class="col-md-3">#}
+        {#<a href="{{ path('fileee_show', { 'filename': squad.filenameee }) }}" class="thumbnail" >#}
+        {#<img class= "img-responsive" src="{{ path('fileee_show', { 'filename': squad.filenameee }) }}" alt="..." style="height: 180px">#}
+        {#</a>#}
+        {#</div>#}
+
+
+
+    <div class="navigation" style="text-align: center;bottom:0;">
+        {{ knp_pagination_render(pagination) }}
+    </div>
+
+
+
+
+{% endblock %}

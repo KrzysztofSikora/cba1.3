@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="col-md-12">
+    <h1>Historia</h1>
+    <div class="media">
+        <div class="media-body">
+    {% for story in pagination %}
+
+        <!-- Comment -->
+
+             <p style="padding: 10px;text-align: justify"> {{ story.paragraph }}</p>
+
+
+
+
+    {% endfor %}
+</div>
+    </div>
+
+</div>
+    <div class="navigation" style="text-align: center;bottom:0;">
+        {{ knp_pagination_render(pagination) }}
+    </div>
+
+{% endblock %}

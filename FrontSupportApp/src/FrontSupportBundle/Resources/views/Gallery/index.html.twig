@@ -1,0 +1,6 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+    <h2>Lista albumów</h2>
+    {% include 'FrontSupportBundle:Gallery:_list.html.twig' with {'dane': entities } %}
+{% endblock %}

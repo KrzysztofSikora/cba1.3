@@ -1240,7 +1240,7 @@ header .navbar-form .btn {
 .git:hover {
 	background-color: #800080;
 	-webkit-transition: all 800ms ease-out;
-	-moz-transition: all 800ms ease-out;
+	-moz-transition: all 800ms ease-out;zzzzzzzzzzzzzz
 	-o-transition: all 800ms ease-out;
 	transition: all 800ms ease-out;
 }

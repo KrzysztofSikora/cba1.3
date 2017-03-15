@@ -253,9 +253,7 @@ get_header(); ?>
 
 
                 </p>
-                <div class="row">
-                    <div class="col-md-12"><div class="progress" id="progress-bar-first"></div></div>
-                </div>
+
             </div>
 
 

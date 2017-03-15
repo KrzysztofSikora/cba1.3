@@ -61,7 +61,7 @@ get_header(); ?>
                         w
                         Krakowie</strong> i
                     specjalizuję się w aplikacjach internetowych. Swoją pasję do programowania odkryłem jednak już w
-                    technikum. Potrafiłem godzinami przesiadywać przed komputerem, by poszerzajać swoją wiedzę
+                    technikum. Potrafiłem godzinami przesiadywać przed komputerem, by poszerzać swoją wiedzę
                     eksplorując
                     fora dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
                     Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie. Bardzo ważną

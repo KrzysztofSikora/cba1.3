@@ -1,0 +1,97 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h1>Lista kontaktów</h1>
+    <a href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a><br/>
+    <a href="{{ path('panel_index') }}">Panel</a>
+    <br/> <br/>
+
+        {% for contact in contacts %}
+
+            <div class="media">
+                <a class="pull-left">
+                    <img class="media-object" src="{{ path('confile_show', { 'filename': contact.cofilename }) }}" width="128px">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        Opis: {{ contact.condescription }}<br/> <small style="float: left">
+                            <ul>
+                                <ul>
+                                    <li>
+
+                                        Imię i nazwisko: {{ contact.conname }}
+                                    </li>
+                                    <li>
+                                        Telefon: {{ contact.tel }}
+                                    </li>
+                                    <li>
+                                        Email: {{ contact.meil }}
+                                    </li>
+                                </ul>
+                            </ul></small>
+
+                        <small style="float: right">
+                            <ul style="float: right; display: inline">
+                                <ul>
+                                    <li>
+                                        <a href="{{ path('contact_show', { 'id': contact.id }) }}">Pokaż</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('contact_edit', { 'id': contact.id }) }}">Edytuj</a>
+                                    </li>
+                                </ul>
+                            </ul></small>
+
+                        <small style="float: right">
+                            <ul>
+                                <ul>Pozycja{{ contact.position }}
+                                    {#<li>#}
+                                        {#Nazwa obrazka: {{ contact.cofilename }}#}
+                                    {#</li>#}
+                                    <li>
+                                        Typ obrazka: {{ contact.conmime }}
+                                    </li>
+                                    <li>
+                                        Pozycja: {{ contact.position }}
+                                    </li>
+                                </ul>
+                            </ul></small>
+
+
+
+                    </h4>
+                    {#<small style="float: left">Nazwa obrazka: {{ image.filename }}</small>#}
+                    {#<small style="float: left">#}
+                        {#<ul>#}
+                            {#<ul>#}
+                                {#<li>#}
+                                    {#Opis: {{ contact.condescription }}#}
+                                {#</li>#}
+                                {#<li>#}
+                                    {#Imię i nazwisko: {{ contact.conname }}#}
+                                {#</li>#}
+                                {#<li>#}
+                                    {#Telefon: {{ contact.tel }}#}
+                                {#</li>#}
+                                {#<li>#}
+                                    {#Email: {{ contact.meil }}#}
+                                {#</li>#}
+                            {#</ul>#}
+                        {#</ul></small>#}
+
+                </div>
+            </div>
+
+
+
+
+        {% endfor %}
+
+
+    <ul>
+        <li>
+            <a href="{{ path('contact_new') }}">Dodaj nowy kontakt</a>
+        </li>
+    </ul>
+{% endblock %}
