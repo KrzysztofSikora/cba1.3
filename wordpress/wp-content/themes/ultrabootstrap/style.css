@@ -1209,8 +1209,18 @@ header .navbar-custom:hover {
 	border-radius: 50px;
 }
 header .navbar-form .btn {
+	/*background: #d24ba8;*/
+	background: #ffffff;
+	border-radius: 50px;
+	border: solid 1px #d24ba8;
+
+}
+
+header .navbar-form .btn:hover {
+	/*background: #d24ba8;*/
 	background: #d24ba8;
 	border-radius: 50px;
+	border: solid 1px #d24ba8;
 
 }
 
