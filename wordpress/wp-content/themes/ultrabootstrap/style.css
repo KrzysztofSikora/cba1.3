@@ -1088,20 +1088,40 @@ body > div.spacer.padding-top-10 > div > section > div > div.single-post.backgro
 #bs-example-navbar-collapse-1 > ul > li.active > a {
 	color: #ffffff !important;
 }
-.btn-color {
-	color: #ffffff !important;
-	/*border: 2px solid silver;*/
-	background: rgba(32,15,57,1);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgb(210, 75, 168)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
-	background: radial-gradient(ellipse at center, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=1 );
-	border-radius: 20px;
-}
 
+
+.btn-color {
+	color: #000000 !important;
+	background-color: #ffffff;
+	border: solid 2px #d24ba8;
+	opacity: 0.8;
+	/*border: 2px solid silver;*/
+	/*background: rgba(32,15,57,1);*/
+	/*background: -moz-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgb(210, 75, 168)));*/
+	/*background: -webkit-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: -o-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: -ms-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: radial-gradient(ellipse at center, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=1 );*/
+	/*border-radius: 20px;*/
+}
+.btn-color:hover {
+	color: #000000 !important;
+	background-color: #ffffff;
+	border: solid 2px #ffffff;
+	opacity: 1;
+	/*border: 2px solid silver;*/
+	/*background: rgba(32,15,57,1);*/
+	/*background: -moz-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgb(210, 75, 168)));*/
+	/*background: -webkit-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: -o-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: -ms-radial-gradient(center, ellipse cover, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*background: radial-gradient(ellipse at center, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#200f39', endColorstr='#d24b5a', GradientType=1 );*/
+	/*border-radius: 20px;*/
+}
 
 /*!custom buttom and text*/
 
@@ -1159,7 +1179,7 @@ a:hover {
 header .navbar-custom {
 	width: 100%;
 	background: #ffffff;
-
+border-bottom: solid 1px #d24ba8;
 	/*background: -moz-linear-gradient(top, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
 	/*background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(32,15,57,1)), color-stop(0%, rgba(32,15,57,1)), color-stop(100%, rgb(210, 75, 168)));*/
 	/*background: -webkit-linear-gradient(top, rgba(32,15,57,1) 0%, rgba(32,15,57,1) 0%, rgb(210, 75, 168) 100%);*/
