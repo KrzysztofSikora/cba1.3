@@ -133,5 +133,11 @@
 		}
 	});
 </script>
+<script>
+	$('.navbar-collapse a').click(function(e){
+		$(".navbar-toggle").click();
+	});
+</script>
+
 </body>
 </html>
