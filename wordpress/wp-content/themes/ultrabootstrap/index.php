@@ -59,17 +59,18 @@ get_header(); ?>
 
                     Ukończyłem <strong>Wyższą Szkołę Zarządzania i Bankowości
                         w
-                        Krakowie</strong> i
-                    specjalizuję się w aplikacjach internetowych. Swoją pasję do programowania odkryłem jednak już w
+                        Krakowie</strong> uzyskując tytuł inżyniera.
+                    Specjalizuję się w aplikacjach internetowych. Swoją pasję do programowania odkryłem jednak już w
                     technikum. Potrafiłem godzinami przesiadywać przed komputerem, by poszerzajać swoją wiedzę
                     eksplorując
                     fora dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
-                    Na codzień pracuje w jednym z krakowskich Software Housów i tam zdobywam doświadczanie. Bardzo ważną
-                    rolę w moim życiu ogrywa dla mnie sport.
+                    Na codzień pracuje w jednym z krakowskich Software Housów. Bardzo ważną
+                    rolę w moim życiu odgrywa dla mnie sport.
                     Na tym polu także podejmuję wyzwania. Im najbardziej szalone tym bardziej mnie fascynują. Zdobyłem
                     <strong>Koronę Maratonów Polskich</strong>, brałem udział w ekstremalnych przejazdach rowerowych.
                     Najpierw z <strong>Gdyni do
                         Krakowa</strong> w 42 godziny i 42 minuty potem w 10 dni z <strong>Krakowa do Paryża</strong>.
+                    W 2017 roku podjąłem się studiów magisterskich z zarządzania.
                 </p>
             </div>
             <div class="col-md-3"></div>
