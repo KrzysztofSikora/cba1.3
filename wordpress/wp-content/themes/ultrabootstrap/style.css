@@ -947,7 +947,11 @@ footers{background-color: #fff;
 	header .navbar-nav .open .dropdown-menu{display: block !important;}
 	h4{margin-bottom: 10px;}
 	.logo-tag{margin-left: 15px;}
-	.navbar-default .navbar-toggle{position: absolute;right: 0;background: #d24ba8;border: none;border-radius: 0;}
+
+	/*.navbar-default .navbar-toggle{position: absolute;right: 0;background: #d24ba8;border: none;border-radius: 0;}*/
+	.navbar-default .navbar-toggle{right: 0;background: #d24ba8;border: none;border-radius: 0;}
+
+
 	.navbar-default .navbar-toggle .icon-bar{background-color:#fff;}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {border:none;}
 	.main-search{display: none;}

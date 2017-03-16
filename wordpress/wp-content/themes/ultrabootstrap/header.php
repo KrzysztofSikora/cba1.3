@@ -37,7 +37,7 @@
 		<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
-				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="position: static; !important;">
+				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					        <span class="sr-only"><?php _e('Toggle navigation' , 'ultrabootstrap' ); ?></span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
@@ -122,7 +122,7 @@ EOD;
 				                'theme_location'    => 'primary',
 				                'depth'             => 8,
 				                'container'         => 'div',
-				                'menu_class'        => 'nav navbar-nav navbar-right',
+				                'menu_class'        => 'nav navbar-nav navbar-right text-center',
 				                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
 				                'walker'            => new ultrabootsrap_wp_bootstrap_navwalker())
 				            );

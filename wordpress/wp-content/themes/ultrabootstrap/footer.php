@@ -134,9 +134,16 @@
 	});
 </script>
 <script>
-	$('.navbar-collapse a').click(function(e){
-		$(".navbar-toggle").click();
-	});
+
+//	$('.navbar-collapse a').click(function(){
+////		if($("#bs-example-navbar-collapse-1").attr("aria-expanded"))
+////			console.log($("#bs-example-navbar-collapse-1").attr("aria-expanded"),"true");
+//		if($(".navbar-toggle").click(function () {
+//
+//				$(".navbar-toggle").click();
+//			}))
+//
+//	});
 </script>
 
 </body>
