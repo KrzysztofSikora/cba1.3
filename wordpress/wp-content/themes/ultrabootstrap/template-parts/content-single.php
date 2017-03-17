@@ -7,17 +7,17 @@
 
 ?>
 
-<div class="page-title">
+<div class="page-title padding-top-10 text-center">
   <h1><?php the_title(); ?></h1>
 </div>
 
 <div class="single-post">
   <div class="info">
-    <ul class="list-inline">
+    <ul class="list-inline text-center">
     <?php $archive_year  = get_the_time('Y'); $archive_month = get_the_time('m'); $archive_day   = get_the_time('d'); ?>
       <li><i class="fa fa-user"></i><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><?php the_author(); ?></a></li>
-      <li><i class="fa fa-calendar"></i> <a href="<?php echo get_day_link( $archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date('d M Y');?></a></li>
-      <li><i class="fa fa-comments-o"></i> &nbsp; <?php comments_popup_link('zero comment','one comment', '% comments');?></li>
+      <li><i class="fa fa-calendar"></i> <a  href="<?php echo get_day_link( $archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date('d M Y');?></a></li>
+<!--      <li><i class="fa fa-comments-o"></i> &nbsp; --><?php //comments_popup_link('zero comment','one comment', '% comments');?><!--</li>-->
     </ul>
   </div>
 

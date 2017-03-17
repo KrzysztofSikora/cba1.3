@@ -710,49 +710,52 @@ if (!function_exists('wp_classical_template')) {
     function wp_classical_template($alterclass) {
         ?>
         <div class="container">
-        <div class="col-md-12">
+        <div class="col-md-12 padding-top-10">
             <div class="col-md-2"></div>
             <div class="col-md-8">
 
                 <div class="post-image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full'); ?></a></div>
 
-                <div class="blog_header">
+                <div class="blog_header padding-top-10 text-center">
                     <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-                    <div class="metadatabox"><?php
-                        $display_date = get_option('display_date');
-                        $display_author = get_option('display_author');
-                        if ($display_author == 0 && $display_date == 0) {
-                            ?>
-                            <div class="icon-date"></div>
-                            <?php _e('Posted by ', 'wp_blog_designer'); ?>
-                            <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
-                                <span><?php the_author(); ?></span>
-                            </a>
-                            <?php
-                            _e(' on ', 'wp_blog_designer');
-                            the_time(__('F d, Y'));
-                        } elseif ($display_author == 1 && $display_date == 1) {
+<!--                    <div class="metadatabox">--><?php
+//                        $display_date = get_option('display_date');
+//                        $display_author = get_option('display_author');
+//                        if ($display_author == 0 && $display_date == 0) {
+//                            ?>
+<!--                            <div class="icon-date"></div>-->
+<!--                            --><?php //_e('Posted by ', 'wp_blog_designer'); ?>
+<!--                            <a href="--><?php //echo get_author_posts_url(get_the_author_meta('ID')); ?><!--">-->
+<!--                                <span>--><?php //the_author(); ?><!--</span>-->
+<!--                            </a>-->
+<!--                            --><?php
+//                            _e(' on ', 'wp_blog_designer');
+//                            the_time(__('F d, Y'));
+//                        } elseif ($display_author == 1 && $display_date == 1) {
+//
+//                        } elseif ($display_author == 0) {
+//                            ?>
+<!--                            <div class="icon-date"></div>-->
+<!--                            --><?php //_e('Posted by ', 'wp_blog_designer'); ?>
+<!--                        <a href="--><?php //echo get_author_posts_url(get_the_author_meta('ID')); ?><!--">-->
+<!--                            <span>--><?php //the_author(); ?><!--</span>-->
+<!--                            </a>--><?php //} elseif ($display_date == 0) {
+//                            ?>
+<!--                            <div class="icon-date"></div>-->
+<!--                            --><?php
+//                            _e('Posted on ', 'wp_blog_designer');
+//                            the_time(__('F d, Y'));
+//                        }
+//                        if (get_option('display_comment_count') == 0) {
+//                            ?>
+<!--                            <div class="metacomments">-->
+<!--                            <i class="fa fa-comment"></i>--><?php //comments_popup_link('0', '1', '%'); ?>
+<!--                            </div>-->
+<!--                        --><?php //}
+//                        ?>
+<!--                    </div>-->
 
-                        } elseif ($display_author == 0) {
-                            ?>
-                            <div class="icon-date"></div>
-                            <?php _e('Posted by ', 'wp_blog_designer'); ?>
-                        <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">
-                            <span><?php the_author(); ?></span>
-                            </a><?php } elseif ($display_date == 0) {
-                            ?>
-                            <div class="icon-date"></div>
-                            <?php
-                            _e('Posted on ', 'wp_blog_designer');
-                            the_time(__('F d, Y'));
-                        }
-                        if (get_option('display_comment_count') == 0) {
-                            ?>
-                            <div class="metacomments">
-                            <i class="fa fa-comment"></i><?php comments_popup_link('0', '1', '%'); ?>
-                            </div><?php }
-                        ?>
-                    </div><?php if (get_option('display_category') == 0) { ?>
+                    <?php if (get_option('display_category') == 0) { ?>
                         <span class="category-link"><?php
                         _e('Category :', 'wp_blog_designer');
                         $categories_list = get_the_category_list(__(', ', 'wp_blog_designer'));
@@ -778,7 +781,7 @@ if (!function_exists('wp_classical_template')) {
                     }
                     ?>
                 </div>
-                <div class="post_content"><?php
+                <div class="post_content padding-top-10"><?php
                     if (get_option('rss_use_excerpt') == 0):
                         the_content();
                     else:
@@ -787,33 +790,33 @@ if (!function_exists('wp_classical_template')) {
                         if (get_option('read_more_text') != '') {
                             echo '<a class="more-tag" href="' . get_permalink($post->ID) . '">' . get_option('read_more_text') . ' </a>';
                         } else {
-                            echo ' <a class="more-tag" href="' . get_permalink($post->ID) . '">' . __("Read More", "wp_blog_designer") . '</a>';
+                            echo ' <a class="more-tag text-center" href="' . get_permalink($post->ID) . '">' . __("Read More", "wp_blog_designer") . '</a>';
                         }
                     endif;
                     ?>
                 </div>
-                <?php if ((get_option('facebook_link') == 0) || (get_option('twitter_link') == 0) || (get_option('google_link') == 0) || (get_option('linkedin_link') == 0) || (get_option('instagram_link') == 0) || ( get_option('pinterest_link') == 0 )) { ?>
-                    <div class="social-component">
-                        <?php if (get_option('facebook_link') == 0): ?>
-                            <a href="<?php echo 'https://www.facebook.com/sharer/sharer.php?u=' . get_the_permalink(); ?>" target= _blank class="facebook-share"><i class="fa fa-facebook"></i></a>
-                        <?php endif; ?>
-                        <?php if (get_option('twitter_link') == 0): ?>
-                            <a href="<?php echo 'http://twitter.com/share?&url=' . get_the_permalink(); ?>" target= _blank class="twitter"><i class="fa fa-twitter"></i></a>
-                        <?php endif; ?>
-                        <?php if (get_option('google_link') == 0): ?>
-                            <a href="<?php echo 'https://plus.google.com/share?url=' . get_the_permalink(); ?>" target= _blank class="google"><i class="fa fa-google-plus"></i></a>
-                        <?php endif; ?>
-                        <?php if (get_option('linkedin_link') == 0): ?>
-                            <a href="<?php echo 'http://www.linkedin.com/shareArticle?url=' . get_the_permalink(); ?>" target= _blank class="linkedin"><i class="fa fa-linkedin"></i></a>
-                        <?php endif; ?>
-                        <?php if (get_option('instagram_link') == 0): ?>
-                            <a href="<?php echo 'mailto:enteryour@addresshere.com?subject=Share and Follow&body=' . get_the_permalink(); ?>" target= _blank class="instagram"><i class="fa fa-envelope-o"></i></a>
-                        <?php endif; ?>
-                        <?php if (get_option('pinterest_link') == 0): ?>
-                            <a href="<?php echo '//pinterest.com/pin/create/button/?url=' . get_the_permalink(); ?>" target= _blank class="pinterest"> <i class="fa fa-pinterest"></i></a>
-                        <?php endif; ?>
-                    </div>
-                <?php } ?>
+<!--                --><?php //if ((get_option('facebook_link') == 0) || (get_option('twitter_link') == 0) || (get_option('google_link') == 0) || (get_option('linkedin_link') == 0) || (get_option('instagram_link') == 0) || ( get_option('pinterest_link') == 0 )) { ?>
+<!--                    <div class="social-component">-->
+<!--                        --><?php //if (get_option('facebook_link') == 0): ?>
+<!--                            <a href="--><?php //echo 'https://www.facebook.com/sharer/sharer.php?u=' . get_the_permalink(); ?><!--" target= _blank class="facebook-share"><i class="fa fa-facebook"></i></a>-->
+<!--                        --><?php //endif; ?>
+<!--                        --><?php //if (get_option('twitter_link') == 0): ?>
+<!--                            <a href="--><?php //echo 'http://twitter.com/share?&url=' . get_the_permalink(); ?><!--" target= _blank class="twitter"><i class="fa fa-twitter"></i></a>-->
+<!--                        --><?php //endif; ?>
+<!--                        --><?php //if (get_option('google_link') == 0): ?>
+<!--                            <a href="--><?php //echo 'https://plus.google.com/share?url=' . get_the_permalink(); ?><!--" target= _blank class="google"><i class="fa fa-google-plus"></i></a>-->
+<!--                        --><?php //endif; ?>
+<!--                        --><?php //if (get_option('linkedin_link') == 0): ?>
+<!--                            <a href="--><?php //echo 'http://www.linkedin.com/shareArticle?url=' . get_the_permalink(); ?><!--" target= _blank class="linkedin"><i class="fa fa-linkedin"></i></a>-->
+<!--                        --><?php //endif; ?>
+<!--                        --><?php //if (get_option('instagram_link') == 0): ?>
+<!--                            <a href="--><?php //echo 'mailto:enteryour@addresshere.com?subject=Share and Follow&body=' . get_the_permalink(); ?><!--" target= _blank class="instagram"><i class="fa fa-envelope-o"></i></a>-->
+<!--                        --><?php //endif; ?>
+<!--                        --><?php //if (get_option('pinterest_link') == 0): ?>
+<!--                            <a href="--><?php //echo '//pinterest.com/pin/create/button/?url=' . get_the_permalink(); ?><!--" target= _blank class="pinterest"> <i class="fa fa-pinterest"></i></a>-->
+<!--                        --><?php //endif; ?>
+<!--                    </div>-->
+<!--                --><?php //} ?>
 
             </div>
             <div class="col-md-2"></div>
@@ -2017,7 +2020,7 @@ if (!function_exists('designer_pagination')) {
                 $out .= "</form>\n";
                 break;
         }
-        $out = $before . "<div class='wl_pagination'>\n$out\n</div>" . $after;
+        $out = $before . "<div class='wl_pagination text-center'>\n$out\n</div>" . $after;
 
         $out = apply_filters('designer_pagination', $out);
 
