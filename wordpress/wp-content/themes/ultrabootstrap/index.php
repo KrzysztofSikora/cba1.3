@@ -65,7 +65,7 @@ get_header(); ?>
                     eksplorując
                     fora dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
                     Na codzień pracuje w jednym z krakowskich Software Housów. Bardzo ważną
-                    rolę w moim życiu odgrywa dla mnie sport.
+                    rolę w moim życiu odgrywa sport.
                     Na tym polu także podejmuję wyzwania. Im najbardziej szalone tym bardziej mnie fascynują. Zdobyłem
                     <strong>Koronę Maratonów Polskich</strong>, brałem udział w ekstremalnych przejazdach rowerowych.
                     Najpierw z <strong>Gdyni do
