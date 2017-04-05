@@ -229,7 +229,7 @@ get_header(); ?>
                         </li>
                         <li>
                             <div class="timeline-panel" data-aos="zoom-out-right">
-
+<!--s-->
                                 <div class="timeline-body">
                                     <h3>1 sierpnia 2015 - <strong>Kraków - Paryż</strong></h3>
                                 </div>
