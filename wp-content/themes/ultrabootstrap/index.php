@@ -200,7 +200,6 @@ get_header(); ?>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center">
-
 <!--timeline-->
 
                     <ul class="timeline">
