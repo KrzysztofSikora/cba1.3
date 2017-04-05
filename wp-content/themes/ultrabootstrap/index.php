@@ -200,20 +200,91 @@ get_header(); ?>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
             <!--test-->
-            <div data-aos="fade-up" class="col-md-6 text-center">
+<!--            <div data-aos="fade-up" class="col-md-6 text-center">-->
+            <div class="col-md-6 text-center">
                 <!--                <h4><strong>BIEGANIE</strong></h4>-->
 
 
-                <p class="text-center lead padding-bottom-50">
-                    18 maja 2014 - <strong>Cracovia Maraton</strong><br/>
-                    12 października 2014 - <strong>Poznań Maraton</strong><br/>
-                    27 września 2015 - <strong>Maraton Warszawski</strong><br/>
-                    3 kwietnia 2015 - <strong>Maraton Dębno</strong><br/>
-                    15 maja 2016 - <strong>Cracovia Maraton</strong><br/>
-                    11 września 2016 - <strong>Wrocław Maraton</strong><br/>
-                    <strong>2015 - 2016 zdobyłem Koronę Maratonów Polski</strong><br/><br/>
-                3 marca 2017 <strong>Obroniłem tytuł inżyniera</strong></p>
+<!--                <p class="text-center lead padding-bottom-50">-->
+<!--                    18 maja 2014 - <strong>Cracovia Maraton</strong><br/>-->
+<!--                    12 października 2014 - <strong>Poznań Maraton</strong><br/>-->
+<!--                    27 września 2015 - <strong>Maraton Warszawski</strong><br/>-->
+<!--                    3 kwietnia 2015 - <strong>Maraton Dębno</strong><br/>-->
+<!--                    15 maja 2016 - <strong>Cracovia Maraton</strong><br/>-->
+<!--                    11 września 2016 - <strong>Wrocław Maraton</strong><br/>-->
+<!--                    <strong>2015 - 2016 zdobyłem Koronę Maratonów Polski</strong><br/><br/>-->
+<!--                3 marca 2017 <strong>Obroniłem tytuł inżyniera</strong></p>-->
+<!--timeline-->
 
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>18 maja 2014 - <strong>Cracovia Maraton</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>12 października 2014 - <strong>Poznań Maraton</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>27 września 2015 - <strong>Maraton Warszawski</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>3 kwietnia 2015 - <strong>Maraton Dębno</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>15 maja 2016 - <strong>Cracovia Maraton</strong></h3>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>11 września 2016 - <strong>Wrocław Maraton</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>2015 - 2016 <strong>Zdobyłem Koronę Maratonów Polski</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>3 marca 2017 - <strong>Obroniłem tytuł inżyniera</strong></h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+<!--!timeline-->
 
             </div>
             <div class="col-md-3"></div>
