@@ -203,6 +203,14 @@ get_header(); ?>
 <!--timeline-->
 
                     <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>44h 44 minuty <strong>Kraków - Gdynia</strong></h3>
+                                </div>
+                            </div>
+                        </li>
                         <li>
                             <div class="timeline-panel" data-aos="zoom-out-right">
 
@@ -223,7 +231,7 @@ get_header(); ?>
                             <div class="timeline-panel" data-aos="zoom-out-right">
 
                                 <div class="timeline-body">
-                                    <h3>27 września 2015 - <strong>Maraton Warszawski</strong></h3>
+                                    <h3>1 sierpnia 2015 - <strong>Kraków - Paryż</strong></h3>
                                 </div>
                             </div>
                         </li>
@@ -231,11 +239,23 @@ get_header(); ?>
                             <div class="timeline-panel" data-aos="zoom-out-right">
 
                                 <div class="timeline-body">
-                                    <h3>3 kwietnia 2015 - <strong>Maraton Dębno</strong></h3>
+                                    <h3>27 września 2015 - <strong>Maraton Warszawski</strong></h3>
+
+
                                 </div>
                             </div>
                         </li>
                         <li>
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>3 kwietnia 2015 - <strong>Maraton Dębno</strong></h3>
+
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
                             <div class="timeline-panel" data-aos="zoom-out-right">
 
                                 <div class="timeline-body">
@@ -244,11 +264,21 @@ get_header(); ?>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li>
                             <div class="timeline-panel" data-aos="zoom-out-right">
 
                                 <div class="timeline-body">
                                     <h3>11 września 2016 - <strong>Wrocław Maraton</strong></h3>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>2015 - 2016 <strong>Zdobyłem Koronę Maratonów Polski</strong></h3>
+
                                 </div>
                             </div>
                         </li>
@@ -256,15 +286,8 @@ get_header(); ?>
                             <div class="timeline-panel" data-aos="zoom-out-right">
 
                                 <div class="timeline-body">
-                                    <h3>2015 - 2016 <strong>Zdobyłem Koronę Maratonów Polski</strong></h3>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel" data-aos="zoom-out-right">
-
-                                <div class="timeline-body">
                                     <h3>3 marca 2017 - <strong>Obroniłem tytuł inżyniera</strong></h3>
+
                                 </div>
                             </div>
                         </li>
