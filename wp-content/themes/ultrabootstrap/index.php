@@ -199,21 +199,8 @@ get_header(); ?>
         </div>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
-            <!--test-->
-<!--            <div data-aos="fade-up" class="col-md-6 text-center">-->
             <div class="col-md-6 text-center">
-                <!--                <h4><strong>BIEGANIE</strong></h4>-->
 
-
-<!--                <p class="text-center lead padding-bottom-50">-->
-<!--                    18 maja 2014 - <strong>Cracovia Maraton</strong><br/>-->
-<!--                    12 października 2014 - <strong>Poznań Maraton</strong><br/>-->
-<!--                    27 września 2015 - <strong>Maraton Warszawski</strong><br/>-->
-<!--                    3 kwietnia 2015 - <strong>Maraton Dębno</strong><br/>-->
-<!--                    15 maja 2016 - <strong>Cracovia Maraton</strong><br/>-->
-<!--                    11 września 2016 - <strong>Wrocław Maraton</strong><br/>-->
-<!--                    <strong>2015 - 2016 zdobyłem Koronę Maratonów Polski</strong><br/><br/>-->
-<!--                3 marca 2017 <strong>Obroniłem tytuł inżyniera</strong></p>-->
 <!--timeline-->
 
                     <ul class="timeline">
