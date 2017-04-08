@@ -363,6 +363,7 @@ get_header(); ?>
             <div class="col-md-6 font-color-white text-center">
                 <h4><strong class="font-color-white">BĄDŹMY W KONTAKCIE</strong></h4>
                 <div class="row">
+
                     <div class="col-md-6"><p class="lead">
                             Jeśli chcesz się ze mna skontaktować lub czegoś dowiedzieć, napisz. Odpisuję tego samego
                             dnia.

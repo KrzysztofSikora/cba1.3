@@ -16,7 +16,7 @@ get_header(); ?>
         <?php if ( have_posts() ) : ?>
 
                 <?php
-                    the_archive_title( '<h4>', '</h4>' );
+                    the_archive_title( '<h4 style="color:#ffffff">', '</h4>' );
                     the_archive_description( '<div class="taxonomy-description">', '</div>' );
                 ?>
         <div class="row">
