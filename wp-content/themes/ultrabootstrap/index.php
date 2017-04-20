@@ -360,15 +360,15 @@ get_header(); ?>
                 <?php echo do_shortcode('[contact-form-7 id="112" title="Contact form 1"]'); ?>
             </div>
             <div class="col-md-1 "></div>
-            <div class="col-md-6 font-color-white text-center">
+            <div class="col-md-6 font-color-white lead ">
                 <h4><strong class="font-color-white">BĄDŹMY W KONTAKCIE</strong></h4>
                 <div class="row">
 
-                    <div class="col-md-6"><p class="lead">
+                    <div class="col-md-6"><p>
                             Jeśli chcesz się ze mna skontaktować lub czegoś dowiedzieć, napisz. Odpisuję tego samego
                             dnia.
                         </p>
-                        <p class=" lead"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
+                        <p class="small"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp
                             kontakt@krzysztofsikora.pl</p>
                     </div>
 
