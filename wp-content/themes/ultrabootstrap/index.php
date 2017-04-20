@@ -317,7 +317,6 @@ get_header(); ?>
         <div class="row">
             <div class="col-mr-12">
                 <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
-
             </div>
 
         </div>
