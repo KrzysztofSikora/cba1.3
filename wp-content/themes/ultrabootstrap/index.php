@@ -194,7 +194,7 @@ get_header(); ?>
     <!--fourth section about skills-->
     <div id="achivments" class="container-fluid background-color-white min-height-300 padding-top-65 custom-font">
         <div class="row">
-            <div class="col-md-12"><h1 class="text-center"><strong>OSIĄGNIĘCIA</strong></h1></div>
+            <div class="col-md-12"><h1 class="text-center"><strong>CELE I OSIĄGNIĘCIA</strong></h1></div>
 
         </div>
         <div class="row padding-top-30">
@@ -286,6 +286,15 @@ get_header(); ?>
 
                                 <div class="timeline-body">
                                     <h3>3 marca 2017 - <strong>Obroniłem tytuł inżyniera</strong></h3>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel challenge" data-aos="zoom-out-right">
+
+                                <div class="timeline-body">
+                                    <h3>24 września 2017 - <strong>Startuje w 39. PZU MARATON WARSZAWSKI</strong></h3>
 
                                 </div>
                             </div>

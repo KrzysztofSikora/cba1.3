@@ -1852,10 +1852,13 @@ header .navbar-form .btn:hover {
 
     /*-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);*/
     /*box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);*/
-    -webkit-box-shadow: 0 1px 6px #d24ba8;
-    box-shadow: 0 1px 6px #d24ba8;
+    -webkit-box-shadow: 0 1px 40px #d24ba8;
+    box-shadow: 0 1px 40px #d24ba8;
 }
-
+.challenge {
+    -webkit-box-shadow: 0 1px 40px #d2070a !important;
+    box-shadow: 0 1px 40px #d2070a !important;
+}
 .timeline > li > .timeline-panel:before {
     position: absolute;
     top: 26px;
