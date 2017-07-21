@@ -263,7 +263,37 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <div class="container-fluid background-color-white min-height-300 padding-top-50 custom-font">
 
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-1"></div>
+            <div class="col-md-7 text-center">
+                <h4><strong>Off Sport Festiwal</strong></h4>
+                <p class="text-justify padding-bottom-50 lead">
+                    W 2017 roku zaangażowałem się w współorganizację <a href="http://www.offsportfestiwal.pl">Off Sport Festiwal.</a> Impreza miała miejsce 11 czerwca 2017 pod Tauron Areną w Krakowie.
+                    Moim zadaniem była koordynacja pierwszej edycji biegu Power Run. Nie obeszło się także bez wsparcia przedsięwzięcia od strony IT.
+
+
+
+
+
+
+                </p></div>
+
+
+<!--            <div class="col-md-4">-->
+<!--                <div class="embed-responsive embed-responsive-16by9">-->
+<!--                    <iframe class="embed-responsive-item"-->
+<!--                            src="https://www.youtube.com/embed/wUaZECbOjXk?ecver=1"></iframe>-->
+<!--                </div>-->
+<!--                <br/>-->
+<!--            </div>-->
+        </div>
+    </div>
     <!--!section sixth-->
 
 

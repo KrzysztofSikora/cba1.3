@@ -65,7 +65,7 @@ get_header(); ?>
                     technikum. Potrafiłem godzinami przesiadywać przed komputerem, by poszerzajać swoją wiedzę
                     eksplorując
                     fora dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
-                    Na codzień pracuje w jednym z krakowskich Software Housów. Bardzo ważną
+                    Pracowałem w jednym z krakowskich Software Housów. Bardzo ważną
                     rolę w moim życiu odgrywa sport.
                     Na tym polu także podejmuję wyzwania. Im najbardziej szalone tym bardziej mnie fascynują. Zdobyłem
                     <strong>Koronę Maratonów Polskich</strong>, brałem udział w ekstremalnych przejazdach rowerowych.
@@ -200,108 +200,108 @@ get_header(); ?>
         <div class="row padding-top-30">
             <div class="col-md-3"></div>
             <div class="col-md-6 text-center">
-<!--timeline-->
+                <!--timeline-->
 
-                    <ul class="timeline">
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                <ul class="timeline">
+                    <li class="timeline-inverted">
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>44h 44 minuty <strong>Kraków - Gdynia</strong></h3>
-                                </div>
+                            <div class="timeline-body">
+                                <h3>44h 44 minuty <strong>Kraków - Gdynia</strong></h3>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>18 maja 2014 - <strong>Cracovia Maraton</strong></h3>
-                                </div>
+                            <div class="timeline-body">
+                                <h3>18 maja 2014 - <strong>Cracovia Maraton</strong></h3>
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>12 października 2014 - <strong>Poznań Maraton</strong></h3>
-                                </div>
+                            <div class="timeline-body">
+                                <h3>12 października 2014 - <strong>Poznań Maraton</strong></h3>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-panel" data-aos="zoom-out-right">
-                                <div class="timeline-body">
-                                    <h3>1 sierpnia 2015 - <strong>Kraków - Paryż</strong></h3>
-                                </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel" data-aos="zoom-out-right">
+                            <div class="timeline-body">
+                                <h3>1 sierpnia 2015 - <strong>Kraków - Paryż</strong></h3>
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>27 września 2015 - <strong>Maraton Warszawski</strong></h3>
+                            <div class="timeline-body">
+                                <h3>27 września 2015 - <strong>Maraton Warszawski</strong></h3>
 
 
-                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>3 kwietnia 2015 - <strong>Maraton Dębno</strong></h3>
+                            <div class="timeline-body">
+                                <h3>3 kwietnia 2015 - <strong>Maraton Dębno</strong></h3>
 
 
-                                </div>
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>15 maja 2016 - <strong>Cracovia Maraton</strong></h3>
+                            <div class="timeline-body">
+                                <h3>15 maja 2016 - <strong>Cracovia Maraton</strong></h3>
 
-                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>11 września 2016 - <strong>Wrocław Maraton</strong></h3>
+                            <div class="timeline-body">
+                                <h3>11 września 2016 - <strong>Wrocław Maraton</strong></h3>
 
-                                </div>
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>2015 - 2016 <strong>Zdobyłem Koronę Maratonów Polski</strong></h3>
+                            <div class="timeline-body">
+                                <h3>2015 - 2016 <strong>Zdobyłem Koronę Maratonów Polski</strong></h3>
 
-                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="timeline-panel" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-panel" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>3 marca 2017 - <strong>Obroniłem tytuł inżyniera</strong></h3>
+                            <div class="timeline-body">
+                                <h3>3 marca 2017 - <strong>Obroniłem tytuł inżyniera</strong></h3>
 
-                                </div>
                             </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-panel challenge" data-aos="zoom-out-right">
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-panel challenge" data-aos="zoom-out-right">
 
-                                <div class="timeline-body">
-                                    <h3>24 września 2017 - <strong>Startuje w 39. PZU MARATON WARSZAWSKI</strong></h3>
+                            <div class="timeline-body">
+                                <h3>24 września 2017 - <strong>Startuje w 39. PZU MARATON WARSZAWSKI</strong></h3>
 
-                                </div>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </li>
+                </ul>
 
-<!--!timeline-->
+                <!--!timeline-->
 
             </div>
             <div class="col-md-3"></div>
@@ -315,9 +315,11 @@ get_header(); ?>
     <!--fifth section about gallery-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-mr-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
                 <?php echo do_shortcode('[supsystic-gallery id=1]') ?>
             </div>
+            <div class="col-md-1"></div>
 
         </div>
     </div>
@@ -358,7 +360,39 @@ get_header(); ?>
     </div>
 
     <!--!section sixth-->
+    <div class="container-fluid background-color-white min-height-300 padding-top-50 custom-font">
 
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-16by9">
+<!--                    <iframe class="embed-responsive-item"-->
+<!--                            src="http://offsportfestiwal.pl"></iframe>-->
+                    <a href="http://offsportfestiwal.pl"><img src="/img/offsportlogo250.jpg" class="img-responsive" alt="offsport logo">
+                    </a>
+                </div>
+                <br/>
+            </div>
+            <div class="col-md-6 text-center">
+                <h4><strong>Off Sport Festiwal</strong></h4>
+                <p class="text-justify padding-bottom-50 lead">
+                    W 2017 roku zaangażowałem się w współorganizację <a href="http://www.offsportfestiwal.pl">Off Sport
+                        Festiwal.</a> Impreza miała miejsce 11 czerwca 2017 pod Tauron Areną w Krakowie.
+                    Moim zadaniem była koordynacja pierwszej edycji biegu Power Run. Nie obeszło się także bez wsparcia
+                    przedsięwzięcia od strony IT.
+
+
+                </p>
+            </div>
+            <div class="col-md-1"></div>
+
+
+        </div>
+    </div>
 
     <div id="contact"></div>
     <div class="container-fluid padding-top-65 custom-font">

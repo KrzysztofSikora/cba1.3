@@ -23,38 +23,43 @@
 	<link rel="stylesheet" type="text/css" href="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/parallax-vanilla/dist/css/parallax-vanilla.css">
 	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/progressbar.js"></script>
 <!--	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/bar.js"></script>-->
+
+
+
+
+
+	<script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/jquery.js"></script>
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+
 	<?php wp_head(); ?>
 
+	<script>
+		$('[data-fancybox]').fancybox({
+			image : {
+				protect: true
+			}
+
+
+		});
+	</script>
 
 
 </head>
 
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" <?php body_class(); ?>>
+
+
+
+
 <?php $header_text_color = get_header_textcolor();?>
 <script src="http://krzysztofsikora.pl/wordpress/wp-content/themes/ultrabootstrap/js/aos-run.js"></script>
-<script type="text/javascript">
-	$('[data-fancybox]').fancybox({
-		image : {
-			protect: true
-		}
-	});
 
 
-	$('[data-fancybox="watermrk"]').fancybox({
-		image : {
-			protect: true
-		},
-		slideClass : 'watermark'
-	});
 
-	// Preload watermark image
-	// Please, use your own image
-	(new Image()).src = "http://fancyapps.com/GJbkSPU.png";
-
-</script>
 <header>
 <section class="logo-menu">
 	<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
