@@ -320,7 +320,7 @@ if (isset($_POST['submit'])) {
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
-        header("Location: http://www.krzysztofsikora.pl");
+        header("Location: http://krzysztofsikora.pl");
 
 //    echo 'Message has been sent';
     } catch (Exception $e) {
