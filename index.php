@@ -92,12 +92,13 @@
                  data-aos-duration="1500">
                 <h2 class="section-heading text-white">O mnie</h2>
                 <hr class="light">
-                <p class="text-faded">
+                <p class="text-faded text-justify">
                     Ukończyłem Wyższą Szkołę Zarządzania i Bankowości w Krakowie uzyskując tytuł inżyniera. Specjalizuję
                     się w aplikacjach internetowych. Swoją pasję do programowania odkryłem jednak już w technikum.
                     Potrafiłem godzinami przesiadywać przed komputerem, by poszerzajać swoją wiedzę eksplorując fora
                     dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
-                    Pracowałem w jednym z krakowskich Software Housów. Bardzo ważną rolę w moim życiu odgrywa sport. Na
+                    Pracowałem w jednym z krakowskich Software Housów. Gdzie zdobywałem doświadczenie.</p>
+                <p class="text-faded text-justify"> Bardzo ważną rolę w moim życiu odgrywa sport. Na
                     tym polu także podejmuję wyzwania. Im bardziej szalone tym bardziej mnie fascynują. Zdobyłem
                     Koronę Maratonów Polskich, brałem udział w ekstremalnych przejazdach rowerowych. Najpierw z Gdyni do
                     Krakowa w 42 godziny i 42 minuty potem w 10 dni z Krakowa do Paryża. W 2017 roku podjąłem się
@@ -301,7 +302,7 @@ if (isset($_POST['submit'])) {
 
         //Recipients
         $mail->setFrom('biuro@krzysztofsikora.pl', 'Formularz ze strony krzysztofsikora.pl');
-        $mail->addAddress($_POST['email'], 'Nadawca: '. $name);     // Add a recipient
+        $mail->addAddress($_POST['email'], 'Nadawca: ' . $name);     // Add a recipient
 //    $mail->addAddress('ellen@example.com');               // Name is optional
 //    $mail->addReplyTo('info@example.com', 'Information');
 //    $mail->addCC('cc@example.com');
@@ -364,7 +365,22 @@ if (isset($_POST['submit'])) {
                     <br/>
                 </div>
             </div>
-
+            <div class="row" style="margin: 15px">
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/wUaZECbOjXk?ecver=1"></iframe>
+                    </div>
+                    <br/>
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="text-justify">
+                        W 2014 podjąłem się wyzwania jakim było przebiegnięcie Cracovia Maraton, czyli 42km i 195m. Jak się okazało był to dopiero mój początek przygody z bieganiem. Kolejnym marzeniem stała się Korona Maratonów Polski
+                        czyli 5 maratonów w przeciagu 2 lat. Cel ten zrealizowałem w 3 lata przebiegając aż 6 maratonów. Kontuzja Wrocław musiał zostać odłożony na kolejny rok. Skutkiem czego Cracovię musiałem przebiec drugi raz.
+                        Nie wszystko idzie zgodnie z planem :) Pomimo nie powodzeń trzeba dalej przeć do przodu.
+                    </p>
+                </div>
+            </div>
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
