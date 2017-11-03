@@ -22,6 +22,13 @@
     <!-- Custom fonts for this template -->
     <link href="data/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="data/vendor/font-mfizz-2.4.1/dist/font-mfizz.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="data/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="data/css/style.min.css" rel="stylesheet">
+
+
     <link
         href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
         rel='stylesheet' type='text/css'>
@@ -29,14 +36,12 @@
         href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
         rel='stylesheet' type='text/css'>
 
-    <!-- Plugin CSS -->
-    <link href="data/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="data/css/style.min.css" rel="stylesheet">
+
 
 
 </head>
