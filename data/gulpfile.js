@@ -31,28 +31,7 @@ gulp.task('minify-css', function() {
       stream: true
     }))
 });
-// gulp.task('css', function () {
-//     return gulp.src('css/**/*.css')
-//         .pipe(concat('style.css'))
-//         .pipe(cleanCSS)
-//         .pipe(gulp.dest('dist/css'));
-//
-// });
-// // Minify custom JS
-// gulp.task('minify-js', function() {
-//   return gulp.src('js/creative.js')
-//     .pipe(uglify())
-//     .pipe(header(banner, {
-//       pkg: pkg
-//     }))
-//     .pipe(rename({
-//       suffix: '.min'
-//     }))
-//     .pipe(gulp.dest('js'))
-//     .pipe(browserSync.reload({
-//       stream: true
-//     }))
-// });
+z
 
 
 

@@ -26,21 +26,27 @@
     <!-- Plugin CSS -->
     <link href="data/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="data/css/style.min.css" rel="stylesheet">
+<!--    <link href="data/css/style.min.css" rel="stylesheet">-->
+    <link href="data/css/creative.css" rel="stylesheet">
 
 
-    <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
-    <link
-        href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
+<!--    <link-->
+<!--        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'-->
+<!--        rel='stylesheet' type='text/css'>-->
 
-
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Poppins:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
 
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54328694-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-54328694-5');
+    </script>
 
 
 
@@ -88,7 +94,6 @@
 
 
 </header>
-
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
@@ -102,7 +107,7 @@
                     się w aplikacjach internetowych. Swoją pasję do programowania odkryłem jednak już w technikum.
                     Potrafiłem godzinami przesiadywać przed komputerem, by poszerzajać swoją wiedzę eksplorując fora
                     dyskusyjne. Tworzenie aplikacji to kreowanie nowego świata a każdy problem to nowe wyzwanie.
-                    Pracowałem w jednym z krakowskich Software Housów. Gdzie zdobywałem doświadczenie.</p>
+                    Pracowałem w jednym z krakowskich Software Housów, gdzie zdobywałem doświadczenie.</p>
                 <p class="text-faded text-justify"> Bardzo ważną rolę w moim życiu odgrywa sport. Na
                     tym polu także podejmuję wyzwania. Im bardziej szalone tym bardziej mnie fascynują. Zdobyłem
                     Koronę Maratonów Polskich, brałem udział w ekstremalnych przejazdach rowerowych. Najpierw z Gdyni do
@@ -120,6 +125,7 @@
 
             </div>
         </div>
+
     </div>
 </section>
 
@@ -136,9 +142,9 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center ">
                 <div class="service-box ground">
-                    <i class="fa fa-4x icon-backbone text-primary sr-icons"></i>
+                    <i class="fa fa-3x icon-backbone text-primary sr-icons"></i>
                     <h3>Front End</h3>
-                    <p class="text-muted p-respons">W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single
+                    <p class="text-muted p-respons text-left">W swoim rozwoju zawodowym kładę nacisk na aplikacje typu <strong>Single
                             Page
                             Aplication</strong>.
                         W tym zakresie posiadam umiejętności implementacji części klienckiej w frameworku <strong>Backbone.js
@@ -148,9 +154,9 @@
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box ground">
-                    <i class="fa fa-4x icon-nodejs text-primary sr-icons"></i>
+                    <i class="fa fa-3x icon-nodejs text-primary sr-icons"></i>
                     <h3>Back End</h3>
-                    <p class="text-muted p-respons">Do
+                    <p class="text-muted p-respons text-left">Do
                         ulubionych języków programowania należą <strong>JavaScript</strong> i <strong>PHP</strong>.
                         Posiadam umiejętności potrzebne do
                         implementacji częsci serwerowej aplikacji. Korzystam z <strong>Loopback - Node.js</strong>
@@ -159,9 +165,9 @@
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box ground">
-                    <i class="fa fa-4x icon-wordpress text-primary sr-icons"></i>
+                    <i class="fa fa-3x icon-wordpress text-primary sr-icons"></i>
                     <h3>Wordpress</h3>
-                    <p class="text-muted p-respons">Buduję spersonalizowane witryny wykorzystując popularny
+                    <p class="text-muted p-respons text-left">Buduję spersonalizowane witryny wykorzystując popularny
                         system zarządzania treścią - <strong>WordPress</strong>. Wkładam swoje starania, aby każda
                         witryna najlepiej
                         promowała mojego klienta.
@@ -170,9 +176,9 @@
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box ground">
-                    <i class="fa fa-4x icon-bootstrap text-primary sr-icons"></i>
+                    <i class="fa fa-3x icon-bootstrap text-primary sr-icons"></i>
                     <h3>Design i skalowalność</h3>
-                    <p class="text-muted p-respons">Aplikacje i witryny, które buduję są skalowalne. Umożliwia to ich
+                    <p class="text-muted p-respons text-left">Aplikacje i witryny, które buduję są skalowalne. Umożliwia to ich
                         dalszą
                         rozbudowę oraz serwis. Inspirację czerpię od najlepszych.</p>
                 </div>
@@ -187,21 +193,21 @@
                  data-aos-easing="linear"
                  data-aos-duration="1500">
                 <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/backbone.png" alt="">
+                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/backbone-cut.png" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6" data-aos="fade-down"
                  data-aos-easing="linear"
                  data-aos-duration="1500">
                 <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/node.png" alt="">
+                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/node-cut.png" alt="">
                 </a>
             </div>
             <div class="col-md-3 col-sm-6" data-aos="fade-down"
                  data-aos-easing="linear"
                  data-aos-duration="1500">
                 <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/wordpress.png"
+                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/wordpress-cut.png"
                          alt="">
                 </a>
             </div>
@@ -209,7 +215,7 @@
                  data-aos-easing="linear"
                  data-aos-duration="1500">
                 <a href="#">
-                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/jquery.png" alt="">
+                    <img class="img-fluid d-block mx-auto" src="http://krzysztofsikora.pl/data/img/jquery-cut.png" alt="">
                 </a>
             </div>
         </div>
@@ -218,10 +224,10 @@
 
 <div class="call-to-action bg-dark">
     <div class="container text-center">
-        <h2>Moje sportowe wyzwania!</h2>
-        <button type="button" class="btn btn-default btn-xl sr-button" data-toggle="modal" data-target="#myModal">
-            Sport
-        </button>
+<!--        <h2>Moje sportowe wyzwania!</h2>-->
+<!--        <button type="button" class="btn btn-default btn-xl sr-button" data-toggle="modal" data-target="#myModal">-->
+<!--            Sport-->
+<!--        </button>-->
     </div>
 </div>
 <section id="contact">
@@ -274,6 +280,62 @@
         </div>
     </div>
 </section>
+<script>
+
+
+
+
+
+</script>
+<?php
+//
+//$link3 = "http://czasdzieci.pl/warszawa/newsletter/uns,6f0481f7a85aae969ec4770958c4d176-103289.html";
+//
+//$tresc="Aby potwierdzić wypisanie się z newslettera, kliknij poniższy link:\n".$link3."\n\nJeżeli nie możesz kliknąć - przeklej link do przeglądarki.\n\n Jeśli jednak nie chcesz się wypisać zingnoruj tą wiadomość. \n\nAdmin\nCzasDzieci.pl";
+//$unsEmail = "kontakt@krzysztofsikora.pl";
+//
+//mail(
+//    $unsEmail,
+//    "Potwierdzenie zapisania do newslettera CzasDzieci.pl",
+//    $tresc,
+//    "From: Admin CzasDzieci.pl <kontakt@krzysztofsikora.pl>\nContent-Type: text/plain; charset=\"iso-8859-2\"",
+//    '-f kontakt@krzysztofsikora.pl'
+//);
+//echo "beng <br/>";
+?>
+<?php
+//
+//    function rudr_instagram_api_curl_connect( $api_url ){
+//      $connection_c = curl_init(); // initializing
+//      curl_setopt( $connection_c, CURLOPT_URL, $api_url ); // API URL to connect
+//      curl_setopt( $connection_c, CURLOPT_RETURNTRANSFER, 1 ); // return the result, do not print
+//      curl_setopt( $connection_c, CURLOPT_TIMEOUT, 20 );
+//      $json_return = curl_exec( $connection_c ); // connect and get json data
+//      curl_close( $connection_c ); // close connection
+//      return json_decode( $json_return ); // decode and return
+//    }
+//
+//
+//    $return = rudr_instagram_api_curl_connect("http://ryszardtrener.pl");
+//
+//    var_dump( $return ); // if you want to display everything the function returns
+
+
+
+
+
+
+
+
+
+//    foreach ($return->data as $post) {
+//      //    echo '<a href="' . $post->images->standard_resolution->url . '" class="fancybox"><img src="' . $post->images->thumbnail->url . '" /></a>';
+//      echo '<a href="' . $post->images->standard_resolution->url . '" class="fancybox"><img src="' . $post->images->standard_resolution->url . '" /></a>';
+//    }
+
+
+?>
+
 
 
 <?php
@@ -296,7 +358,7 @@ if (isset($_POST['submit'])) {
 
     try {
         //Server settings
-        $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+        $mail->SMTPDebug = 0;                                 // Enable verbose debug output
         $mail->isSMTP();                                      // Set mailer to use SMTP
         $mail->Host = 'smtp.cba.pl';                          // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -371,17 +433,11 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
             <div class="row" style="margin: 15px">
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item"
-                                src="https://www.youtube.com/embed/wUaZECbOjXk?ecver=1"></iframe>
-                    </div>
-                    <br/>
-                </div>
-                <div class="col-md-6 text-center">
+
+                <div class="col-md-12 text-center">
                     <p class="text-justify">
                         W 2014 podjąłem się wyzwania jakim było przebiegnięcie Cracovia Maraton, czyli 42km i 195m. Jak się okazało był to dopiero mój początek przygody z bieganiem. Kolejnym marzeniem stała się Korona Maratonów Polski
-                        czyli 5 maratonów w przeciagu 2 lat. Cel ten zrealizowałem w 3 lata przebiegając aż 6 maratonów. Kontuzja Wrocław musiał zostać odłożony na kolejny rok. Skutkiem czego Cracovię musiałem przebiec drugi raz.
+                        czyli 5 maratonów w przeciagu 2 lat. Cel ten zrealizowałem w 3 lata przebiegając aż 6 maratonów. Powodem była kontuzja. Wrocław musiałem odłożyć na kolejny rok. Skutkiem czego Cracovię musiałem przebiec drugi raz.
                         Nie wszystko idzie zgodnie z planem :) Pomimo nie powodzeń trzeba dalej przeć do przodu.
                     </p>
                 </div>
@@ -403,6 +459,8 @@ if (isset($_POST['submit'])) {
 <script src="data/js/parsley.min.js"></script>
 <script src="data/js/parsley-run.js"></script>
 
+
+
 <!-- Plugin JavaScript -->
 <script src="data/vendor/jquery-easing/jquery.easing.min.js"></script>
 <script src="data/vendor/scrollreveal/scrollreveal.min.js"></script>
@@ -411,6 +469,11 @@ if (isset($_POST['submit'])) {
 <script src="data/js/whatshelp.js"></script>
 <!-- Custom scripts for this template -->
 <script src="data/js/creative.min.js"></script>
+
+
+
+
+
 
 
 </body>

@@ -125,6 +125,7 @@ class ContactController extends Controller
         if ($editForm->isSubmitted() && $editForm->isValid()) {
             $em = $this->getDoctrine()->getManager();
             $em->persist($contact);
+
             $em->flush();
 
             return $this->redirectToRoute('contact_edit', array('id' => $contact->getId()));
